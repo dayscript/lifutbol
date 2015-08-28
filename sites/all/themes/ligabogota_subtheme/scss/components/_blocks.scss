@@ -345,37 +345,52 @@
         border: 0;
         margin: 0;
         box-shadow: none;
+        margin-bottom: 10px;
         .views-field-field-image{
                 margin-bottom: 1px;      
         }
         .views-field-changed{
             margin-bottom: 0px;
-            background-color: #cf0507;
-            padding: 8px 13px;
+            padding: 8px 8px 2px 2px;
             span{
                 font-size: 12px;
                 color:#fff;
             }
+           
+        }
+        .field-body{
+                padding: 0 0 5px 0;
+
         }
         .views-field-body{
-            background-color: #cf0507;
+            background-color: #aeaeae;
             padding: 0px 10px;
             p{
               font-size: 15px;
               margin-bottom: 0; 
               color:#fff;
 
-            } 
+            }
+            &:hover{
+                background-color:#cf0507;
+            }
+             
         }
         li{
             margin-right: 10px!important;
         }
         .flex-direction-nav{
             position: absolute;
-            top: -30px;
+            top: -42px;
             right: 41px;
-            a{
-                height: 60px;
+            display: inline-block;
+            li{
+                display: inline-block;
+                a{
+                    height: 60px;
+                    display: inline-block;
+                    background-color:#CC0507;
+                }
             }
         }
     }
