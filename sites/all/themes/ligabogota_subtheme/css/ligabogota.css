@@ -419,7 +419,8 @@
     .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a {
       font-size: 13px;
       font-family: "opensans", sans-serif;
-      font-weight: bold; }
+      font-weight: bold;
+      color: #C70209; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
         font-size: 13px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 li {
