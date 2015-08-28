@@ -457,7 +457,8 @@
     margin-bottom: 0px;
     padding: 8px 8px 2px 2px; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed span {
-      font-size: 12px;
+      font-size: 11px;
+      font-family: "opensans", sans-serif;
       color: #fff; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 .field-body {
     padding: 0 0 13px 0; }
