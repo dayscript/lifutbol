@@ -1,0 +1,26 @@
+.page-comisiones{
+
+
+    .view-id-comiciones{
+    	.comision-header{
+    		    font-family: 'opensans',sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        color: $gris-texto;
+    	}
+
+    	.views-field-title{
+                border-bottom: solid 1px $gris-texto;
+                padding: 10px 0;
+                span{
+                    a{
+                        font-family: 'ubuntu',sans-serif;
+                        color: #000;
+                        font-size: 17px;
+                        text-transform: uppercase;
+
+                    }
+                }
+            }
+    }
+}

@@ -1,0 +1,81 @@
+.page-torneos{
+
+    .view-display-id-block_1{
+        width: 100%;
+    }
+    .quicktabs_main{
+        padding:0;
+        border:0;
+    }
+
+    .field-name-quicktabs{
+        label{
+                font-family: 'opensans',sans-serif;
+                color: $gris-texto;
+                text-transform: uppercase;
+                font-weight: 100;
+                font-size:12px;
+        }
+        form{
+            margin:0;
+            border-bottom: solid 3px $gris-texto;
+        
+            #edit-title-wrapper,#edit-title--2-wrapper,#edit-title--3-wrapper{
+                width: 90%;
+                margin: 0 auto;
+                display: block;
+                float: none;
+                text-align: center;
+                padding: 0;
+            }
+        }
+        .view-content{
+            padding:10px 0;
+            width: 100%;
+             margin: 0 auto;
+            display: inline-block;
+            float: none;
+        }
+        
+        ul.quicktabs-style-basic{
+        	height: auto;
+        	padding:0;
+            border-bottom: solid 2px #999;
+
+        	li{
+        		background-color: #fff;
+        		margin: 0;
+    		    width: 245px;
+    		    text-align: center;
+    		    padding: 11px 0px;
+        		display: inline-block;
+        		a{
+        			@include tamano_fuente(black);
+        		}
+        	}
+        	li.active{
+        		background-color: $color-rojo;
+        		border-bottom:0;
+                a{
+        			@include tamano_fuente(#fff);
+
+        		}
+        	}
+        }
+    
+        .views-field-title{
+            border-bottom: solid 1px $gris-texto;
+            padding: 10px 0;
+            span{
+                a{
+                    font-family: 'ubuntu',sans-serif;
+                    color: #000;
+                    font-size: 17px;
+                    text-transform: uppercase;
+
+                }
+            }
+        }
+    }
+
+}

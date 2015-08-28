@@ -1,0 +1,45 @@
+// @file
+// Place your mixins here. Feel free to roll your own mixins. Or nuke what is
+// currently here.
+
+//
+// Mixin: Base Utility
+//
+@mixin stage {
+  position: absolute;
+  left: -999em;
+}
+
+@mixin unstage {
+  position: static;
+  left: auto;
+}
+
+@mixin tamano_fuente($color){
+	  font-size: 23px!important;
+    font-family: "Ubuntu",sans-serif!important;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 100!important;
+    color: $color;
+}
+
+
+.block-superfish-1{
+    background-color: rgba(0, 0, 0, 0.62);
+    min-width: 100%;
+    position: absolute;
+  h2{
+    display: none;
+  }
+  .menu li{
+    margin:0; 
+    background-color: rgba(0, 0, 0, 0.62);
+  }
+  .sf-menu li{
+    padding: 0;
+  }
+  .sf-menu.sf-style-default li:hover{
+    background: #F02F34;
+  }
+}

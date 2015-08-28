@@ -1,0 +1,10 @@
+name = Localidades y barrios de Bogotá
+description = Crea taxonomias con las localidades y barrios de Bogotá
+core = 7.x
+
+; Information added by drupal.org packaging script on 2011-04-21
+version = "7.x-1.2"
+core = "7.x"
+project = "dayscript"
+datestamp = "1303344135"
+configure = admin/config/localida_y_barrio_bogota

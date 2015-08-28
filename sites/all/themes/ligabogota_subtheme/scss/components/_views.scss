@@ -1,0 +1,39 @@
+/*********************/
+/*Slider Home        */
+/*********************/
+.block-views-views-banner-slider-home-block{
+	display: inline-block;
+	min-width: 100%;
+    /*position: absolute;
+    top:0;*/
+	.block-title{display:none}
+	.flexslider{
+		border:0;
+		margin-bottom: 0;
+	}
+
+	.flex-control-nav{
+		bottom:40px;
+		z-index: 3;
+	}
+	.views-field-title{
+		position: absolute;
+		top: 140px;
+		width: 100%;
+		.title-banner-wrapper{
+			text-align:center; 
+			span{
+			  font-family: "Ubuntu",sans-serif;
+			  font-size: 46px;
+			  letter-spacing: -1px;
+			  font-weight: 100;
+			  color:#fff;
+			  text-transform: uppercase;
+			}
+		}
+	}
+
+}
+/*********************/
+/*Slider Home        */
+/*********************/ 

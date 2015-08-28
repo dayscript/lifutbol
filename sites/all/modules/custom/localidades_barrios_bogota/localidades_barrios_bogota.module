@@ -1,0 +1,76 @@
+<?php
+
+
+/**
+* Implements hook_install().
+*/
+function localidades_barrios_bogota_install() {
+  
+   $arrayLocalidades = ['Martires','Bosa','Suba'];
+   $arrayBarrios = ['Ricarute','Chico','Colina Campestre'];
+   $vocabularios = ['Localidad','Barrio'];
+
+  $term_entities_localidad =taxonomy_vocabulary_machine_name_load('localidad');
+  $term_entities_barrio =taxonomy_vocabulary_machine_name_load('barrio');
+
+
+  if($term_entities_localidad == "" ){
+        $nuevoVocabulario = (object) array(
+          'name' => $vocabularios[0],
+          'description' => 'Nomenclatura de Bogotá',
+          'machine_name' => strtolower($vocabularios[0]),
+          );
+        taxonomy_vocabulary_save($nuevoVocabulario); 
+    }
+
+  if($term_entities_barrio == "" ){
+       
+        $nuevoVocabulario = (object) array(
+          'name' => $vocabularios[1],
+          'description' => 'Nomenclatura de Bogotá',
+          'machine_name' => strtolower($vocabularios[1]),
+          );
+        taxonomy_vocabulary_save($nuevoVocabulario); 
+    }
+
+  $term_entities_localidad =taxonomy_vocabulary_machine_name_load('localidad');
+  $term_entities_barrio =taxonomy_vocabulary_machine_name_load('barrio');
+  
+  foreach($arrayLocalidades as $key => $valor){
+    $arrayLocalidad= array('name' => $valor,'vid'=>$term_entities_localidad->vid); 
+    $arrayLocalidad = (object)$arrayLocalidad;
+    taxonomy_term_save($arrayLocalidad);
+  }
+
+  foreach($arrayBarrios as $key => $valor){
+    $arrayLBarrio= array('name' => $valor,'vid'=>$term_entities_barrio->vid); 
+    $arrayLBarrio = (object)$arrayLBarrio;
+    taxonomy_term_save($arrayLBarrio);
+  }
+}
+
+/**
+* Implements hook_menu().
+*/
+function localidades_barrios_bogota_menu() {
+  $items = array();
+  $items['admin/config/localida_y_barrio_bogota'] = array(
+    'title' => 'Localidades y barrios Bogotá',
+    'description' => 'Settings for the Blockify module.',
+    'page callback' => 'localidades_barrios_bogota_admin',
+    'access arguments' => array('administer'),
+  );
+
+  return $items;
+}
+
+function localidades_barrios_bogota_admin(){
+
+  $term_entities_localidad =taxonomy_vocabulary_machine_name_load('localidad');
+  $term_entities_barrio =taxonomy_vocabulary_machine_name_load('barrio');
+
+  dpm($term_entities_localidad);
+  dpm($term_entities_barrio);
+
+  return "ok";
+}

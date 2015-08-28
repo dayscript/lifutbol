@@ -1,0 +1,58 @@
+.page-clubes{
+	.view-clubs{
+		.views-row-odd{
+			float:left;
+			width: 45%;
+			display: inline-block;
+		    padding: 19px 0;
+    		margin-right: 60px;
+    		border-bottom: solid 3px #d8d8d8;
+			.views-field-field-image{
+				float: left;
+				margin-right: 3px;
+			}
+			.views-field.views-field-title {
+			    display: inline-block;
+			    width: 60%;
+			    position: relative;
+			    padding: 45px 0;
+			    font-family: 'ubuntu',sans-serif;
+			    font-size: 20px;
+			    font-weight: 100;
+
+				span{
+			    	a{
+			    		color:#000;
+			    		text-transform: uppercase;
+			    	}
+			    }
+			}
+		}
+		.views-row-even{	
+			display: inline-block;
+			width: 45%;
+			padding: 19px 0;
+			border-bottom: solid 3px #d8d8d8;
+			.views-field-field-image{
+				float: left;
+				margin-right: 3px;
+			}
+			.views-field.views-field-title {
+			    display: inline-block;
+			    width: 60%;
+			    position: relative;
+			    padding: 45px 0;
+			    font-family: 'ubuntu',sans-serif;
+			    font-size: 20px;
+			    font-weight: 100;
+			    span{
+			    	a{
+			    		color:#000;
+			    		text-transform: uppercase;
+
+			    	}
+			    }
+			}
+		}
+	}
+}   

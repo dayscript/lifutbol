@@ -1,0 +1,39 @@
+
+/*variables*/
+@import "variables";
+
+
+/*Funciones**/
+@import "base/mixins";
+
+/*pages*/
+@import "pages/page--home";
+@import "pages/page--noticias";
+@import "pages/page--torneos";
+@import "pages/page--comisiones";
+@import "pages/page--clubes";
+@import "pages/page--documentacion";
+
+
+
+
+
+
+
+/*components*/
+@import "components/menus";
+@import "components/blocks"; 
+@import "components/views";
+
+
+/*layout*/
+@import "layout/header";
+@import "layout/main";
+
+
+/*fonts*/
+@import "base/common";
+
+
+/*Responsive*/
+@import "base/querys"

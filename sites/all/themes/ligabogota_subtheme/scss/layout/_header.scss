@@ -1,0 +1,70 @@
+// Non-modular or client styles for .l-header region.
+
+.l-header {padding: 10px 0px;}
+.l-featured{
+	div{
+		float: none;
+	}
+}
+// Top Bar
+//--------------------------------------------------
+.top-bar {
+	display: none;
+  	.title-area {}
+}
+
+.top-bar-section {}
+.top-bar-section .left {}
+.top-bar-section .right {}
+
+.banner-full{
+	max-width:100%;
+}
+.block-system-main-menu{
+	background-color: rgba(0, 0, 0, 0.62);
+	z-index:3;
+	position: relative;
+    min-width: 100%;
+	.block-title{
+		display: none;
+	}
+}
+
+.front{
+	.block-system-main-menu{
+		position: absolute;
+	}
+}
+
+.menu{
+	margin: 0 auto;
+    list-style: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* max-width: 62.5em; */
+    max-width: 68.8em;
+	li{
+	    margin: 0px 14px;
+	    float: right;
+	    padding-top: 23px;
+	    padding-bottom: 20px;
+	    margin-right: 35px;
+		a{
+			font-family: "Ubuntu",sans-serif;
+		    font-size: 18px;
+		    font-weight: 100;
+		    color: #fff;
+		}
+	}
+	&:after{
+		clear: both;
+	}
+	&:before,&:after {
+    content: " ";
+    display: table;
+}
+		
+}

@@ -1,0 +1,162 @@
+// Common abstract classes to extend or parametrics are stored here.
+
+// Example parametrics.
+// ------------------------------------------------------
+// %font-FONTNAME   {}
+// %font-sans-serif { font-family: sans-serif; }
+// %font-serif      { font-family: serif; }
+@font-face{
+  font-family: "Ubuntu";
+  src: url('../fonts/Ubuntu/Ubuntu-C.ttf');
+  src: url('../fonts/Ubuntu/Ubuntu-C.ttf') format('truetype');
+  }
+
+@font-face{
+  font-family: "Opensans";
+  src: url('../fonts/Opensans/OpenSans-Regular.ttf');
+  src: url('../fonts/Opensans/OpenSans-Regular.ttf') format('truetype');
+  }
+
+  .l-footer{
+   background-color: #16151B!important;
+   padding:0; 
+   .footer{
+    padding:0;
+   }
+  }
+  .l-main{
+    padding-top: 12px;
+  }
+
+  /*********************/
+  /* featured region   */
+  /*********************/
+
+  .l-featured {
+    .large-12.columns{
+      padding:0}
+    }
+
+  h1{
+   font-family: "Ubuntu",sans-serif;
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+  }
+
+
+  h2{
+      font-family: "Ubuntu",sans-serif;
+      font-size: 36px;
+      letter-spacing: -1px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+  h2.block-title{
+      font-family: "Ubuntu",sans-serif;
+      font-size: 25px;
+      letter-spacing: -1px;
+      font-weight: 400;
+      text-transform: uppercase;
+      //border-left: 4px solid $borde-amarillo ;
+      padding: 0 4px;
+      color:$borde-rojo;
+      border-left:4px solid;
+
+      border-right:0px solid;
+      -webkit-border-image: 
+        -webkit-gradient(linear, 0 100%, 0 0, from($borde-rojo), to($borde-amarillo)) 1 100%;
+      -webkit-border-image: 
+        -webkit-linear-gradient(bottom, $borde-rojo,$borde-amarillo) 1 100%;
+      -moz-border-image:
+        -moz-linear-gradient(bottom, $borde-rojo, $borde-amarillo) 1 100%;  
+      -o-border-image:
+        -o-linear-gradient(bottom, $borde-rojo, $borde-amarillo) 1 100%;
+      border-left-image:
+        linear-gradient(to top, $borde-rojo,  $borde-amarillo) 1 100%;
+    }
+    h1#page-title{
+      font-family: "Ubuntu",sans-serif;
+      font-size: 25px;
+      letter-spacing: -1px;
+      font-weight: 400;
+      text-transform: uppercase;
+      //border-left: 4px solid $borde-amarillo ;
+      padding: 0 4px;
+      color:$borde-rojo;
+      border-left:4px solid;
+
+      border-right:0px solid;
+      -webkit-border-image: 
+        -webkit-gradient(linear, 0 100%, 0 0, from($borde-rojo), to($borde-amarillo)) 1 100%;
+      -webkit-border-image: 
+        -webkit-linear-gradient(bottom, $borde-rojo,$borde-amarillo) 1 100%;
+      -moz-border-image:
+        -moz-linear-gradient(bottom, $borde-rojo, $borde-amarillo) 1 100%;  
+      -o-border-image:
+        -o-linear-gradient(bottom, $borde-rojo, $borde-amarillo) 1 100%;
+      border-left-image:
+        linear-gradient(to top, $borde-rojo,  $borde-amarillo) 1 100%;
+    }
+
+
+body{
+    background-color: #F3F3F3;
+}
+main{
+    background-color: #fff;
+
+}
+
+/*********************/
+/**/
+/*********************/
+
+/*********************/
+/* Block Search      */
+/*********************/
+
+.block-custom-search-blocks{
+  .block-title{
+    display: none;
+  }
+  form.search-form{
+    text-align: right;
+    margin:0;
+    input{
+      width: 225px;
+      margin: 0;
+    }
+    button{
+      margin: 0;
+      padding: 6px;
+    }
+    .form-type-textfield{
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+/*********************/
+/* Block Search  End */
+/*********************/
+
+/*********************/
+/* bread End         */
+/*********************/
+.breadcrumbs{
+ 
+  
+ 
+}
+
+
+
+/*********************/
+/* read End          */
+/*********************/
+
