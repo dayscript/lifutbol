@@ -464,7 +464,8 @@
     background-color: #aeaeae;
     padding: 0px 10px; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body p {
-      font-size: 15px;
+      font-size: 13px;
+      line-height: 18px;
       margin-bottom: 0;
       color: #fff; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body:hover {
