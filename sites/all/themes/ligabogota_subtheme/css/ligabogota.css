@@ -688,22 +688,17 @@
 h1 {
   font-family: "Ubuntu",sans-serif;
   font-size: 45px;
-  letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase; }
 
 h2 {
   font-family: "Ubuntu",sans-serif;
   font-size: 36px;
-  letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase; }
 
 h2.block-title {
   font-family: "Ubuntu",sans-serif;
   font-size: 25px;
   letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase;
   padding: 0 4px;
   color: #CF0507;
@@ -718,8 +713,6 @@ h2.block-title {
 h1#page-title {
   font-family: "Ubuntu",sans-serif;
   font-size: 25px;
-  letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase;
   padding: 0 4px;
   color: #CF0507;
