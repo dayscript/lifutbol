@@ -468,7 +468,8 @@
       font-size: 13px;
       line-height: 18px;
       margin-bottom: 0;
-      color: #fff; }
+      color: #fff;
+      font-family: "opensans", sans-serif; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body:hover {
       background-color: #cf0507; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 li {
