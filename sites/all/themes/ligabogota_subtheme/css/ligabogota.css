@@ -22,7 +22,8 @@
 
 /*pages*/
 #first-time {
-  display: none; }
+  display: none;
+  margin-top: 1px; }
 
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
@@ -408,7 +409,9 @@
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
     margin-bottom: 11px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-body p {
-    font-size: 15px;
+    color: #999;
+    font-size: 13px;
+    line-height: 20px;
     margin-bottom: 0; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing {
     border: none; }
