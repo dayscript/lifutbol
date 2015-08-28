@@ -71,8 +71,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: black; }
   .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active {
     background-color: #ba0000;
@@ -81,8 +79,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: #fff; }
 .page-torneos .field-name-quicktabs .views-field-title {
   border-bottom: solid 1px #999999;
@@ -163,8 +159,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: black; }
   .view-id-documentacion ul.quicktabs-style-basic li.active {
     background-color: #999999;
@@ -173,8 +167,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: #fff; }
 
 /*components*/
@@ -356,8 +348,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: black; }
   .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active {
     background-color: #999999;
@@ -366,8 +356,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: #fff; }
 
 /***************************/
