@@ -633,9 +633,10 @@
                 a{color: $color-letra-bloque-resolucion;
 
                     &:before{
-                        color: #494949;
+                        color: #666;
                         content: "\203A";
-                        
+                        font-size: 30px;
+                        font-weight: lighter;
                         }
                     &:hover{
                         color:#000000;

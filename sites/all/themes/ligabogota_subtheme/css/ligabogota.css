@@ -634,8 +634,10 @@
     .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a {
       color: #999999; }
       .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
-        color: #494949;
-        content: "\203A"; }
+        color: #666;
+        content: "\203A";
+        font-size: 30px;
+        font-weight: lighter; }
       .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
         color: #000000; }
     .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
