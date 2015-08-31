@@ -133,6 +133,8 @@
     color: #000;
     font-size: 17px;
     text-transform: uppercase; }
+    .page-comisiones .view-id-comiciones .views-field-title span a:hover {
+      color: #cc0000; }
 
 .page-clubes .view-clubs .views-row-odd {
   float: left;
