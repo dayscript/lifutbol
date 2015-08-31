@@ -431,11 +431,11 @@
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-field-image {
     margin-bottom: 18px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
-    margin-bottom: 11px; }
+    margin-bottom: 10px; }
     .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed span {
-      font-size: 11px;
+      font-size: 12px;
       font-family: "opensans", sans-serif;
-      color: #666; }
+      color: #999; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-body p {
     color: #999;
     font-size: 13px;
