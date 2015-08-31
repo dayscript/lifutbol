@@ -4,6 +4,8 @@
 	.views-row-odd{
 		float: left;
 		width: 50%;
+		margin-bottom: 20px;
+		margin-right: 10px;
 	}
 	.views-field-field-image{
                 margin-bottom: 18px;      
@@ -46,7 +48,11 @@
                     }
                 }
             }
-
+.views-row-even{
+		float: left;
+		width: 50%;
+		margin-bottom: 20px;
+	}
 	
 
 }
