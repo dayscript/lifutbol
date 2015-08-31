@@ -163,7 +163,7 @@
   display: inline-block;
   width: 45%;
   padding: 19px 0;
-  border-bottom: solid 3px #d8d8d8; }
+  border-bottom: solid 1px #e1e1e1; }
   .page-clubes .view-clubs .views-row-even .views-field-field-image {
     float: left;
     margin-right: 3px; }
@@ -173,11 +173,13 @@
     position: relative;
     padding: 45px 0;
     font-family: 'ubuntu',sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100; }
     .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a {
       color: #000;
       text-transform: uppercase; }
+      .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a:hover {
+        color: #cc0000; }
 
 .view-id-documentacion ul.quicktabs-style-basic {
   height: auto;
