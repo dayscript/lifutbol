@@ -49,6 +49,16 @@
   font-size: 21px;
   display: block;
   margin-bottom: 5px; }
+.page-noticias .view-id-noticias .views-field-nothing {
+  border: none; }
+  .page-noticias .view-id-noticias .views-field-nothing span a {
+    font-size: 13px;
+    font-family: "opensans", sans-serif;
+    font-weight: bold;
+    color: #C70209;
+    text-transform: none; }
+    .page-noticias .view-id-noticias .views-field-nothing span a:hover {
+      font-size: 13px; }
 
 .page-torneos .view-display-id-block_1 {
   width: 100%; }

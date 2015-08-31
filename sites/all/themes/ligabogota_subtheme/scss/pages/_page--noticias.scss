@@ -31,6 +31,21 @@
     	display: block;
    		margin-bottom: 5px;
    	}
+   	.views-field-nothing{
+                border:none;
+                span{
+                    a{
+                        font-size: 13px;
+                        font-family: "opensans", sans-serif;
+                        font-weight: bold;   
+                        color: #C70209;
+                        text-transform: none;
+                        &:hover{
+                            font-size:13px;
+                         }
+                    }
+                }
+            }
 
 	
 
