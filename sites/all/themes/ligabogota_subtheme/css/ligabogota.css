@@ -843,8 +843,9 @@ main {
   border-width: 0px;
   background-color: #fff;
   border-color: 0;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 11px; }
+  font-family: "OpenSans", sans-serif;
+  font-size: 13px;
+  color: #999; }
   .breadcrumbs a {
     text-transform: uppercase;
     color: #cc0000; }
