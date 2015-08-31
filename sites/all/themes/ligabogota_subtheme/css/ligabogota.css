@@ -29,7 +29,7 @@
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
   width: 50%; }
-.page-noticias .view-id-noticias .views-field-body p {
+.page-noticias .view-id-noticias .views-field.views-field-body p {
   color: #999;
   font-size: 13px;
   line-height: 20px;
