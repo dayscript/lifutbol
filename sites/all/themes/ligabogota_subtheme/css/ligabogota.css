@@ -29,6 +29,8 @@
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
   width: 50%; }
+.page-noticias .view-id-noticias .views-field-field-image {
+  margin-bottom: 18px; }
 .page-noticias .view-id-noticias .views-field-changed {
   margin-bottom: 10px;
   font-size: 12px;
@@ -43,7 +45,7 @@
 .page-noticias .view-id-noticias .views-field-title {
   font-family: 'ubuntu',sans-serif;
   text-transform: uppercase;
-  color: #000;
+  color: #000 ¡important;
   font-size: 21px;
   display: block;
   margin-bottom: 5px; }
