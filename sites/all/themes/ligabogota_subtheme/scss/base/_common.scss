@@ -160,9 +160,10 @@ main{
         text-transform: uppercase;
         color: #cc0000;      
      }
-    *.current{
+    .current{
           cursor: default;
-          color: #999¡important;
+          a{color: #999;
+          }
     }
 }
 
