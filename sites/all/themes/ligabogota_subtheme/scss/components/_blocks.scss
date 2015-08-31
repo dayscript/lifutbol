@@ -294,6 +294,8 @@
     max-width: 68.8em;
     .lifutbol{
     	color:#fff;
+        display: block;
+        margin-bottom: 28px;
     	img{
 		   width: 90px;
 		   height: 90px;
@@ -303,8 +305,7 @@
                 font-family: 'opensans',sans-serif;
                 font-size: 11px;
                 display: inline-block;
-                padding-top: 12px;
-                line-height: 14px;
+                line-height: 17px;
         }
     }
     .dayscript{
