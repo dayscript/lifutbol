@@ -729,9 +729,6 @@
   .block-system-main-menu .block-title {
     display: none; }
 
-.not-front.block-system-main-menu {
-  background-color: #000; }
-
 .front .block-system-main-menu {
   position: absolute; }
 
