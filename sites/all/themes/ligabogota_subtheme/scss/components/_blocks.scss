@@ -634,9 +634,10 @@
 
                     &:before{
                         color: #666;
-                        content: "\203A";
+                        content: "\232A";
                         font-size: 30px;
                         font-weight: lighter;
+                        padding-right: 10px;
                         }
                     &:hover{
                         color:#000000;

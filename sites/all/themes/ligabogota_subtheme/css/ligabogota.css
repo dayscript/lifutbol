@@ -635,9 +635,10 @@
       color: #999999; }
       .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
         color: #666;
-        content: "\203A";
+        content: "\232A";
         font-size: 30px;
-        font-weight: lighter; }
+        font-weight: lighter;
+        padding-right: 10px; }
       .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
         color: #000000; }
     .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
