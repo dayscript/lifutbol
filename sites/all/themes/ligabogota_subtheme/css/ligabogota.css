@@ -849,7 +849,7 @@ main {
   .breadcrumbs a {
     text-transform: uppercase;
     color: #cc0000; }
-  .breadcrumbs .current {
+  .breadcrumbs *.current {
     cursor: default;
     color: #999 ¡important; }
 
