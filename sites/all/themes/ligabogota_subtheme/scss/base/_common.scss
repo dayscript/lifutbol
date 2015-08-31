@@ -153,8 +153,12 @@ main{
     border-width: 0px;
     background-color: #fff;
     border-color: 0 ;
-  
- 
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 11px;
+    a{
+        text-transform: uppercase;
+        color: #cc0000;
+    }
 }
 
 

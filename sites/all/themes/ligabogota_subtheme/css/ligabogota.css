@@ -842,7 +842,12 @@ main {
   border-style: none;
   border-width: 0px;
   background-color: #fff;
-  border-color: 0; }
+  border-color: 0;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 11px; }
+  .breadcrumbs a {
+    text-transform: uppercase;
+    color: #cc0000; }
 
 /*********************/
 /* read End          */
