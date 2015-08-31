@@ -90,6 +90,9 @@
     font-size: 17px;
     text-transform: uppercase; }
 
+.node-type-torneo .group-content iframe {
+  height: 800px; }
+
 .page-comisiones .view-id-comiciones .comision-header {
   font-family: 'opensans',sans-serif;
   font-size: 12px;
