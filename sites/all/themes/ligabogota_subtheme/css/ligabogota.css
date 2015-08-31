@@ -834,11 +834,17 @@ main {
 /*********************/
 .breadcrumbs {
   display: inline-block;
-  padding: 0.5625em 0.875em 0.5625em;
+  padding: 0.5625em 1.9em 0.5625em;
   overflow: hidden;
   margin-left: 0;
   list-style: none;
-  float: right; }
+  float: right;
+  border-style: none;
+  border-width: 0px;
+  background-color: #f6f6f6;
+  border-color: 0;
+  -webkit-border-radius: 0px;
+  border-radius: 0px; }
 
 /*********************/
 /* read End          */
