@@ -22,7 +22,8 @@
 
 /*pages*/
 #first-time {
-  display: none; }
+  display: none;
+  margin-top: 1px; }
 
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
@@ -70,8 +71,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: black; }
   .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active {
     background-color: #ba0000;
@@ -80,8 +79,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: #fff; }
 .page-torneos .field-name-quicktabs .views-field-title {
   border-bottom: solid 1px #999999;
@@ -162,8 +159,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: black; }
   .view-id-documentacion ul.quicktabs-style-basic li.active {
     background-color: #999999;
@@ -172,8 +167,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: #fff; }
 
 /*components*/
@@ -355,8 +348,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: black; }
   .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active {
     background-color: #999999;
@@ -365,8 +356,6 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
-      letter-spacing: -1px;
-      font-weight: 100 !important;
       color: #fff; }
 
 /***************************/
@@ -408,17 +397,21 @@
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
     margin-bottom: 11px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-body p {
-    font-size: 15px;
-    margin-bottom: 0; }
+    color: #999;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-family: "opensans", sans-serif; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing {
     border: none; }
     .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a {
-      font-size: 15px;
-      text-transform: capitalize;
+      font-size: 13px;
+      font-family: "opensans", sans-serif;
+      font-weight: bold;
       color: #C70209;
-      font-weight: 500; }
+      text-transform: none; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
-        font-size: 17px; }
+        font-size: 13px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 li {
     margin-right: 10px !important; }
     .block-views-noticias-block .view-id-noticias #flexslider-2 li span a {
@@ -453,17 +446,20 @@
     margin-bottom: 0px;
     padding: 8px 8px 2px 2px; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed span {
-      font-size: 12px;
+      font-size: 11px;
+      font-family: "opensans", sans-serif;
       color: #fff; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 .field-body {
-    padding: 0 0 5px 0; }
+    padding: 0 0 13px 0; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body {
     background-color: #aeaeae;
     padding: 0px 10px; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body p {
-      font-size: 15px;
+      font-size: 13px;
+      line-height: 18px;
       margin-bottom: 0;
-      color: #fff; }
+      color: #fff;
+      font-family: "opensans", sans-serif; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body:hover {
       background-color: #cf0507; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 li {
@@ -684,22 +680,17 @@
 h1 {
   font-family: "Ubuntu",sans-serif;
   font-size: 45px;
-  letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase; }
 
 h2 {
   font-family: "Ubuntu",sans-serif;
   font-size: 36px;
-  letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase; }
 
 h2.block-title {
   font-family: "Ubuntu",sans-serif;
   font-size: 25px;
-  letter-spacing: -1px;
-  font-weight: 400;
+  font-weight: normal;
   text-transform: uppercase;
   padding: 0 4px;
   color: #CF0507;
@@ -714,8 +705,6 @@ h2.block-title {
 h1#page-title {
   font-family: "Ubuntu",sans-serif;
   font-size: 25px;
-  letter-spacing: -1px;
-  font-weight: 400;
   text-transform: uppercase;
   padding: 0 4px;
   color: #CF0507;

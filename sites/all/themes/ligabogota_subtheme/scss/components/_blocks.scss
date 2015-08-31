@@ -286,20 +286,24 @@
             }
             .views-field-body{
                 p{
-                      font-size: 15px;
+                      color: #999;
+                      font-size: 13px;
+                      line-height: 20px;
                       margin-bottom: 0;
+                      font-family: "opensans", sans-serif;
                 }
             }
             .views-field-nothing{
                 border:none;
                 span{
                     a{
-                        font-size: 15px;
-                        text-transform: capitalize;
+                        font-size: 13px;
+                        font-family: "opensans", sans-serif;
+                        font-weight: bold;   
                         color: #C70209;
-                        font-weight: 500;
+                        text-transform: none;
                         &:hover{
-                            font-size:17px;
+                            font-size:13px;
                          }
                     }
                 }
@@ -353,23 +357,25 @@
             margin-bottom: 0px;
             padding: 8px 8px 2px 2px;
             span{
-                font-size: 12px;
+                font-size: 11px;
+                font-family: "opensans", sans-serif;
                 color:#fff;
             }
            
         }
         .field-body{
-                padding: 0 0 5px 0;
+                padding: 0 0 13px 0;
 
         }
         .views-field-body{
             background-color: #aeaeae;
             padding: 0px 10px;
             p{
-              font-size: 15px;
+              font-size: 13px;
+              line-height: 18px;
               margin-bottom: 0; 
               color:#fff;
-
+              font-family: "opensans", sans-serif;
             }
             &:hover{
                 background-color:#cf0507;
