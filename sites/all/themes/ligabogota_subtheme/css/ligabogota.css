@@ -845,7 +845,7 @@ main {
   border-color: 0;
   font-family: "OpenSans", sans-serif;
   font-size: 13px ¡important;
-  color: #999; }
+  color: #999 ¡important; }
   .breadcrumbs a {
     text-transform: uppercase;
     color: #cc0000; }
