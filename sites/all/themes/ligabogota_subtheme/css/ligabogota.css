@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*variables*/
 /*
  * Theme specific variables. This takes the place of the normal _settings.scss.
@@ -192,6 +193,18 @@
 .block-block-1 p {
   margin: 0; }
 
+.block-custom-search-blocks .search-form .form-submit {
+  width: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-left: 0px; }
+.block-custom-search-blocks .search-form .custom-search-box {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-right: 0; }
+
 .fi-calendar {
   font-size: 20px;
   margin-right: 7px; }
@@ -203,6 +216,19 @@
   position: absolute;
   z-index: 4;
   left: 34px; }
+
+.redes img {
+  width: 6%;
+  margin: 0 3px; }
+.redes p {
+  font-family: 'opensans',sans-serif;
+  font-size: 12px; }
+  .redes p span {
+    background: #326295;
+    padding: 6px;
+    border-radius: 8px; }
+    .redes p span a {
+      color: #fff; }
 
 /***************************/
 /*WIDGET COPA COCACOLA HOME*/
@@ -377,7 +403,14 @@
     color: #fff; }
     .view-id-torneos .lifutbol img, .view-id-footer-logos .lifutbol img {
       width: 90px;
-      height: 90px; }
+      height: 90px;
+      float: left; }
+    .view-id-torneos .lifutbol .text-info-footer, .view-id-footer-logos .lifutbol .text-info-footer {
+      font-family: 'opensans',sans-serif;
+      font-size: 11px;
+      display: inline-block;
+      padding-top: 12px;
+      line-height: 14px; }
   .view-id-torneos .dayscript, .view-id-footer-logos .dayscript {
     text-align: right; }
 
@@ -423,10 +456,33 @@
       margin-bottom: 5px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav {
     position: absolute;
-    top: -30px;
-    right: 41px; }
-    .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav a {
-      height: 60px; }
+    top: -60px;
+    right: 0px;
+    display: inline-block;
+    width: 90px;
+    height: 40px; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li {
+      display: inline-block; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li a {
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #CC0507;
+        margin: -8px;
+        color: #fff;
+        font-weight: 100;
+        font-family: 'opensans',sans-serif;
+        text-align: center; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li a:before {
+          padding: 0px 0px !important;
+          font-size: 40px !important;
+          display: inline-block;
+          position: absolute;
+          top: -15px;
+          right: 10px; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-next:before {
+        content: "›" !important; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-prev:before {
+        content: "‹" !important; }
 
 /***************************/
 /*Block Noticias Slider Home/
@@ -467,17 +523,32 @@
   .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav {
     position: absolute;
     top: -60px;
-    right: 41px;
+    right: 0px;
     display: inline-block;
     width: 90px;
     height: 40px; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li {
       display: inline-block; }
       .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li a {
-        height: 60px;
+        border-radius: 50%;
         display: inline-block;
         background-color: #CC0507;
-        margin: -8px; }
+        margin: -8px;
+        color: #fff;
+        font-weight: 100;
+        font-family: 'opensans',sans-serif;
+        text-align: center; }
+        .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li a:before {
+          padding: 0px 0px !important;
+          font-size: 40px !important;
+          display: inline-block;
+          position: absolute;
+          top: -15px;
+          right: 10px; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-next:before {
+        content: "›" !important; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-prev:before {
+        content: "‹" !important; }
 
 /***************************/
 /*Block galeria Slider Home/
@@ -664,7 +735,8 @@
   src: url("../fonts/Opensans/OpenSans-Regular.ttf") format("truetype"); }
 .l-footer {
   background-color: #16151B !important;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
   .l-footer .footer {
     padding: 0; }
 

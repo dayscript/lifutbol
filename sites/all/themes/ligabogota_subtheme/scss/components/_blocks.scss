@@ -15,6 +15,25 @@
 		margin:0;
 	}
 }
+.block-custom-search-blocks{
+    .search-form{
+        .form-submit{
+            width: 40px;
+            border-radius: 10px;
+            background-color: #fff;
+            border: 1px solid #e9e9e9;
+            border-left: 0px;
+        }
+        .custom-search-box{
+            border-radius: 10px;
+            background-color: #fff;
+            border: 1px solid #e9e9e9;
+            border-right: 0;
+        }
+    }
+}
+
+
 
 .fi-calendar{
     font-size: 20px;
@@ -27,6 +46,27 @@
     position: absolute;
     z-index: 4;
     left: 34px;
+}
+
+.redes{
+    img{
+        width: 6%;
+        margin: 0 3px;
+    }
+    p{
+        font-family: 'opensans',sans-serif;
+        font-size:12px;
+    
+    span{
+        background: #326295;
+        padding: 6px;
+        border-radius: 8px;
+        a{
+            color:#fff;
+        }
+
+        }
+    }
 }
 
 /***************************/
@@ -254,7 +294,15 @@
     	img{
 		   width: 90px;
 		   height: 90px;
+           float: left;
     	}
+        .text-info-footer {
+                font-family: 'opensans',sans-serif;
+                font-size: 11px;
+                display: inline-block;
+                padding-top: 12px;
+                line-height: 14px;
+        }
     }
     .dayscript{
     	    text-align: right;
@@ -323,12 +371,45 @@
             }
         }
         .flex-direction-nav{
-            position: absolute;
-            top: -30px;
-            right: 41px;
-            a{
-                height: 60px;
+                position: absolute;
+                top: -60px;
+                right: 0px;
+                display: inline-block;
+                width: 90px;
+                height: 40px;
+            li{
+                display: inline-block;
+
+                a{
+                    border-radius: 50%;
+                    display: inline-block;
+                    background-color: #CC0507;
+                    margin: -8px;
+                    color: #fff;
+                    font-weight: 100;
+                    font-family: 'opensans',sans-serif;
+                    text-align:center; 
+                &:before{
+                       padding: 0px 0px !important;
+                        font-size: 40px !important;
+                        display: inline-block;
+                        position: absolute;
+                        top: -15px;
+                        right: 10px;
+                    }
+                }
+                .flex-next{
+                    &:before{
+                        content:'\203A'!important;
+                    }
+                }
+                .flex-prev{
+                    &:before{
+                        content:'\2039'!important;
+                    }
+                }
             }
+
         }
         }
     }
@@ -388,7 +469,7 @@
         .flex-direction-nav{
                 position: absolute;
                 top: -60px;
-                right: 41px;
+                right: 0px;
                 display: inline-block;
                 width: 90px;
                 height: 40px;
@@ -396,12 +477,35 @@
                 display: inline-block;
 
                 a{
-                    height: 60px;
+                    border-radius: 50%;
                     display: inline-block;
-                    background-color:#CC0507;
+                    background-color: #CC0507;
                     margin: -8px;
+                    color: #fff;
+                    font-weight: 100;
+                    font-family: 'opensans',sans-serif;
+                    text-align:center; 
+                &:before{
+                       padding: 0px 0px !important;
+                        font-size: 40px !important;
+                        display: inline-block;
+                        position: absolute;
+                        top: -15px;
+                        right: 10px;
+                    }
+                }
+                .flex-next{
+                    &:before{
+                        content:'\203A'!important;
+                    }
+                }
+                .flex-prev{
+                    &:before{
+                        content:'\2039'!important;
+                    }
                 }
             }
+
         }
     }
   }   
