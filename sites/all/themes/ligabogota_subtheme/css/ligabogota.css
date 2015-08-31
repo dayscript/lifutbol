@@ -735,6 +735,9 @@
 .large-3 {
   width: 29.33333%; }
 
+.not-front .main {
+  padding-top: 30px; }
+
 /*fonts*/
 @font-face {
   font-family: "Ubuntu";
