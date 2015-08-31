@@ -158,11 +158,11 @@ main{
     color: #999 ¡important;
     a{
         text-transform: uppercase;
-        color: #cc0000;
-        .current{
+        color: #cc0000;      
+     }
+    .current{
           cursor: default;
           color: #999;
-        }
     }
 }
 
