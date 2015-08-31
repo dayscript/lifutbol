@@ -218,15 +218,18 @@
   left: 34px; }
 
 .redes img {
-  width: 6%;
-  margin: 0 3px; }
+  width: 8%;
+  margin: 0 5px; }
 .redes p {
   font-family: 'opensans',sans-serif;
-  font-size: 12px; }
+  font-size: 12px;
+  color: #666666;
+  padding-top: 8px; }
   .redes p span {
     background: #326295;
     padding: 6px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    margin-left: 28px; }
     .redes p span a {
       color: #fff; }
 
@@ -400,7 +403,9 @@
   float: none;
   max-width: 68.8em; }
   .view-id-torneos .lifutbol, .view-id-footer-logos .lifutbol {
-    color: #fff; }
+    color: #fff;
+    display: block;
+    margin-bottom: 28px; }
     .view-id-torneos .lifutbol img, .view-id-footer-logos .lifutbol img {
       width: 90px;
       height: 90px;
@@ -409,8 +414,7 @@
       font-family: 'opensans',sans-serif;
       font-size: 11px;
       display: inline-block;
-      padding-top: 12px;
-      line-height: 14px; }
+      line-height: 17px; }
   .view-id-torneos .dayscript, .view-id-footer-logos .dayscript {
     text-align: right; }
 
@@ -428,7 +432,11 @@
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-field-image {
     margin-bottom: 18px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
-    margin-bottom: 11px; }
+    margin-bottom: 10px; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed span {
+      font-size: 12px;
+      font-family: "opensans", sans-serif;
+      color: #999; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-body p {
     color: #999;
     font-size: 13px;
@@ -668,7 +676,7 @@
 /*********************/
 /*layout*/
 .l-header {
-  padding: 10px 0px; }
+  padding: 8px 0px; }
 
 .l-featured div {
   float: none; }
@@ -709,7 +717,7 @@
     .menu li a {
       font-family: "Ubuntu",sans-serif;
       font-size: 18px;
-      font-weight: 100;
+      font-weight: normal;
       color: #fff; }
   .menu:after {
     clear: both; }

@@ -50,17 +50,20 @@
 
 .redes{
     img{
-        width: 6%;
-        margin: 0 3px;
+        width: 8%;
+        margin: 0 5px;
     }
     p{
         font-family: 'opensans',sans-serif;
         font-size:12px;
+        color:#666666;
+        padding-top: 8px;
     
     span{
         background: #326295;
         padding: 6px;
         border-radius: 8px;
+        margin-left: 28px;
         a{
             color:#fff;
         }
@@ -291,6 +294,8 @@
     max-width: 68.8em;
     .lifutbol{
     	color:#fff;
+        display: block;
+        margin-bottom: 28px;
     	img{
 		   width: 90px;
 		   height: 90px;
@@ -300,8 +305,7 @@
                 font-family: 'opensans',sans-serif;
                 font-size: 11px;
                 display: inline-block;
-                padding-top: 12px;
-                line-height: 14px;
+                line-height: 17px;
         }
     }
     .dayscript{
@@ -330,7 +334,12 @@
                 margin-bottom: 18px;      
             }
             .views-field-changed{
-                margin-bottom: 11px;
+                margin-bottom: 10px;
+            span{
+                font-size: 12px;
+                font-family: "opensans", sans-serif;
+                color:#999;
+                }
             }
             .views-field-body{
                 p{
