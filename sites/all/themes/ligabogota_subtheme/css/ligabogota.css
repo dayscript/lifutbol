@@ -631,13 +631,13 @@
   .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
     padding: 23px 13px;
     font-size: 13px;
-    border-bottom: 1px solid #d4d4d4;
+    border-bottom: 1px solid #cccccc;
     line-height: 0; }
     .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a {
       color: #999999; }
       .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
         color: #494949;
-        content: "> "; }
+        content: "/sites/default/bullet.png "; }
       .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
         color: #000000; }
     .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
