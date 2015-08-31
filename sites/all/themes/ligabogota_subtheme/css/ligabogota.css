@@ -712,7 +712,7 @@
     .menu li a {
       font-family: "Ubuntu",sans-serif;
       font-size: 18px;
-      font-weight: 100;
+      font-weight: normal;
       color: #fff; }
   .menu:after {
     clear: both; }
