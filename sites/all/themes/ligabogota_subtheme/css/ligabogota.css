@@ -30,11 +30,10 @@
   float: left;
   width: 50%; }
 .page-noticias .view-id-noticias .views-field.views-field-changed {
-  margin-bottom: 10px; }
-  .page-noticias .view-id-noticias .views-field.views-field-changed span {
-    font-size: 12px;
-    font-family: "opensans", sans-serif;
-    color: #999; }
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: "opensans", sans-serif;
+  color: #999; }
 .page-noticias .view-id-noticias .views-field.views-field-body p {
   color: #999;
   font-size: 13px;
