@@ -634,8 +634,11 @@
 
                     &:before{
                         color: #494949;
-                        content: "/sites/default/bullet.png ";
-                        
+                        display: block;
+                        width: 6px;
+                        height: 10px;
+                        background: url("/sites/default/bullet.png");
+                           background-repeat: no-repeat;                      
                         }
                     &:hover{
                         color:#000000;
