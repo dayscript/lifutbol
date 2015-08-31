@@ -634,11 +634,8 @@
 
                     &:before{
                         color: #494949;
-                        display: block;
-                        width: 6px;
-                        height: 10px;
-                        background: url("/sites/default/lupa.png");
-                           background-repeat: no-repeat;                      
+                        content: "> ";
+                        
                         }
                     &:hover{
                         color:#000000;
