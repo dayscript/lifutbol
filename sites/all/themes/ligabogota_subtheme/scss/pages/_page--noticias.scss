@@ -5,6 +5,14 @@
 		float: left;
 		width: 50%;
 	}
+	.views-field.views-field-changed{
+                margin-bottom: 10px;
+            span{
+                font-size: 12px;
+                font-family: "opensans", sans-serif;
+                color:#999;
+                }
+            }
 	.views-field.views-field-body{
                 p{
                       color: #999;
