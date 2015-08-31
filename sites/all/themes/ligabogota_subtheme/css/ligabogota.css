@@ -1,63 +1,921 @@
+@charset "UTF-8";
+/*variables*/
 /*
-Error: Invalid CSS after "	}": expected selector or at-rule, was "}"
-        on line 35 of scss/layout/_header.scss
-        from line 33 of scss/ligabogota.scss
+ * Theme specific variables. This takes the place of the normal _settings.scss.
+ * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
+ * SETTINGS" for documentation.
+ */
+/*Funciones**/
+@import url(../fonts/foundation-icons/foundation-icons.css);
+.block-superfish-1 {
+  background-color: rgba(0, 0, 0, 0.62);
+  min-width: 100%;
+  position: absolute; }
+  .block-superfish-1 h2 {
+    display: none; }
+  .block-superfish-1 .menu li {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.62); }
+  .block-superfish-1 .sf-menu li {
+    padding: 0; }
+  .block-superfish-1 .sf-menu.sf-style-default li:hover {
+    background: #F02F34; }
 
-30: 	}
-31: }
-32: .not-front.block-system-main-menu{
-33: 	background-color: #000;
-34: 	}
-35: }
-36: 
-37: .front{
-38: 	.block-system-main-menu{
-39: 		position: absolute;
-40: 	}
+/*pages*/
+#first-time {
+  display: none;
+  margin-top: 1px; }
 
-Backtrace:
-scss/layout/_header.scss:35
-scss/ligabogota.scss:33
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:43:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:309:in `to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:410:in `run'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
-/usr/bin/sass:23:in `load'
-/usr/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	}\": expected selector or at-rule, was \"}\"\A         on line 35 of scss/layout/_header.scss\A         from line 33 of scss/ligabogota.scss\A \A 30: 	}\A 31: }\A 32: .not-front.block-system-main-menu{\A 33: 	background-color: #000;\A 34: 	}\A 35: }\A 36: \A 37: .front{\A 38: 	.block-system-main-menu{\A 39: 		position: absolute;\A 40: 	}"; }
+.page-noticias .view-id-noticias .views-row-odd {
+  float: left;
+  width: 50%; }
+.page-noticias .view-id-noticias .views-field-field-image {
+  margin-bottom: 18px; }
+.page-noticias .view-id-noticias .views-field-changed {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: "opensans", sans-serif;
+  color: #999; }
+.page-noticias .view-id-noticias .views-field-body p {
+  color: #999;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-family: "opensans", sans-serif; }
+.page-noticias .view-id-noticias .views-field-title {
+  font-family: 'ubuntu',sans-serif;
+  text-transform: uppercase;
+  color: #000 ¡important;
+  font-size: 21px;
+  display: block;
+  margin-bottom: 5px; }
+.page-noticias .view-id-noticias .views-field-nothing {
+  border: none; }
+  .page-noticias .view-id-noticias .views-field-nothing span a {
+    font-size: 13px;
+    font-family: "opensans", sans-serif;
+    font-weight: bold;
+    color: #C70209;
+    text-transform: none; }
+    .page-noticias .view-id-noticias .views-field-nothing span a:hover {
+      font-size: 13px; }
+
+.page-torneos .view-display-id-block_1 {
+  width: 100%; }
+.page-torneos .quicktabs_main {
+  padding: 0;
+  border: 0; }
+.page-torneos .field-name-quicktabs label {
+  font-family: 'opensans',sans-serif;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px; }
+.page-torneos .field-name-quicktabs form {
+  margin: 0;
+  border-bottom: solid 3px #999999; }
+  .page-torneos .field-name-quicktabs form #edit-title-wrapper, .page-torneos .field-name-quicktabs form #edit-title--2-wrapper, .page-torneos .field-name-quicktabs form #edit-title--3-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 0; }
+.page-torneos .field-name-quicktabs .view-content {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  float: none; }
+.page-torneos .field-name-quicktabs ul.quicktabs-style-basic {
+  height: auto;
+  padding: 0;
+  border-bottom: solid 2px #999; }
+  .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li {
+    background-color: #fff;
+    margin: 0;
+    width: 245px;
+    text-align: center;
+    padding: 11px 0px;
+    display: inline-block; }
+    .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      color: black; }
+  .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active {
+    background-color: #ba0000;
+    border-bottom: 0; }
+    .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      color: #fff; }
+.page-torneos .field-name-quicktabs .views-field-title {
+  border-bottom: solid 1px #999999;
+  padding: 10px 0; }
+  .page-torneos .field-name-quicktabs .views-field-title span a {
+    font-family: 'ubuntu',sans-serif;
+    color: #000;
+    font-size: 17px;
+    text-transform: uppercase; }
+
+.page-comisiones .view-id-comiciones .comision-header {
+  font-family: 'opensans',sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999; }
+.page-comisiones .view-id-comiciones .views-field-title {
+  border-bottom: solid 1px #999999;
+  padding: 10px 0; }
+  .page-comisiones .view-id-comiciones .views-field-title span a {
+    font-family: 'ubuntu',sans-serif;
+    color: #000;
+    font-size: 17px;
+    text-transform: uppercase; }
+
+.page-clubes .view-clubs .views-row-odd {
+  float: left;
+  width: 45%;
+  display: inline-block;
+  padding: 19px 0;
+  margin-right: 60px;
+  border-bottom: solid 3px #d8d8d8; }
+  .page-clubes .view-clubs .views-row-odd .views-field-field-image {
+    float: left;
+    margin-right: 3px; }
+  .page-clubes .view-clubs .views-row-odd .views-field.views-field-title {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    padding: 45px 0;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+    font-weight: 100; }
+    .page-clubes .view-clubs .views-row-odd .views-field.views-field-title span a {
+      color: #000;
+      text-transform: uppercase; }
+.page-clubes .view-clubs .views-row-even {
+  display: inline-block;
+  width: 45%;
+  padding: 19px 0;
+  border-bottom: solid 3px #d8d8d8; }
+  .page-clubes .view-clubs .views-row-even .views-field-field-image {
+    float: left;
+    margin-right: 3px; }
+  .page-clubes .view-clubs .views-row-even .views-field.views-field-title {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    padding: 45px 0;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+    font-weight: 100; }
+    .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a {
+      color: #000;
+      text-transform: uppercase; }
+
+.view-id-documentacion ul.quicktabs-style-basic {
+  height: auto;
+  padding: 0;
+  border-bottom: solid 2px #999; }
+  .view-id-documentacion ul.quicktabs-style-basic li {
+    background-color: #fff;
+    margin: 0;
+    width: 355px;
+    text-align: center;
+    padding: 11px 0px;
+    display: inline-block; }
+    .view-id-documentacion ul.quicktabs-style-basic li a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      color: black; }
+  .view-id-documentacion ul.quicktabs-style-basic li.active {
+    background-color: #999999;
+    border-bottom: 0; }
+    .view-id-documentacion ul.quicktabs-style-basic li.active a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      color: #fff; }
+
+/*components*/
+.menu li a.active, .menu li a:hover {
+  padding-top: 23px;
+  color: #fff;
+  padding-bottom: 18px;
+  border-bottom: 3px solid #fff112;
+  position: relative; }
+  .menu li a.active:after, .menu li a:hover:after {
+    background: none;
+    border-bottom: 3px solid #cf0507;
+    left: 0px;
+    right: 0px;
+    content: "";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 64px; }
+
+/*********************/
+/*Contactenos        */
+/*********************/
+.block-block-1 p {
+  margin: 0; }
+
+.block-custom-search-blocks .search-form .form-submit {
+  width: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-left: 0px; }
+.block-custom-search-blocks .search-form .custom-search-box {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-right: 0; }
+
+.fi-calendar {
+  font-size: 20px;
+  margin-right: 7px; }
+
+/*********************/
+/*Contactenos        */
+/*********************/
+.block-logo {
+  position: absolute;
+  z-index: 4;
+  left: 34px; }
+
+.redes img {
+  width: 8%;
+  margin: 0 5px; }
+.redes p {
+  font-family: 'opensans',sans-serif;
+  font-size: 12px;
+  color: #666666;
+  padding-top: 8px; }
+  .redes p span {
+    background: #326295;
+    padding: 6px;
+    border-radius: 8px;
+    margin-left: 28px; }
+    .redes p span a {
+      color: #fff; }
+
+/***************************/
+/*WIDGET COPA COCACOLA HOME*/
+/***************************/
+.block-quicktabs-widget-quicktab-copa-cocacola .views-row, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
+  display: inline-block;
+  width: 100%;
+  background-color: #333;
+  position: relative; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field {
+    display: inline-block; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing {
+    float: left;
+    border-right: solid 1px #666666; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
+      padding: 40px 16px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
+    width: 57%;
+    height: 112px;
+    display: inline-block;
+    float: left; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none span.no-result, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none span.no-result {
+      font-size: 18px;
+      color: #fff;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      margin: 40px 0;
+      font-family: 'opensans',sans-serif; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 {
+    padding: 0 3px;
+    border-left: solid 1px #666666;
+    position: absolute;
+    top: 0;
+    height: 112px; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado {
+      padding: 23px 10px 10px; }
+      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
+        display: block;
+        width: 38px;
+        margin: 0 auto;
+        height: 38px;
+        background: url("/sites/default/lupa.png");
+        background-repeat: no-repeat; }
+      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a {
+        font-family: 'ubuntu',sans-serif;
+        font-size: 13px;
+        color: #606060;
+        text-transform: uppercase;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8px 0; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .buscador-avanzado a {
+    color: #fff; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .lupa {
+    background: url("/sites/default/lupahover.png");
+    background-repeat: no-repeat; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
+    display: block;
+    padding: 12px 140px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
+    font-family: 'opensans',sans-serif;
+    text-transform: uppercase;
+    color: #BFBAB8;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-goleadores, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-goleadores {
+    padding: 0 15px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row label, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty label {
+    font-family: 'opensans',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file {
+    display: inline-block;
+    width: 75px;
+    padding: 11px 0;
+    text-align: center; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file img, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file img {
+      display: inline-block;
+      width: 20px;
+      margin: 0 20px; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file a {
+      font-size: 10px; }
+.block-quicktabs-widget-quicktab-copa-cocacola #quicktabs-container-widget_quicktab_copa_cocacola {
+  padding: 0;
+  margin-bottom: 36px; }
+.block-quicktabs-widget-quicktab-copa-cocacola form {
+  background-color: #cf0507;
+  margin: 0;
+  padding: 4px 1px 0px 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form input {
+    width: 150px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form select {
+    padding: 8px 1px;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper {
+    padding: .5em 13px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper #edit-field-categor-a-tid {
+      width: 197px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper {
+    padding: .5em 14px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper #edit-field-nivel-tid {
+      width: 150px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper {
+    padding: 0.5em 11px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper #edit-field-grupo-tid {
+      width: 137px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper {
+    padding: 0.5em 0px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper #edit-title {
+      width: 160px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form label {
+    font-family: 'opensans',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form .views-exposed-widgets {
+    margin: 0; }
+.block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
+  display: inline-block;
+  width: 100%; }
+.block-quicktabs-widget-quicktab-copa-cocacola .widget--image-copacocacola {
+  background-color: #333333;
+  width: 123px;
+  height: 112px;
+  float: left; }
+.block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic {
+  height: auto;
+  padding: 0;
+  border-bottom: solid 2px #999; }
+  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li {
+    background-color: #fff;
+    margin: 0;
+    width: 355px;
+    text-align: center;
+    padding: 11px 0px;
+    display: inline-block; }
+    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      color: black; }
+  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active {
+    background-color: #999999;
+    border-bottom: 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      color: #fff; }
+
+/***************************/
+/*WIDGET COPA COCACOLA HOME*/
+/***************************/
+/***************************/
+/*Block Torneos Footer     */
+/***************************/
+.block-views-torneos-block {
+  background: #ba0000; }
+
+.view-id-torneos, .view-id-footer-logos {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  float: none;
+  max-width: 68.8em; }
+  .view-id-torneos .lifutbol, .view-id-footer-logos .lifutbol {
+    color: #fff;
+    display: block;
+    margin-bottom: 28px; }
+    .view-id-torneos .lifutbol img, .view-id-footer-logos .lifutbol img {
+      width: 90px;
+      height: 90px;
+      float: left; }
+    .view-id-torneos .lifutbol .text-info-footer, .view-id-footer-logos .lifutbol .text-info-footer {
+      font-family: 'opensans',sans-serif;
+      font-size: 11px;
+      display: inline-block;
+      line-height: 17px; }
+  .view-id-torneos .dayscript, .view-id-footer-logos .dayscript {
+    text-align: right; }
+
+/***************************/
+/*Block Torneos Footer     */
+/***************************/
+/***************************/
+/*Block Noticias Slider Home/
+/***************************/
+.block-views-noticias-block .view-id-noticias #flexslider-2 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-shadow: none; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-field-image {
+    margin-bottom: 18px; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
+    margin-bottom: 10px; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed span {
+      font-size: 12px;
+      font-family: "opensans", sans-serif;
+      color: #999; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-body p {
+    color: #999;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-family: "opensans", sans-serif; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing {
+    border: none; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a {
+      font-size: 13px;
+      font-family: "opensans", sans-serif;
+      font-weight: bold;
+      color: #C70209;
+      text-transform: none; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
+        font-size: 13px; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 li {
+    margin-right: 10px !important; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 li span a {
+      font-family: 'ubuntu',sans-serif;
+      text-transform: uppercase;
+      color: #000;
+      font-size: 21px;
+      display: block;
+      margin-bottom: 5px; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav {
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    display: inline-block;
+    width: 90px;
+    height: 40px; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li {
+      display: inline-block; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li a {
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #CC0507;
+        margin: -8px;
+        color: #fff;
+        font-weight: 100;
+        font-family: 'opensans',sans-serif;
+        text-align: center; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li a:before {
+          padding: 0px 0px !important;
+          font-size: 40px !important;
+          display: inline-block;
+          position: absolute;
+          top: -15px;
+          right: 10px; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-next:before {
+        content: "›" !important; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-prev:before {
+        content: "‹" !important; }
+
+/***************************/
+/*Block Noticias Slider Home/
+/***************************/
+/***************************/
+/*Block galeria Slider Home/
+/***************************/
+.block-views-galerias-block .view-id-galerias #flexslider-3 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-shadow: none;
+  margin-bottom: 10px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image {
+    margin-bottom: 1px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed {
+    margin-bottom: 0px;
+    padding: 8px 8px 2px 2px; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed span {
+      font-size: 11px;
+      font-family: "opensans", sans-serif;
+      color: #fff; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .field-body {
+    padding: 0 0 13px 0; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body {
+    background-color: #aeaeae;
+    padding: 0px 10px; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body p {
+      font-size: 13px;
+      line-height: 18px;
+      margin-bottom: 0;
+      color: #fff;
+      font-family: "opensans", sans-serif; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body:hover {
+      background-color: #cf0507; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 li {
+    margin-right: 10px !important; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav {
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    display: inline-block;
+    width: 90px;
+    height: 40px; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li {
+      display: inline-block; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li a {
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #CC0507;
+        margin: -8px;
+        color: #fff;
+        font-weight: 100;
+        font-family: 'opensans',sans-serif;
+        text-align: center; }
+        .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li a:before {
+          padding: 0px 0px !important;
+          font-size: 40px !important;
+          display: inline-block;
+          position: absolute;
+          top: -15px;
+          right: 10px; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-next:before {
+        content: "›" !important; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-prev:before {
+        content: "‹" !important; }
+
+/***************************/
+/*Block galeria Slider Home/
+/***************************/
+.block-views-torneos-block .view-id-torneos #flexslider-4 {
+  background: rgba(186, 0, 0, 0);
+  border: 0; }
+  .block-views-torneos-block .view-id-torneos #flexslider-4 li {
+    margin-right: 10px !important; }
+  .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
+    height: 60px; }
+.block-views-torneos-block .view-id-torneos #flexslider-1 {
+  background: rgba(186, 0, 0, 0);
+  border: 0; }
+  .block-views-torneos-block .view-id-torneos #flexslider-1 li {
+    margin-right: 10px !important; }
+  .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-direction-nav a {
+    height: 60px; }
+
+.sharethis-wrapper {
+  border-left: solid 5px red;
+  margin: 20px 0px;
+  padding: 7px; }
+
+.field-type-text-with-summary {
+  font-family: 'opensans',sans-serif;
+  font-size: 13px;
+  color: #999999; }
+
+.views-field-nothing {
+  float: left;
+  border-right: solid 1px #666666; }
+  .views-field-nothing .widget-logococacola {
+    padding: 40px 16px; }
+
+.views-field-nothing-1 {
+  padding: 0 3px;
+  border-left: solid 1px #666666;
+  position: absolute;
+  top: 0;
+  height: 112px; }
+  .views-field-nothing-1 .widget-image-buscador-avanzado {
+    padding: 23px 10px 10px; }
+    .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
+      display: block;
+      width: 38px;
+      margin: 0 auto;
+      height: 38px;
+      background: url("/sites/default/lupa.png");
+      background-repeat: no-repeat; }
+    .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a {
+      font-family: 'ubuntu',sans-serif;
+      font-size: 13px;
+      color: #606060;
+      text-transform: uppercase;
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding: 8px 0; }
+
+.views-field-nothing-1:hover .buscador-avanzado a {
+  color: #fff; }
+.views-field-nothing-1:hover .lupa {
+  background: url("/sites/default/lupahover.png");
+  background-repeat: no-repeat; }
+
+.block-views-view-resoluciones-block .view-view-resoluciones .view-content, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content {
+  background-color: #f5f5f5; }
+  .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
+    padding: 23px 13px;
+    font-size: 13px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 0; }
+    .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a {
+      color: #999999; }
+      .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
+        color: #666;
+        content: "\232A";
+        font-size: 12px;
+        font-weight: lighter;
+        padding-right: 10px; }
+      .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
+        color: #000000; }
+    .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
+      content: " "; }
+
+/*********************/
+/*Slider Home        */
+/*********************/
+.block-views-views-banner-slider-home-block {
+  display: inline-block;
+  min-width: 100%;
+  /*position: absolute;
+  top:0;*/ }
+  .block-views-views-banner-slider-home-block .block-title {
+    display: none; }
+  .block-views-views-banner-slider-home-block .flexslider {
+    border: 0;
+    margin-bottom: 0; }
+  .block-views-views-banner-slider-home-block .flex-control-nav {
+    bottom: 40px;
+    z-index: 3; }
+  .block-views-views-banner-slider-home-block .views-field-title {
+    position: absolute;
+    top: 140px;
+    width: 100%; }
+    .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper {
+      text-align: center; }
+      .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper span {
+        font-family: "Ubuntu",sans-serif;
+        font-size: 46px;
+        letter-spacing: -1px;
+        font-weight: 100;
+        color: #fff;
+        text-transform: uppercase; }
+
+/*********************/
+/*Slider Home        */
+/*********************/
+/*layout*/
+.l-header {
+  padding: 8px 0px; }
+
+.l-featured div {
+  float: none; }
+
+.top-bar {
+  display: none; }
+
+.banner-full {
+  max-width: 100%; }
+
+.block-system-main-menu {
+  background-color: rgba(0, 0, 0, 0.62);
+  z-index: 3;
+  position: relative;
+  min-width: 100%; }
+  .block-system-main-menu .block-title {
+    display: none; }
+
+.not-front.block-system-main-menu {
+  background-color: #000; }
+
+.front .block-system-main-menu {
+  position: absolute; }
+
+.menu {
+  margin: 0 auto;
+  list-style: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* max-width: 62.5em; */
+  max-width: 68.8em; }
+  .menu li {
+    margin: 0px 14px;
+    float: right;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    margin-right: 35px;
+    font-weight: normal; }
+    .menu li a {
+      font-family: "Ubuntu",sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      color: #999; }
+      .menu li a:hover {
+        color: #fff; }
+      .menu li a:active {
+        color: #fff; }
+  .menu:after {
+    clear: both; }
+  .menu:before, .menu:after {
+    content: " ";
+    display: table; }
+
+.large-9 {
+  width: 70%;
+  padding-left: 40px; }
+
+.large-3 {
+  width: 29.33333%; }
+
+.not-front .main {
+  padding-top: 50px; }
+
+/*fonts*/
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-C.ttf");
+  src: url("../fonts/Ubuntu/Ubuntu-C.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans";
+  src: url("../fonts/Opensans/OpenSans-Regular.ttf");
+  src: url("../fonts/Opensans/OpenSans-Regular.ttf") format("truetype"); }
+.l-footer {
+  background-color: #16151B !important;
+  padding: 0;
+  margin: 0; }
+  .l-footer .footer {
+    padding: 0; }
+
+.l-main {
+  padding-top: 12px; }
+
+/*********************/
+/* featured region   */
+/*********************/
+.l-featured .large-12.columns {
+  padding: 0; }
+
+h1 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 45px;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 36px;
+  text-transform: uppercase; }
+
+h2.block-title {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 5px 4px;
+  color: #CF0507;
+  border-left: 4px solid;
+  border-right: 0px solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#CF0507), to(#FFF112)) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  border-left-image: linear-gradient(to top, #CF0507, #FFF112) 1 100%; }
+
+h1#page-title {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 0 4px;
+  color: #CF0507;
+  border-left: 4px solid;
+  border-right: 0px solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#CF0507), to(#FFF112)) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  border-left-image: linear-gradient(to top, #CF0507, #FFF112) 1 100%; }
+
+body {
+  background-color: #F3F3F3; }
+
+main {
+  background-color: #fff; }
+
+/*********************/
+/**/
+/*********************/
+/*********************/
+/* Block Search      */
+/*********************/
+.block-custom-search-blocks .block-title {
+  display: none; }
+.block-custom-search-blocks form.search-form {
+  text-align: right;
+  margin: 0; }
+  .block-custom-search-blocks form.search-form input {
+    width: 225px;
+    margin: 0; }
+  .block-custom-search-blocks form.search-form button {
+    margin: 0;
+    padding: 6px; }
+  .block-custom-search-blocks form.search-form .form-type-textfield {
+    display: inline-block;
+    margin: 0; }
+
+/*********************/
+/* Block Search  End */
+/*********************/
+/*********************/
+/* bread End         */
+/*********************/
+.breadcrumbs {
+  display: inline-block;
+  padding: 0.5625em 1.9em 0.5625em;
+  overflow: hidden;
+  margin-right: 0;
+  list-style: none;
+  float: right;
+  border-style: none;
+  border-width: 0px;
+  background-color: #fff;
+  border-color: 0;
+  font-family: "OpenSans", sans-serif;
+  font-size: 13px ¡important;
+  color: #999 ¡important; }
+  .breadcrumbs a {
+    text-transform: uppercase;
+    color: #cc0000; }
+  .breadcrumbs .current {
+    cursor: default; }
+    .breadcrumbs .current a {
+      color: #999; }
+
+/*********************/
+/* read End          */
+/*********************/
+/*Responsive*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .small-12 {
+    width: 100%; }
+
+  .large-9 {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em; }
+
+  .l-main {
+    padding-left: 0; }
+
+  .block-views-views-banner-slider-home-block {
+    display: none; }
+
+  .page-noticias .view-id-noticias .views-row-odd {
+    float: none;
+    width: 100%; } }
+
+/*# sourceMappingURL=ligabogota.css.map */
