@@ -3,9 +3,10 @@
 .view-id-noticias{
 	.views-row-odd{
 		float: left;
-		width: 50%;
 		margin-bottom: 20px;
-		margin-right: 10px;
+		width: 45%;
+		display: inline-block;
+		padding: 19px 0;
 	}
 	.views-field-field-image{
                 margin-bottom: 18px;      
@@ -49,9 +50,11 @@
                 }
             }
 .views-row-even{
-		float: right;
-		width: 50%;
+		float: left;
 		margin-bottom: 20px;
+		width: 45%;
+		display: inline-block;
+		padding: 19px 0;
 	}
 	
 
