@@ -203,6 +203,7 @@
 /*components*/
 .menu li a.active, .menu li a:hover {
   padding-top: 23px;
+  color: #fff;
   padding-bottom: 18px;
   border-bottom: 3px solid #fff112;
   position: relative; }
