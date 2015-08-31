@@ -28,7 +28,8 @@
 
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
-  width: 50%; }
+  width: 50%;
+  margin-bottom: 18px; }
 .page-noticias .view-id-noticias .views-field-field-image {
   margin-bottom: 18px; }
 .page-noticias .view-id-noticias .views-field-changed {
