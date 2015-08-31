@@ -159,6 +159,10 @@ main{
     a{
         text-transform: uppercase;
         color: #cc0000;
+        .current{
+          cursor: default;
+          color: #999;
+        }
     }
 }
 
