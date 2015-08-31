@@ -29,12 +29,12 @@
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
   width: 50%; }
-.page-noticias .view-id-noticias .views-field-changed {
-  margin-bottom: 10px; }
-  .page-noticias .view-id-noticias .views-field-changed span {
-    font-size: 12px;
-    font-family: "opensans", sans-serif;
-    color: #999; }
+.page-noticias .view-id-noticias .views-field-body p {
+  color: #999;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-family: "opensans", sans-serif; }
 
 .page-torneos .view-display-id-block_1 {
   width: 100%; }

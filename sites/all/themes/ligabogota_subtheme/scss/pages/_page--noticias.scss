@@ -5,12 +5,13 @@
 		float: left;
 		width: 50%;
 	}
-	 .views-field-changed{
-                margin-bottom: 10px;
-            span{
-                font-size: 12px;
-                font-family: "opensans", sans-serif;
-                color:#999;
+	 .views-field-body{
+                p{
+                      color: #999;
+                      font-size: 13px;
+                      line-height: 20px;
+                      margin-bottom: 0;
+                      font-family: "opensans", sans-serif;
                 }
             }
 	
