@@ -636,9 +636,11 @@
                 a{color: $color-letra-bloque-resolucion;
 
                     &:before{
-                        color: #494949;
-                        content: "/sites/default/bullet.png ";
-                        
+                        color: #666;
+                        content: "\232A";
+                        font-size: 12px;
+                        font-weight: lighter;
+                        padding-right: 10px;
                         }
                     &:hover{
                         color:#000000;

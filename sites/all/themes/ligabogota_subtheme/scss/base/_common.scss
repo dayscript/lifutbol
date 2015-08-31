@@ -143,9 +143,28 @@ main{
 /* bread End         */
 /*********************/
 .breadcrumbs{
- 
-  
- 
+    display: inline-block;
+    padding: 0.5625em 1.9em 0.5625em;
+    overflow: hidden;
+    margin-right: 0;
+    list-style: none;
+    float:right;
+    border-style: none;
+    border-width: 0px;
+    background-color: #fff;
+    border-color: 0 ;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px ¡important;
+    color: #999 ¡important;
+    a{
+        text-transform: uppercase;
+        color: #cc0000;      
+     }
+    .current{
+          cursor: default;
+          a{color: #999;
+          }
+    }
 }
 
 
