@@ -58,7 +58,10 @@
 		    font-size: 18px;
 		    font-weight: normal;
 		    color: #999;
-		     &:hover{
+		    &:hover{
+                     color: #fff;
+                    }
+            &:active{
                      color: #fff;
                     }
 		}

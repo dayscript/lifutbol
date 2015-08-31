@@ -755,6 +755,8 @@
       color: #999; }
       .menu li a:hover {
         color: #fff; }
+      .menu li a:active {
+        color: #fff; }
   .menu:after {
     clear: both; }
   .menu:before, .menu:after {
