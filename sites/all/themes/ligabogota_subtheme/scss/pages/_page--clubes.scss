@@ -25,6 +25,9 @@
 			    		color:#000;
 			    		padding-left: 10px;
 			    		text-transform: uppercase;
+			    		&:hover{
+                        color: #cc0000;
+                        }
 			    	}
 			    }
 			}
@@ -51,7 +54,7 @@
 			    		color:#000;
 			    		padding-left: 10px;
 			    		text-transform: uppercase;
-			    		 &:hover{
+			    		&:hover{
                         color: #cc0000;
                         }
 
