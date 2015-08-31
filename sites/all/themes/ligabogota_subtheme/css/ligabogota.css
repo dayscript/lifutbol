@@ -29,7 +29,7 @@
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
   margin-right: 20px;
-  width: 50%;
+  width: 45%;
   display: inline-block;
   padding: 19px 0; }
 .page-noticias .view-id-noticias .views-field-field-image {
@@ -64,7 +64,7 @@
       font-size: 13px; }
 .page-noticias .view-id-noticias .views-row-even {
   float: left;
-  width: 50%;
+  width: 45%;
   display: inline-block;
   padding: 19px 0; }
 
