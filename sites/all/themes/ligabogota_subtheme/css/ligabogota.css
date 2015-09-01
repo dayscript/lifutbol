@@ -1023,6 +1023,8 @@ label {
   color: #999;
   display: block;
   font-weight: normal; }
+  label .views-exposed-form {
+    font-weight: normal; }
 
 /*Responsive*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
