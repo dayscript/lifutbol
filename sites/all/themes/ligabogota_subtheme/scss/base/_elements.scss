@@ -22,7 +22,12 @@
 
 // Form Input
 //-----------------------------------------------------------------------------
-// input[type="text"],
+input[type="text"],{
+    background: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    height: 28px;
+}
 // input[type="password"],
 // input[type="date"],
 // input[type="datetime"],
