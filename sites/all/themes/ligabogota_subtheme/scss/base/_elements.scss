@@ -22,45 +22,25 @@
 
 // Form Input
 //-----------------------------------------------------------------------------
-input[type="text"],{
-    background: #f3f3f3;
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	background: #f3f3f3;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     height: 28px;
 }
-// input[type="password"],
-// input[type="date"],
-// input[type="datetime"],
-// input[type="datetime-local"],
-// input[type="month"],
-// input[type="week"],
-// input[type="email"],
-// input[type="number"],
-// input[type="search"],
-// input[type="tel"],
-// input[type="time"],
-// input[type="url"],
-// textarea {
-// }
-
-
-// input[type="text"],
-// input[type="password"],
-// input[type="date"],
-// input[type="datetime"],
-// input[type="datetime-local"],
-// input[type="month"],
-// input[type="week"],
-// input[type="email"],
-// input[type="number"],
-// input[type="search"],
-// input[type="tel"],
-// input[type="time"],
-// input[type="url"],
-// textarea {
-
-// }
-
 select{
     background: #f3f3f3;
     font-family: 'Open Sans', sans-serif;
