@@ -31,7 +31,8 @@
   margin-right: 60px;
   width: 45%;
   display: inline-block;
-  padding: 19px 0; }
+  padding: 19px 0;
+  border-bottom: solid 1px #e1e1e1; }
 .page-noticias .view-id-noticias .views-field-field-image {
   margin-bottom: 18px; }
 .page-noticias .view-id-noticias .views-field-changed {
@@ -72,7 +73,8 @@
   width: 45%;
   margin-right: 6px;
   display: inline-block;
-  padding: 19px 0; }
+  padding: 19px 0;
+  border-bottom: solid 1px #e1e1e1; }
 
 .page-torneos .view-display-id-block_1 {
   width: 100%; }
