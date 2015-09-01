@@ -36,7 +36,11 @@
 }
 .pagination.pager {
     margin: 40px 0;
+    .current a {
+    background: #cc0000;
+	}
 }
+
 /*********************/
 /*Pager        */
 /*********************/ 

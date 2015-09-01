@@ -739,6 +739,8 @@
 
 .pagination.pager {
   margin: 40px 0; }
+  .pagination.pager .current a {
+    background: #cc0000; }
 
 /*********************/
 /*Pager        */
