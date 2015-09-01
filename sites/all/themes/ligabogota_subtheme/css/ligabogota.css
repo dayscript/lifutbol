@@ -260,16 +260,20 @@
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       color: #fff; }
-.page-documentacion .view-id-documentacion .views-field-title {
+.page-documentacion .view-id-documentacion .views-field-title span a {
+  font-family: 'ubuntu',sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase; }
+  .page-documentacion .view-id-documentacion .views-field-title span a:hover {
+    color: #cc0000; }
+.page-documentacion .view-id-documentacion .views-field.views-field-body {
+  font-family: 'opensans',sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
   border-bottom: solid 1px #e1e1e1;
   padding: 18px 0; }
-  .page-documentacion .view-id-documentacion .views-field-title span a {
-    font-family: 'ubuntu',sans-serif;
-    color: #000;
-    font-size: 18px;
-    text-transform: uppercase; }
-    .page-documentacion .view-id-documentacion .views-field-title span a:hover {
-      color: #cc0000; }
 
 /*components*/
 .menu li a.active, .menu li a:hover {

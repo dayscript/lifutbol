@@ -27,8 +27,6 @@
         	}
         }
             .views-field-title{
-                border-bottom: solid 1px #e1e1e1;
-                padding: 18px 0;
                 span{
                     a{
                         font-family: 'ubuntu',sans-serif;
@@ -41,6 +39,14 @@
 
                     }
                 }
+            }
+            .views-field.views-field-body{
+                font-family: 'opensans',sans-serif;
+                font-size: 12px;
+                line-height: 18px;
+                color: $gris-texto;
+                border-bottom: solid 1px #e1e1e1;
+                padding: 18px 0;
             }    
 }
 }
