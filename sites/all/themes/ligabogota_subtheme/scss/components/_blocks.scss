@@ -375,6 +375,9 @@
                     font-size: 21px;
                     display: block;
                     margin-bottom: 5px;
+                    &:hover{
+                        color: #cc0000;
+                    }
 
                 }
             }

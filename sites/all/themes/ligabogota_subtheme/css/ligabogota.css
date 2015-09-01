@@ -517,6 +517,8 @@
       font-size: 21px;
       display: block;
       margin-bottom: 5px; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 li span a:hover {
+        color: #cc0000; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav {
     position: absolute;
     top: -60px;
