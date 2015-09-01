@@ -800,15 +800,23 @@
   .block-views-views-banner-slider-home-block .views-field-title {
     position: absolute;
     top: 140px;
-    width: 80%; }
+    width: 100%; }
     .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper {
       text-align: center; }
       .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper span {
         font-family: "Ubuntu",sans-serif;
         font-size: 46px;
         letter-spacing: -1px;
-        font-weight: 100;
+        font-weight: normal;
         line-height: 40px;
+        color: #fff;
+        text-transform: uppercase; }
+      .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper p {
+        font-family: "Ubuntu",sans-serif;
+        font-size: 24px;
+        letter-spacing: -1px;
+        font-weight: normal;
+        line-height: 30px;
         color: #fff;
         text-transform: uppercase; }
 
