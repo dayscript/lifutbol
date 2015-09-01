@@ -124,7 +124,7 @@
   font-size: 12px; }
 .page-torneos .field-name-quicktabs form {
   margin: 5px 0 5px 0;
-  border-bottom: solid 3px #999999; }
+  border-bottom: none; }
   .page-torneos .field-name-quicktabs form #edit-title-wrapper, .page-torneos .field-name-quicktabs form #edit-title--2-wrapper, .page-torneos .field-name-quicktabs form #edit-title--3-wrapper {
     width: 90%;
     margin: 0 auto;
