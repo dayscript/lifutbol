@@ -803,8 +803,8 @@
   .block-views-views-banner-slider-home-block .flex-control-nav {
     bottom: 10px;
     z-index: 3; }
-    .block-views-views-banner-slider-home-block .flex-control-nav a.flex-active {
-      background: #cc0000; }
+  .block-views-views-banner-slider-home-block .flex-control-nav li a.flex-active {
+    background: #cc0000; }
   .block-views-views-banner-slider-home-block .views-field-title {
     position: absolute;
     top: 200px;
