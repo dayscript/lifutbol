@@ -617,7 +617,10 @@
   font-family: "opensans", sans-serif;
   font-size: 13px;
   color: #999;
-  padding: 20px; }
+  padding: 20px a;
+    padding-color: #cc0000;
+    padding-text-decoration: none;
+    padding-line-height: inherit; }
 
 /***************************/
 /*Block galeria Slider Home/
