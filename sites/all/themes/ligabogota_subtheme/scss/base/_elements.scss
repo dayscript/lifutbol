@@ -44,7 +44,6 @@ textarea {
     border-radius: 10px;
     background-color: #fff;
     border: 1px solid #e9e9e9;
-    padding: 5px;
 }
 select{
     background: #f3f3f3;
@@ -57,4 +56,15 @@ select{
     border-radius: 10px;
     background-color: #fff;
     border: 1px solid #e9e9e9;
+}
+label {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "opensans", sans-serif;
+    color: #999;
+    display: block;
+    font-weight: normal;
+    .views-exposed-form {
+    	font-weight: normal;
+    }
 }
