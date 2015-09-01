@@ -29,10 +29,20 @@
      .views-field-title{
      	font-family: 'ubuntu',sans-serif;
     	text-transform: uppercase;
-    	color: #000 ¡important;
     	font-size: 21px;
     	display: block;
    		margin-bottom: 5px;
+   		 span{
+			    a{
+			    	color:#000;
+			    	padding-left: 10px;
+			    	text-transform: uppercase;
+			    	&:hover{
+                       color: #cc0000;
+                    }
+
+			    	}
+			    }
    	}
    	.views-field-nothing{
                 border:none;

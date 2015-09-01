@@ -48,10 +48,15 @@
 .page-noticias .view-id-noticias .views-field-title {
   font-family: 'ubuntu',sans-serif;
   text-transform: uppercase;
-  color: #000 ¡important;
   font-size: 21px;
   display: block;
   margin-bottom: 5px; }
+  .page-noticias .view-id-noticias .views-field-title span a {
+    color: #000;
+    padding-left: 10px;
+    text-transform: uppercase; }
+    .page-noticias .view-id-noticias .views-field-title span a:hover {
+      color: #cc0000; }
 .page-noticias .view-id-noticias .views-field-nothing {
   border: none; }
   .page-noticias .view-id-noticias .views-field-nothing span a {
