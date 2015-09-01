@@ -274,6 +274,11 @@
   color: #999999;
   border-bottom: solid 1px #e1e1e1;
   padding: 4px 0; }
+.page-documentacion .view-id-documentacion .quicktabs-style-basic {
+  background-color: #fff;
+  border-top: none;
+  padding: 10px;
+  clear: both; }
 
 /*components*/
 .menu li a.active, .menu li a:hover {
