@@ -34,6 +34,25 @@
 	}
 
 }
+.pagination.pager {
+    margin: 40px 0;
+    .current a {
+    background: #cc0000;
+    	&:hover{
+        background: #000;
+        }
+	}
+	a {
+		background: #ccc;
+	    color: #fff;
+	    display: inline-block;
+	    font-size: 14px;
+	    font-family: "opensans", sans-serif;
+	    padding: 6px 16px;
+    	text-transform: uppercase;
+	}
+}
+
 /*********************/
-/*Slider Home        */
+/*Pager        */
 /*********************/ 

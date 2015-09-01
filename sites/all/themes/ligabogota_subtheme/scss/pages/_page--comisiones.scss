@@ -3,21 +3,24 @@
 
     .view-id-comiciones{
     	.comision-header{
-    		    font-family: 'opensans',sans-serif;
+    	font-family: 'opensans',sans-serif;
         font-size: 12px;
         line-height: 18px;
         color: $gris-texto;
     	}
 
     	.views-field-title{
-                border-bottom: solid 1px $gris-texto;
-                padding: 10px 0;
+                border-bottom: solid 1px #e1e1e1;
+                padding: 18px 0;
                 span{
                     a{
                         font-family: 'ubuntu',sans-serif;
                         color: #000;
-                        font-size: 17px;
+                        font-size: 18px;
                         text-transform: uppercase;
+                        &:hover{
+                        color: #cc0000;
+                        }
 
                     }
                 }

@@ -58,7 +58,7 @@
       font-weight: normal;
       text-transform: uppercase;
       //border-left: 4px solid $borde-amarillo ;
-      padding: 0 4px;
+      padding: 5px 4px;
       color:$borde-rojo;
       border-left:4px solid;
 
@@ -123,6 +123,9 @@ main{
     input{
       width: 225px;
       margin: 0;
+       font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #666;
     }
     button{
       margin: 0;

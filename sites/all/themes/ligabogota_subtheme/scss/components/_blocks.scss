@@ -58,6 +58,13 @@
         font-size:12px;
         color:#666666;
         padding-top: 8px;
+        a{
+         color:#666;
+         padding-left: 10px;
+         &:hover{
+         color: #cc0000;
+                }
+         }
     
     span{
         background: #326295;
@@ -87,7 +94,6 @@
         }
         .views-field-nothing{
             float: left;
-            border-right: solid 1px #666666;
             .widget-logococacola{
                 padding: 40px 16px;
             }
@@ -378,6 +384,9 @@
                     font-size: 21px;
                     display: block;
                     margin-bottom: 5px;
+                    &:hover{
+                        color: #cc0000;
+                    }
 
                 }
             }

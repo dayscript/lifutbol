@@ -6,7 +6,7 @@
 			display: inline-block;
 		    padding: 19px 0;
     		margin-right: 60px;
-    		border-bottom: solid 3px #d8d8d8;
+    		border-bottom: solid 1px #e1e1e1;
 			.views-field-field-image{
 				float: left;
 				margin-right: 3px;
@@ -23,7 +23,11 @@
 				span{
 			    	a{
 			    		color:#000;
+			    		padding-left: 10px;
 			    		text-transform: uppercase;
+			    		&:hover{
+                        color: #cc0000;
+                        }
 			    	}
 			    }
 			}
@@ -32,7 +36,7 @@
 			display: inline-block;
 			width: 45%;
 			padding: 19px 0;
-			border-bottom: solid 3px #d8d8d8;
+			border-bottom: solid 1px #e1e1e1;
 			.views-field-field-image{
 				float: left;
 				margin-right: 3px;
@@ -40,15 +44,19 @@
 			.views-field.views-field-title {
 			    display: inline-block;
 			    width: 60%;
-			    position: relative;
+			 	position: relative;
 			    padding: 45px 0;
 			    font-family: 'ubuntu',sans-serif;
-			    font-size: 20px;
+			    font-size: 18px;
 			    font-weight: 100;
 			    span{
 			    	a{
 			    		color:#000;
+			    		padding-left: 10px;
 			    		text-transform: uppercase;
+			    		&:hover{
+                        color: #cc0000;
+                        }
 
 			    	}
 			    }
