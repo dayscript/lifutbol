@@ -13,8 +13,11 @@
 	}
 
 	.flex-control-nav{
-		bottom:40px;
+		bottom:10px;
 		z-index: 3;
+		a.flex-active{
+			background: #cc0000;
+		}
 	}
 	.views-field-title{
 		position: absolute;
@@ -43,6 +46,9 @@
 	}
 
 }
+/*********************/
+/*Pager        */
+/*********************/ 
 .pagination.pager {
     margin: 40px 0;
     .current a {
@@ -62,6 +68,3 @@
 	}
 }
 
-/*********************/
-/*Pager        */
-/*********************/ 

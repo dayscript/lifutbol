@@ -801,8 +801,10 @@
     border: 0;
     margin-bottom: 0; }
   .block-views-views-banner-slider-home-block .flex-control-nav {
-    bottom: 40px;
+    bottom: 10px;
     z-index: 3; }
+    .block-views-views-banner-slider-home-block .flex-control-nav a.flex-active {
+      background: #cc0000; }
   .block-views-views-banner-slider-home-block .views-field-title {
     position: absolute;
     top: 200px;
@@ -825,6 +827,9 @@
         color: #fff;
         text-transform: uppercase; }
 
+/*********************/
+/*Pager        */
+/*********************/
 .pagination.pager {
   margin: 40px 0; }
   .pagination.pager .current a {
@@ -840,9 +845,6 @@
     padding: 6px 16px;
     text-transform: uppercase; }
 
-/*********************/
-/*Pager        */
-/*********************/
 /*layout*/
 .l-header {
   padding: 8px 0px; }
