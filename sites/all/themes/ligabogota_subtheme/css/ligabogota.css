@@ -236,30 +236,40 @@
       .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a:hover {
         color: #cc0000; }
 
-.view-id-documentacion ul.quicktabs-style-basic {
+.page-documentacion .view-id-documentacion ul.quicktabs-style-basic {
   height: auto;
   padding: 0;
   border-bottom: solid 2px #999; }
-  .view-id-documentacion ul.quicktabs-style-basic li {
+  .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li {
     background-color: #fff;
     margin: 0;
     width: 355px;
     text-align: center;
     padding: 11px 0px;
     display: inline-block; }
-    .view-id-documentacion ul.quicktabs-style-basic li a {
+    .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li a {
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       color: black; }
-  .view-id-documentacion ul.quicktabs-style-basic li.active {
+  .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li.active {
     background-color: #999999;
     border-bottom: 0; }
-    .view-id-documentacion ul.quicktabs-style-basic li.active a {
+    .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li.active a {
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       color: #fff; }
+.page-documentacion .view-id-documentacion .views-field-title {
+  border-bottom: solid 1px #e1e1e1;
+  padding: 18px 0; }
+  .page-documentacion .view-id-documentacion .views-field-title span a {
+    font-family: 'ubuntu',sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase; }
+    .page-documentacion .view-id-documentacion .views-field-title span a:hover {
+      color: #cc0000; }
 
 /*components*/
 .menu li a.active, .menu li a:hover {
