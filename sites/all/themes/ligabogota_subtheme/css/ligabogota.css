@@ -742,7 +742,7 @@
   .pagination.pager .current a {
     background: #cc0000; }
     .pagination.pager .current a:hover {
-      color: #cc0000; }
+      background: #000; }
   .pagination.pager a {
     background: #ccc;
     color: #fff;
