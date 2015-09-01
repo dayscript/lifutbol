@@ -67,6 +67,57 @@
 		display: inline-block;
 		padding: 19px 0;
 		border-bottom: solid 1px #e1e1e1;
+			.views-field-field-image{
+                margin-bottom: 18px;      
+            }
+	.views-field-changed{
+                margin-bottom: 10px;
+                font-size: 12px;
+                font-family: "opensans", sans-serif;
+                color:#999;
+     }
+	.views-field-body{
+                p{
+                      color: #999;
+                      font-size: 13px;
+                      line-height: 20px;
+                      margin-bottom: 0;
+                      font-family: "opensans", sans-serif;
+                }
+     }
+     .views-field-title{
+     	font-family: 'ubuntu',sans-serif;
+    	text-transform: uppercase;
+    	font-size: 21px;
+    	display: block;
+   		margin-bottom: 5px;
+   		 span{
+			    a{
+			    	color:#000;
+			    	text-transform: uppercase;
+			    	&:hover{
+                       color: #cc0000;
+                    }
+
+			    	}
+			    }
+   	}
+   	.views-field-nothing{
+                border:none;
+                span{
+                    a{
+                        font-size: 13px;
+                        font-family: "opensans", sans-serif;
+                        font-weight: bold;   
+                        color: #C70209;
+                        text-transform: none;
+                        display: inline-block;
+                        &:hover{
+                            font-size:13px;
+                         }
+                    }
+                }
+            }
 	}
 }
 }
