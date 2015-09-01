@@ -38,15 +38,18 @@
     margin: 40px 0;
     .current a {
     background: #cc0000;
+    	&:hover{
+        color: #cc0000;
+        }
 	}
 	a {
 		background: #ccc;
-    color: #fff;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "opensans", sans-serif;
-    padding: 6px 16px;
-    text-transform: uppercase;
+	    color: #fff;
+	    display: inline-block;
+	    font-size: 14px;
+	    font-family: "opensans", sans-serif;
+	    padding: 6px 16px;
+    	text-transform: uppercase;
 	}
 }
 
