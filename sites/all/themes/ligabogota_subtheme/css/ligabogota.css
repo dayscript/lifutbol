@@ -153,6 +153,7 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
+      font-weight: normal;
       color: black; }
   .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active {
     background-color: #ba0000;
@@ -161,6 +162,7 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
+      font-weight: normal;
       color: #fff; }
 .page-torneos .field-name-quicktabs .views-field-title {
   border-bottom: solid 1px #e1e1e1;
@@ -251,6 +253,7 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
+      font-weight: normal;
       color: black; }
   .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li.active {
     background-color: #999999;
@@ -259,6 +262,7 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
+      font-weight: normal;
       color: #fff; }
 .page-documentacion .view-id-documentacion .views-field-changed {
   margin-bottom: 4px; }
@@ -498,6 +502,7 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
+      font-weight: normal;
       color: black; }
   .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active {
     background-color: #999999;
@@ -506,6 +511,7 @@
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
+      font-weight: normal;
       color: #fff; }
 
 /***************************/
