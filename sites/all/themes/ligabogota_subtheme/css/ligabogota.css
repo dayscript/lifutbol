@@ -799,7 +799,7 @@
     z-index: 3; }
   .block-views-views-banner-slider-home-block .views-field-title {
     position: absolute;
-    top: 140px;
+    top: 200px;
     width: 100%; }
     .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper {
       text-align: center; }
@@ -814,7 +814,6 @@
       .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper p {
         font-family: "Ubuntu",sans-serif;
         font-size: 24px;
-        letter-spacing: -1px;
         font-weight: normal;
         line-height: 30px;
         color: #fff;
