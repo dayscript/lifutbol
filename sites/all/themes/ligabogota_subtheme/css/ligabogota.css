@@ -737,8 +737,11 @@
         color: #fff;
         text-transform: uppercase; }
 
+.pagination.pager {
+  margin: 40px 0; }
+
 /*********************/
-/*Slider Home        */
+/*Pager        */
 /*********************/
 /*layout*/
 .l-header {
