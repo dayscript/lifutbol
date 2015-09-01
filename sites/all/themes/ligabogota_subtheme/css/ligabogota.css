@@ -282,6 +282,11 @@
   font-size: 12px;
   color: #666666;
   padding-top: 8px; }
+  .redes p a {
+    color: #000;
+    padding-left: 10px; }
+    .redes p a:hover {
+      color: #cc0000; }
   .redes p span {
     background: #326295;
     padding: 6px;

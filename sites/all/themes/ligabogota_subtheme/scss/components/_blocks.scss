@@ -58,6 +58,13 @@
         font-size:12px;
         color:#666666;
         padding-top: 8px;
+        a{
+         color:#000;
+         padding-left: 10px;
+         &:hover{
+         color: #cc0000;
+                }
+         }
     
     span{
         background: #326295;
