@@ -260,6 +260,12 @@
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       color: #fff; }
+.page-documentacion .view-id-documentacion .views-field-changed {
+  margin-bottom: 4px; }
+  .page-documentacion .view-id-documentacion .views-field-changed span {
+    font-size: 12px;
+    font-family: "opensans", sans-serif;
+    color: #999; }
 .page-documentacion .view-id-documentacion .views-field-title span a {
   font-family: 'ubuntu',sans-serif;
   color: #000;
