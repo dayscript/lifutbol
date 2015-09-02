@@ -94,12 +94,12 @@
     .view-footer{
         width: 24%;
         display: inline-block;
+        background-color: #333;
+        border-left: solid 1px #5E5E5E;
     }
     .views-row ,.view-empty{
-        display: inline-block;
-        width: 100%;
+        display: inline-flex;
         background-color: #333;
-        position: relative;
         .views-field{
             
         }
