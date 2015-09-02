@@ -431,13 +431,14 @@
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
     float: left;
     width: 100%;
-    padding: 10px 23px 9px 15px;
+    padding: 13px 23px 13px 15px;
     border: 1px solid #5E5E5E;
     border-right: 0; }
     .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
       background-color: #C60F13; }
       .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
-        color: #fff; }
+        color: #fff;
+        font-weight: 300; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
     font-family: 'opensans',sans-serif;
     text-transform: uppercase;
