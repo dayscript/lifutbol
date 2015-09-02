@@ -114,16 +114,6 @@
         font-size: 13px; }
 .page-noticias .pagination-centered .pagination {
   clear: both; }
-.page-noticias div#comments {
-  margin-top: 20px; }
-  .page-noticias div#comments h3 {
-    font-family: "Ubuntu",sans-serif;
-    font-size: 24px;
-    text-transform: uppercase; }
-    .page-noticias div#comments h3 a {
-      color: #cc0000;
-      text-decoration: none;
-      line-height: inherit; }
 
 .page-torneos .view-display-id-block_1 {
   width: 100%; }
@@ -778,6 +768,13 @@
     font-size: 20px;
     color: #000;
     margin: 5px 0 5px 0; }
+
+.field-name-comment-body {
+  font-family: 'opensans',sans-serif;
+  font-size: 13px;
+  color: #999999;
+  line-height: 18px;
+  margin-top: 15px; }
 
 .field-type-entityreference .field-label {
   font-family: "ubuntu", sans-serif;
