@@ -732,14 +732,12 @@
   line-height: 18px;
   margin-top: 15px; }
 
-/*
-.views-field-nothing{
-            float: left;
-            border-right: solid 1px #666666;
-            .widget-logococacola{
-                padding: 40px 16px;
-            }
-        }*/
+.view-id-torneos .views-field-nothing {
+  float: left;
+  border-right: solid 1px #666666; }
+  .view-id-torneos .views-field-nothing .widget-logococacola {
+    padding: 40px 16px; }
+
 .views-field-nothing-1 {
   padding: 0 3px;
   border-left: solid 1px #666666;
