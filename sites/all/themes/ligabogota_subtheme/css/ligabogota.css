@@ -175,6 +175,9 @@
     .page-torneos .field-name-quicktabs .views-field-title span a:hover {
       color: #cc0000; }
 
+.node-type-torneo .group-content iframe {
+  height: 800px; }
+
 .page-comisiones .view-id-comiciones .comision-header {
   font-family: 'opensans',sans-serif;
   font-size: 12px;
@@ -355,9 +358,11 @@
     background: #326295;
     padding: 6px;
     border-radius: 8px;
-    margin-left: 28px; }
+    color: #fff; }
     .redes p span a {
       color: #fff; }
+      .redes p span a:hover {
+        color: #fff; }
 
 /***************************/
 /*WIDGET COPA COCACOLA HOME*/
@@ -373,6 +378,8 @@
     float: left; }
     .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
       padding: 40px 16px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
+    width: 100%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
     width: 57%;
     height: 112px;
@@ -727,7 +734,9 @@
 .field-type-text-with-summary {
   font-family: 'opensans',sans-serif;
   font-size: 13px;
-  color: #999999; }
+  color: #999999;
+  line-height: 18px;
+  margin-top: 15px; }
 
 .views-field-nothing {
   float: left;
@@ -768,7 +777,8 @@
   background-repeat: no-repeat; }
 
 .block-views-view-resoluciones-block .view-view-resoluciones .view-content, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  margin-bottom: 18px; }
   .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
     padding: 23px 13px;
     font-size: 13px;
@@ -974,6 +984,12 @@ h1#page-title {
   -moz-border-image: -moz-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
   -o-border-image: -o-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
   border-left-image: linear-gradient(to top, #CF0507, #FFF112) 1 100%; }
+
+h3 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000; }
 
 body {
   background-color: #F3F3F3; }

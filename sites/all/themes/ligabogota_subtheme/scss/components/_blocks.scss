@@ -70,9 +70,12 @@
         background: #326295;
         padding: 6px;
         border-radius: 8px;
-        margin-left: 28px;
+        color:#fff;
         a{
             color:#fff;
+            &:hover{
+            color: #fff;
+            }
         }
 
         }
@@ -596,6 +599,8 @@
     font-family: 'opensans',sans-serif;
     font-size: 13px;
     color: #999999;
+    line-height: 18px;
+    margin-top: 15px;
 }
 
 
@@ -653,6 +658,7 @@
     .view-view-resoluciones{
         .view-content{
             background-color: $color-block-resolucion;
+            margin-bottom: 18px;
             .views-row{
                 padding: 23px 13px;
                 font-size: 13px;
