@@ -110,6 +110,8 @@
       display: inline-block; }
       .page-noticias .view-id-noticias .views-row-even .views-field-nothing span a:hover {
         font-size: 13px; }
+.page-noticias .pagination-centered .pagination {
+  clear: both; }
 
 .page-torneos .view-display-id-block_1 {
   width: 100%; }
