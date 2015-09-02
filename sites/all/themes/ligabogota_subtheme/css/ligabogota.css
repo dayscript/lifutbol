@@ -26,6 +26,8 @@
   display: none;
   margin-top: 1px; }
 
+.page-noticias .view-id-noticias .view-content {
+  display: inline-block; }
 .page-noticias .view-id-noticias .views-row-odd {
   float: left;
   margin-right: 60px;
