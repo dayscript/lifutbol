@@ -779,7 +779,8 @@
   margin: 0 auto;
   height: 38px;
   background: url("/sites/default/lupa.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  top: 20px; }
 .views-field-nothing .widget-logococacola .buscador-avanzado a {
   font-family: 'ubuntu',sans-serif;
   font-size: 13px;
@@ -789,7 +790,8 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 8px 0; }
+  padding: 8px 0;
+  line-height: 14px; }
 
 .widget-logococacola:hover .buscador-avanzado a {
   color: #fff; }
