@@ -980,6 +980,12 @@ h1#page-title {
   -o-border-image: -o-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
   border-left-image: linear-gradient(to top, #CF0507, #FFF112) 1 100%; }
 
+h3 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #000; }
+
 body {
   background-color: #F3F3F3; }
 
