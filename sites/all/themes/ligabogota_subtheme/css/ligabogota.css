@@ -354,7 +354,8 @@
   .redes p span {
     background: #326295;
     padding: 6px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    color: #fff; }
     .redes p span a {
       color: #fff; }
       .redes p span a:hover {
