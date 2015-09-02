@@ -178,10 +178,11 @@
             }
         }
         a{
-            font-family: 'opensans',sans-serif;
+            font-family: 'ubuntu',sans-serif;
             text-transform: uppercase;
-            color: #BFBAB8; 
-            font-size: 12px;
+            color: #FFF; 
+            font-size: 14px;
+            font-weight: normal;
         }
         .views-field.views-field-field-programaci-n,.views-field-field-posiciones,.views-field-field-posiciones,.views-field-field-resultados,.views-field-field-goleadores {
             padding: 0 15px;
@@ -213,8 +214,7 @@
     #quicktabs-container-widget_quicktab_copa_cocacola{
     	padding:0;
     	margin-bottom: 36px;
-
-
+        border: none;
     }
     form{
         background-color: #cf0507;
@@ -588,7 +588,8 @@
         #flexslider-1,#flexslider-2,#flexslider-5{
             background: rgba(186, 0, 0, 0);
             margin-bottom:40px; 
-            border:0;
+            border:none;
+            padding: 10px;
             li{
             margin-right: 10px!important;
             }
