@@ -726,6 +726,8 @@
   border: 0; }
   .block-views-torneos-block .view-id-torneos #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 li {
     margin-right: 10px !important; }
+  .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-viewport {
+    padding: 15px 0; }
   .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-direction-nav a {
     height: 60px; }
 
