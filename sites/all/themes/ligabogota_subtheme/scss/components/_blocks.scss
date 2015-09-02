@@ -98,7 +98,8 @@
         .views-field-nothing{
             float: right;
             .widget-logococacola{
-                
+                border-left: 1px solid #5E5E5E;
+
             }
         }
         .views-field-field-identificador-commet{
@@ -158,8 +159,10 @@
         }
         .views-field-title{
             float: left;
-            width: 74%; 
+            width: 535px;
             padding: 10px 23px 9px 15px;
+            border: 1px solid #5E5E5E;
+            border-right: 0;
             
             &:hover{
                 background-color: #C60F13;
@@ -377,7 +380,6 @@
                         font-weight: bold;   
                         color: #C70209;
                         text-transform: none;
-                        padding: 10px 0 20px 0;
                         &:hover{
                             font-size:13px;
                          }

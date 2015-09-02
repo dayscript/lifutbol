@@ -378,6 +378,8 @@
   position: relative; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing {
     float: right; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
+      border-left: 1px solid #5E5E5E; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
     width: 100%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
@@ -417,8 +419,10 @@
     background-repeat: no-repeat; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
     float: left;
-    width: 74%;
-    padding: 10px 23px 9px 15px; }
+    width: 535px;
+    padding: 10px 23px 9px 15px;
+    border: 1px solid #5E5E5E;
+    border-right: 0; }
     .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
       background-color: #C60F13; }
       .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
@@ -581,8 +585,7 @@
       font-family: "opensans", sans-serif;
       font-weight: bold;
       color: #C70209;
-      text-transform: none;
-      padding: 10px 0 20px 0; }
+      text-transform: none; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
         font-size: 13px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 li {
