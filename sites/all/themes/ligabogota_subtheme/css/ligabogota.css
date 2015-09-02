@@ -354,10 +354,11 @@
   .redes p span {
     background: #326295;
     padding: 6px;
-    border-radius: 8px;
-    margin-left: 28px; }
+    border-radius: 8px; }
     .redes p span a {
       color: #fff; }
+      .redes p span a:hover {
+        color: #fff; }
 
 /***************************/
 /*WIDGET COPA COCACOLA HOME*/

@@ -70,9 +70,11 @@
         background: #326295;
         padding: 6px;
         border-radius: 8px;
-        margin-left: 28px;
         a{
             color:#fff;
+            &:hover{
+            color: #fff;
+            }
         }
 
         }
