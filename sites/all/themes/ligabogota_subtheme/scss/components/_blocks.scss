@@ -88,9 +88,13 @@
 
 .block-quicktabs-widget-quicktab-copa-cocacola{
     .view-content{
-            float: left;
-            width: 75%;
+                float: left;
+                width: 76%;
         }
+    .view-footer{
+        width: 24%;
+        display: inline-block;
+    }
     .views-row ,.view-empty{
         display: inline-block;
         width: 100%;
