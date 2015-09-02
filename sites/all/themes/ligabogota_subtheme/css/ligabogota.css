@@ -895,6 +895,11 @@
   .block-system-main-menu .block-title {
     display: none; }
 
+.not-front .block-system-main-menu {
+  background-color: rgba(0, 0, 0, 0.62); }
+  .not-front .block-system-main-menu .block-title {
+    display: none; }
+
 .front .block-system-main-menu {
   position: absolute; }
 
