@@ -416,7 +416,13 @@
     background: url("/sites/default/lupahover.png");
     background-repeat: no-repeat; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
-    float: left; }
+    float: left;
+    width: 74%;
+    padding: 10px 23px 9px 15px; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
+      background-color: #C60F13; }
+      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
+        color: #fff; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
     font-family: 'opensans',sans-serif;
     text-transform: uppercase;
@@ -730,9 +736,8 @@
   font-family: 'opensans',sans-serif;
   font-size: 13px;
   color: #999999;
-  line-height: 22px;
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  line-height: 18px;
+  margin-top: 15px; }
 
 .view-id-torneos .views-field-nothing {
   float: left;
@@ -740,6 +745,11 @@
   .view-id-torneos .views-field-nothing .widget-logococacola {
     padding: 40px 16px; }
 
+.views-field-nothing .widget-logococacola img {
+  width: 139px;
+  display: inline-block;
+  margin-left: 12px;
+  margin: 11px 19px; }
 .views-field-nothing .widget-logococacola .lupa {
   display: block;
   width: 38px;
