@@ -158,7 +158,17 @@
         }
         .views-field-title{
             float: left;
+            width: 74%; 
+            padding: 10px 23px 9px 15px;
             
+            &:hover{
+                background-color: #C60F13;
+                span{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
         }
         a{
             font-family: 'opensans',sans-serif;
@@ -599,9 +609,8 @@
     font-family: 'opensans',sans-serif;
     font-size: 13px;
     color: #999999;
-    line-height: 22px;
+    line-height: 18px;
     margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .view-id-torneos{
@@ -616,7 +625,13 @@
         .views-field-nothing{
                
            .widget-logococacola{
-                    
+                img{
+                        width: 139px;
+                        display: inline-block;
+                        margin-left: 12px;
+                        margin: 11px 19px;
+                } 
+
                 .lupa{
                     display: block;
                     width: 38px;
