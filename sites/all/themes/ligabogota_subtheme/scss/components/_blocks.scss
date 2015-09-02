@@ -93,10 +93,10 @@
         background-color: #333;
         position: relative;
         .views-field{
-            display: inline-block;
+            
         }
         .views-field-nothing{
-            float: left;
+            
             .widget-logococacola{
                 padding: 40px 16px;
             }
@@ -120,11 +120,7 @@
             }
         }
         .views-field-nothing-1{
-            padding: 0 3px;
-            border-left: solid 1px #666666;
-            position: absolute;
-            top: 0;
-            height: 112px;
+            
             
            .widget-image-buscador-avanzado{
                     padding: 23px 10px 10px;
@@ -161,8 +157,7 @@
             }   
         }
         .views-field-title{
-            display: block;
-            padding: 12px 140px;
+            
         }
         a{
             font-family: 'opensans',sans-serif;
@@ -572,10 +567,14 @@
             }
         }
         #flexslider-1,#flexslider-2,#flexslider-5{
-                 background: rgba(186, 0, 0, 0);
+            background: rgba(186, 0, 0, 0);
+            margin-bottom:40px; 
             border:0;
             li{
             margin-right: 10px!important;
+            }
+            .flex-viewport{
+             padding: 15px 0;
             }
             .flex-direction-nav{
                 
@@ -603,12 +602,13 @@
     margin-top: 15px;
 }
 
-
-.views-field-nothing{
-            float: left;
-            border-right: solid 1px #666666;
-            .widget-logococacola{
-                padding: 40px 16px;
+.view-id-torneos{
+    .views-field-nothing{
+                float: left;
+                border-right: solid 1px #666666;
+                .widget-logococacola{
+                    padding: 40px 16px;
+                }
             }
         }
         .views-field-nothing-1{
