@@ -371,6 +371,9 @@
 /***************************/
 /*WIDGET COPA COCACOLA HOME*/
 /***************************/
+.block-quicktabs-widget-quicktab-copa-cocacola .view-content {
+  float: left;
+  width: 75%; }
 .block-quicktabs-widget-quicktab-copa-cocacola .views-row, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
   display: inline-block;
   width: 100%;
@@ -382,9 +385,6 @@
       border-left: 1px solid #5E5E5E; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
     width: 100%; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .view-content, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .view-content {
-    float: left;
-    width: 75%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
     width: 57%;
     height: 112px;
@@ -431,11 +431,10 @@
       .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
         color: #fff; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
-    font-family: 'ubuntu',sans-serif;
+    font-family: 'opensans',sans-serif;
     text-transform: uppercase;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: normal; }
+    color: #BFBAB8;
+    font-size: 12px; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-goleadores, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-goleadores {
     padding: 0 15px; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row label, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty label {
@@ -457,8 +456,7 @@
       font-size: 10px; }
 .block-quicktabs-widget-quicktab-copa-cocacola #quicktabs-container-widget_quicktab_copa_cocacola {
   padding: 0;
-  margin-bottom: 36px;
-  border: none; }
+  margin-bottom: 36px; }
 .block-quicktabs-widget-quicktab-copa-cocacola form {
   background-color: #cf0507;
   margin: 0;
@@ -729,8 +727,7 @@
   .block-views-torneos-block .view-id-torneos #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 {
     background: rgba(186, 0, 0, 0);
     margin-bottom: 40px;
-    border: none;
-    padding: 10px; }
+    border: 0; }
     .block-views-torneos-block .view-id-torneos #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 li {
       margin-right: 10px !important; }
     .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-viewport {
