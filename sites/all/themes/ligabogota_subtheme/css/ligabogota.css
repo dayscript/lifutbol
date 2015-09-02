@@ -778,12 +778,12 @@
 .field-type-entityreference .views-field-title {
   border-bottom: solid 1px #e1e1e1;
   padding: 18px 0; }
-  .field-type-entityreference .views-field-title span a {
+  .field-type-entityreference .views-field-title a {
     font-family: 'ubuntu',sans-serif;
     color: #000;
     font-size: 18px;
     text-transform: uppercase; }
-    .field-type-entityreference .views-field-title span a:hover {
+    .field-type-entityreference .views-field-title a:hover {
       color: #cc0000; }
 
 .view-id-torneos .views-field-nothing {
