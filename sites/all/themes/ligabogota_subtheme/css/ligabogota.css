@@ -602,6 +602,7 @@
       font-family: "opensans", sans-serif;
       font-weight: bold;
       color: #C70209;
+      padding: 10px 0 15px 0;
       text-transform: none; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
         font-size: 13px; }
