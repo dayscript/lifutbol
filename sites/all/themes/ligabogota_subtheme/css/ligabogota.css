@@ -378,6 +378,8 @@
   position: relative; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing {
     float: right; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
+      border-left: 1px solid #5E5E5E; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
     width: 100%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
@@ -416,7 +418,15 @@
     background: url("/sites/default/lupahover.png");
     background-repeat: no-repeat; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
-    float: left; }
+    float: left;
+    width: 535px;
+    padding: 10px 23px 9px 15px;
+    border: 1px solid #5E5E5E;
+    border-right: 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
+      background-color: #C60F13; }
+      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
+        color: #fff; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
     font-family: 'ubuntu',sans-serif;
     text-transform: uppercase;
@@ -577,8 +587,7 @@
       font-family: "opensans", sans-serif;
       font-weight: bold;
       color: #C70209;
-      text-transform: none;
-      padding: 10px 0 20px 0; }
+      text-transform: none; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
         font-size: 13px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 li {
@@ -705,23 +714,25 @@
 /***************************/
 /*Block galeria Slider Home/
 /***************************/
-.block-views-torneos-block .view-id-torneos #flexslider-4 {
-  background: rgba(186, 0, 0, 0);
-  border: 0; }
-  .block-views-torneos-block .view-id-torneos #flexslider-4 li {
-    margin-right: 10px !important; }
-  .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
-    height: 60px; }
-.block-views-torneos-block .view-id-torneos #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 {
-  background: rgba(186, 0, 0, 0);
-  margin-bottom: 40px;
-  border: 0; }
-  .block-views-torneos-block .view-id-torneos #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 li {
-    margin-right: 10px !important; }
-  .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-viewport {
-    padding: 15px 0; }
-  .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-direction-nav a {
-    height: 60px; }
+.block-views-torneos-block .view-id-torneos {
+  width: 22%; }
+  .block-views-torneos-block .view-id-torneos #flexslider-4 {
+    background: rgba(186, 0, 0, 0);
+    border: 0; }
+    .block-views-torneos-block .view-id-torneos #flexslider-4 li {
+      margin-right: 10px !important; }
+    .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
+      height: 60px; }
+  .block-views-torneos-block .view-id-torneos #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 {
+    background: rgba(186, 0, 0, 0);
+    margin-bottom: 40px;
+    border: 0; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 li {
+      margin-right: 10px !important; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-viewport {
+      padding: 15px 0; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-direction-nav a {
+      height: 60px; }
 
 .sharethis-wrapper {
   border-left: solid 5px red;
@@ -732,9 +743,8 @@
   font-family: 'opensans',sans-serif;
   font-size: 13px;
   color: #999999;
-  line-height: 22px;
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  line-height: 18px;
+  margin-top: 15px; }
 
 .view-id-torneos .views-field-nothing {
   float: left;
@@ -742,6 +752,11 @@
   .view-id-torneos .views-field-nothing .widget-logococacola {
     padding: 40px 16px; }
 
+.views-field-nothing .widget-logococacola img {
+  width: 139px;
+  display: inline-block;
+  margin-left: 12px;
+  margin: 11px 19px; }
 .views-field-nothing .widget-logococacola .lupa {
   display: block;
   width: 38px;
