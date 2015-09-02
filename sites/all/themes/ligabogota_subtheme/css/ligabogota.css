@@ -376,6 +376,8 @@
   width: 100%;
   background-color: #333;
   position: relative; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing {
+    float: right; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
     width: 100%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
@@ -737,11 +739,7 @@
     padding: 40px 16px; }
 
 .views-field-nothing-1 {
-  padding: 0 3px;
-  border-left: solid 1px #666666;
-  position: absolute;
-  top: 0;
-  height: 112px; }
+  float: right; }
   .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
     display: block;
     width: 38px;
