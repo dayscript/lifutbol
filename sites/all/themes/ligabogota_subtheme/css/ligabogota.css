@@ -738,29 +738,27 @@
   .view-id-torneos .views-field-nothing .widget-logococacola {
     padding: 40px 16px; }
 
-.views-field-nothing-1 {
-  float: right; }
-  .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
-    display: block;
-    width: 38px;
-    margin: 0 auto;
-    height: 38px;
-    background: url("/sites/default/lupa.png");
-    background-repeat: no-repeat; }
-  .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a {
-    font-family: 'ubuntu',sans-serif;
-    font-size: 13px;
-    color: #606060;
-    text-transform: uppercase;
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding: 8px 0; }
+.views-field-nothing .widget-image-buscador-avanzado .lupa {
+  display: block;
+  width: 38px;
+  margin: 0 auto;
+  height: 38px;
+  background: url("/sites/default/lupa.png");
+  background-repeat: no-repeat; }
+.views-field-nothing .widget-image-buscador-avanzado .buscador-avanzado a {
+  font-family: 'ubuntu',sans-serif;
+  font-size: 13px;
+  color: #606060;
+  text-transform: uppercase;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px 0; }
 
-.views-field-nothing-1:hover .buscador-avanzado a {
+.views-field-nothing:hover .buscador-avanzado a {
   color: #fff; }
-.views-field-nothing-1:hover .lupa {
+.views-field-nothing:hover .lupa {
   background: url("/sites/default/lupahover.png");
   background-repeat: no-repeat; }
 
