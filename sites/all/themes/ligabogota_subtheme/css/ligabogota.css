@@ -640,6 +640,9 @@
     text-decoration: none;
     line-height: inherit; }
 
+.views-field.views-field-follow {
+  padding: 10px; }
+
 /***************************/
 /*Block galeria Slider Home/
 /***************************/
