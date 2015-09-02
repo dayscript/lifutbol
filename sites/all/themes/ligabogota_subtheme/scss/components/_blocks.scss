@@ -100,9 +100,8 @@
     .views-row ,.view-empty{
         display: inline-flex;
         background-color: #333;
-        .views-field{
-            
-        }
+        width: 100%;
+        
         .views-field-nothing{
             float: right;
             .widget-logococacola{
@@ -110,7 +109,7 @@
 
             }
         }
-        .views-field-field-identificador-commet{
+        /*.views-field-field-identificador-commet{
             width: 100%;
         }
         
@@ -127,7 +126,7 @@
                 text-align: center;
                 margin: 40px 0;
                 font-family: 'opensans',sans-serif;
-            }
+            }*/
         }
         .views-field-nothing-1{
             
@@ -168,7 +167,7 @@
         }
         .views-field-title{
             float: left;
-            width: 535px;
+            width: 100%;
             padding: 10px 23px 9px 15px;
             border: 1px solid #5E5E5E;
             border-right: 0;
