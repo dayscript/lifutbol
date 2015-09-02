@@ -170,7 +170,7 @@
             width: 100%;
             padding: 13px 23px 13px 15px;
             border: 1px solid #5E5E5E;
-            border-right: 0;
+            border-top: 0;
             
             &:hover{
                 background-color: #C60F13;
@@ -218,6 +218,8 @@
     #quicktabs-container-widget_quicktab_copa_cocacola{
     	padding:0;
     	margin-bottom: 36px;
+        display: inline-block;
+        background-color: #333;
 
 
     }

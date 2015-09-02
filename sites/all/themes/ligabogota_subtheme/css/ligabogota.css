@@ -433,7 +433,7 @@
     width: 100%;
     padding: 13px 23px 13px 15px;
     border: 1px solid #5E5E5E;
-    border-right: 0; }
+    border-top: 0; }
     .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
       background-color: #C60F13; }
       .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
@@ -465,7 +465,9 @@
       font-size: 10px; }
 .block-quicktabs-widget-quicktab-copa-cocacola #quicktabs-container-widget_quicktab_copa_cocacola {
   padding: 0;
-  margin-bottom: 36px; }
+  margin-bottom: 36px;
+  display: inline-block;
+  background-color: #333; }
 .block-quicktabs-widget-quicktab-copa-cocacola form {
   background-color: #cf0507;
   margin: 0;
