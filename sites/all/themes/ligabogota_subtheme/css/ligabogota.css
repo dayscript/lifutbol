@@ -644,9 +644,8 @@
     color: #cc0000;
     text-decoration: none;
     line-height: inherit; }
-
-.views-field-follow {
-  padding: 10px; }
+  .view-tweets span.views-label.views-label-follow {
+    padding: 10px; }
 
 /***************************/
 /*Block galeria Slider Home/
