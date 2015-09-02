@@ -13,12 +13,17 @@
 	}
 
 	.flex-control-nav{
-		bottom:40px;
+		bottom:10px;
 		z-index: 3;
+		}
+	.flex-control-nav li{
+		a.flex-active{
+			background: #cc0000;
+		}
 	}
 	.views-field-title{
 		position: absolute;
-		top: 140px;
+		top: 200px;
 		width: 100%;
 		.title-banner-wrapper{
 			text-align:center; 
@@ -26,14 +31,26 @@
 			  font-family: "Ubuntu",sans-serif;
 			  font-size: 46px;
 			  letter-spacing: -1px;
-			  font-weight: 100;
+			  font-weight: normal;
+			  line-height: 40px;
 			  color:#fff;
 			  text-transform: uppercase;
+			}
+			p{
+				font-family: "Ubuntu",sans-serif;
+			  	font-size: 24px;
+			  	font-weight: normal;
+			  	line-height: 30px;
+			  	color:#fff;
+			  	text-transform: uppercase;	
 			}
 		}
 	}
 
 }
+/*********************/
+/*Pager        */
+/*********************/ 
 .pagination.pager {
     margin: 40px 0;
     .current a {
@@ -53,6 +70,3 @@
 	}
 }
 
-/*********************/
-/*Pager        */
-/*********************/ 
