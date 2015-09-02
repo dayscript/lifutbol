@@ -371,15 +371,15 @@
 /***************************/
 /*WIDGET COPA COCACOLA HOME*/
 /***************************/
-.block-quicktabs-widget-quicktab-copa-cocacola .view-content, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-content {
+.block-quicktabs-widget-quicktab-copa-cocacola .view-content {
   float: left;
   width: 76%; }
-.block-quicktabs-widget-quicktab-copa-cocacola .view-footer, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-footer {
+.block-quicktabs-widget-quicktab-copa-cocacola .view-footer {
   width: 24%;
   display: inline-block;
   background-color: #333;
   border-left: solid 1px #5E5E5E; }
-.block-quicktabs-widget-quicktab-copa-cocacola .views-row, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty {
+.block-quicktabs-widget-quicktab-copa-cocacola .views-row, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
   display: inline-flex;
   background-color: #333;
   width: 100%;
@@ -402,18 +402,18 @@
           font-family: 'opensans',sans-serif;
       }
   }*/ }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-nothing, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-nothing {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing {
     float: right; }
-    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-nothing .widget-logococacola, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-nothing .widget-logococacola {
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
       border-left: 1px solid #5E5E5E; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .lupa, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .lupa, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
     display: block;
     width: 38px;
     margin: 0 auto;
     height: 38px;
     background: url("/sites/default/lupa.png");
     background-repeat: no-repeat; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a {
     font-family: 'ubuntu',sans-serif;
     font-size: 13px;
     color: #606060;
@@ -423,113 +423,114 @@
     margin: 0 auto;
     text-align: center;
     padding: 8px 0; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .buscador-avanzado a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-nothing-1:hover .buscador-avanzado a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-nothing-1:hover .buscador-avanzado a {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .buscador-avanzado a {
     color: #fff; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .lupa, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-nothing-1:hover .lupa, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-nothing-1:hover .lupa {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .lupa {
     background: url("/sites/default/lupahover.png");
     background-repeat: no-repeat; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-title, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-title {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
     float: left;
     width: 100%;
     padding: 13px 23px 13px 15px;
     border: 1px solid #5E5E5E;
     border-top: 0; }
-    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-title:hover, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-title:hover {
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
       background-color: #C60F13; }
-      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-title:hover span a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-title:hover span a {
+      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
         color: #fff;
         font-weight: 300; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty a {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
     font-family: 'opensans',sans-serif;
     text-transform: uppercase;
     color: #BFBAB8;
     font-size: 12px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-goleadores, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-goleadores, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field.views-field-field-programaci-n, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-field-posiciones, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-field-posiciones, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-field-resultados, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .views-field-field-goleadores, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field.views-field-field-programaci-n, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-field-posiciones, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-field-posiciones, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-field-resultados, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .views-field-field-goleadores {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-goleadores, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-goleadores {
     padding: 0 15px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row label, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty label, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row label, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty label {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row label, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty label {
     font-family: 'opensans',sans-serif;
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 12px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .file, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .file {
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file {
     display: inline-block;
     width: 75px;
     padding: 11px 0;
     text-align: center; }
-    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file img, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file img, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .file img, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .file img {
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file img, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file img {
       display: inline-block;
       width: 20px;
       margin: 0 20px; }
-    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .views-row .file a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty .file a {
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file a {
       font-size: 10px; }
-.block-quicktabs-widget-quicktab-copa-cocacola #quicktabs-container-widget_quicktab_copa_cocacola, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 #quicktabs-container-widget_quicktab_copa_cocacola {
+.block-quicktabs-widget-quicktab-copa-cocacola #quicktabs-container-widget_quicktab_copa_cocacola {
   padding: 0;
   margin-bottom: 36px;
   display: inline-block;
-  background-color: #333; }
-.block-quicktabs-widget-quicktab-copa-cocacola form, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form {
+  background-color: #333;
+  width: 100%; }
+.block-quicktabs-widget-quicktab-copa-cocacola form {
   background-color: #cf0507;
   margin: 0;
   padding: 4px 1px 0px 12px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form input, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form input {
+  .block-quicktabs-widget-quicktab-copa-cocacola form input {
     width: 150px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form select, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form select {
+  .block-quicktabs-widget-quicktab-copa-cocacola form select {
     padding: 8px 1px;
     font-size: 12px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-field-categor-a-tid-wrapper {
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper {
     padding: .5em 13px 0 0; }
-    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper #edit-field-categor-a-tid, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-field-categor-a-tid-wrapper #edit-field-categor-a-tid {
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper #edit-field-categor-a-tid {
       width: 197px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-field-nivel-tid-wrapper {
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper {
     padding: .5em 14px 0 0; }
-    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper #edit-field-nivel-tid, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-field-nivel-tid-wrapper #edit-field-nivel-tid {
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper #edit-field-nivel-tid {
       width: 150px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-field-grupo-tid-wrapper {
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper {
     padding: 0.5em 11px 0 0; }
-    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper #edit-field-grupo-tid, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-field-grupo-tid-wrapper #edit-field-grupo-tid {
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper #edit-field-grupo-tid {
       width: 137px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-title-wrapper {
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper {
     padding: 0.5em 0px 0 0; }
-    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper #edit-title, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form #edit-title-wrapper #edit-title {
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper #edit-title {
       width: 160px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form label, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form label {
+  .block-quicktabs-widget-quicktab-copa-cocacola form label {
     font-family: 'opensans',sans-serif;
     color: #fff;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 12px; }
-  .block-quicktabs-widget-quicktab-copa-cocacola form .views-exposed-widgets, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 form .views-exposed-widgets {
+  .block-quicktabs-widget-quicktab-copa-cocacola form .views-exposed-widgets {
     margin: 0; }
-.block-quicktabs-widget-quicktab-copa-cocacola .view-empty, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .view-empty {
+.block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
   display: inline-block;
   width: 100%; }
-.block-quicktabs-widget-quicktab-copa-cocacola .widget--image-copacocacola, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 .widget--image-copacocacola {
+.block-quicktabs-widget-quicktab-copa-cocacola .widget--image-copacocacola {
   background-color: #333333;
   width: 123px;
   height: 112px;
   float: left; }
-.block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 ul.quicktabs-style-basic {
+.block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic {
   height: auto;
   padding: 0;
   border-bottom: solid 2px #999; }
-  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 ul.quicktabs-style-basic li {
+  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li {
     background-color: #fff;
     margin: 0;
     width: 355px;
     text-align: center;
     padding: 11px 0px;
     display: inline-block; }
-    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 ul.quicktabs-style-basic li a {
+    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li a {
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       font-weight: normal;
       color: black; }
-  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 ul.quicktabs-style-basic li.active {
+  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active {
     background-color: #999999;
     border-bottom: 0; }
-    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active a, .quicktabs-tabpage-widget_quicktab_copa_cocacola-1 ul.quicktabs-style-basic li.active a {
+    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active a {
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
