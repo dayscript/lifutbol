@@ -739,14 +739,14 @@
   .view-id-torneos .views-field-nothing .widget-logococacola {
     padding: 40px 16px; }
 
-.views-field-nothing .widget-image-buscador-avanzado .lupa {
+.views-field-nothing .widget-logococacola .lupa {
   display: block;
   width: 38px;
   margin: 0 auto;
   height: 38px;
   background: url("/sites/default/lupa.png");
   background-repeat: no-repeat; }
-.views-field-nothing .widget-image-buscador-avanzado .buscador-avanzado a {
+.views-field-nothing .widget-logococacola .buscador-avanzado a {
   font-family: 'ubuntu',sans-serif;
   font-size: 13px;
   color: #606060;
@@ -757,9 +757,9 @@
   text-align: center;
   padding: 8px 0; }
 
-.views-field-nothing:hover .buscador-avanzado a {
+.widget-logococacola:hover .buscador-avanzado a {
   color: #fff; }
-.views-field-nothing:hover .lupa {
+.widget-logococacola:hover .lupa {
   background: url("/sites/default/lupahover.png");
   background-repeat: no-repeat; }
 
