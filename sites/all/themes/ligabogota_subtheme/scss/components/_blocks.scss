@@ -662,8 +662,10 @@
   font-family: 'opensans',sans-serif;
     font-size: 13px;
     color: #999999;
-    line-height: 18px;
+    line-height: 20px;
     margin-top: 15px;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 18px 0;
 }
 .field-type-entityreference{
         .field-label{
