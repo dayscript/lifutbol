@@ -175,6 +175,9 @@
     .page-torneos .field-name-quicktabs .views-field-title span a:hover {
       color: #cc0000; }
 
+.node-type-torneo .group-content iframe {
+  height: 800px; }
+
 .page-comisiones .view-id-comiciones .comision-header {
   font-family: 'opensans',sans-serif;
   font-size: 12px;
@@ -375,6 +378,8 @@
     float: left; }
     .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
       padding: 40px 16px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
+    width: 100%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
     width: 57%;
     height: 112px;
@@ -716,12 +721,12 @@
     margin-right: 10px !important; }
   .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
     height: 60px; }
-.block-views-torneos-block .view-id-torneos #flexslider-1 {
+.block-views-torneos-block .view-id-torneos #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 {
   background: rgba(186, 0, 0, 0);
   border: 0; }
-  .block-views-torneos-block .view-id-torneos #flexslider-1 li {
+  .block-views-torneos-block .view-id-torneos #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 li {
     margin-right: 10px !important; }
-  .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-direction-nav a {
+  .block-views-torneos-block .view-id-torneos #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 .flex-direction-nav a {
     height: 60px; }
 
 .sharethis-wrapper {
