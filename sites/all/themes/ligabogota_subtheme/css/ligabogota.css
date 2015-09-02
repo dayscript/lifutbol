@@ -907,7 +907,8 @@
 
 .large-9 {
   width: 70%;
-  padding-left: 40px; }
+  padding-left: 40px;
+  padding-bottom: 20px; }
 
 .large-3 {
   width: 29.33333%; }
