@@ -29,6 +29,13 @@
 		display: none;
 	}
 }
+
+.not-front .block-system-main-menu{
+	background-color: #000;
+	.block-title{
+		display: none;
+	}
+}
 .front{
 	.block-system-main-menu{
 		position: absolute;
