@@ -544,7 +544,8 @@
 /*Block Torneos Footer     */
 /***************************/
 .block-views-torneos-block {
-  background: #ba0000; }
+  background: #ba0000;
+  height: 90px; }
 
 .view-id-torneos, .view-id-footer-logos {
   padding: 0;
