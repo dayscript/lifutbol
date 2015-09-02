@@ -382,6 +382,9 @@
       border-left: 1px solid #5E5E5E; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-identificador-commet, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-identificador-commet {
     width: 100%; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .view-content, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .view-content {
+    float: left;
+    width: 75%; }
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .content-none, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .content-none {
     width: 57%;
     height: 112px;
