@@ -672,8 +672,17 @@
         text-transform: uppercase;
         font-size: 20px;
         color: #000;
-        margin: 5px 0 5px 0;
-        }
+        margin: 5px 0 5px 0;      
+         a{
+           font-family: 'ubuntu',sans-serif;
+           color: #000;
+           font-size: 18px;
+           text-transform: uppercase;
+           &:hover{
+           color: #cc0000;
+        }  
+     }    
+}
 }
 
 .view-id-torneos{
