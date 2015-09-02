@@ -983,7 +983,8 @@ h3 {
   color: #000; }
 
 body {
-  background-color: #F3F3F3; }
+  background-color: #F3F3F3;
+  line-height: 18px; }
 
 main {
   background-color: #fff; }
