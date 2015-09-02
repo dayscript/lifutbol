@@ -244,12 +244,6 @@
       text-transform: uppercase; }
       .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a:hover {
         color: #cc0000; }
-.page-clubes .field-label {
-  font-family: "ubuntu", sans-serif;
-  text-transform: uppercase;
-  font-size: 20px;
-  color: #000;
-  margin: 5px 0 5px 0; }
 
 .page-documentacion .view-id-documentacion ul.quicktabs-style-basic {
   height: auto;
@@ -768,6 +762,12 @@
   color: #999999;
   line-height: 18px;
   margin-top: 15px; }
+  .field-type-text-with-summary .field-label {
+    font-family: "ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+    margin: 5px 0 5px 0; }
 
 .view-id-torneos .views-field-nothing {
   float: left;
