@@ -330,8 +330,9 @@
   height: 29px;
   top: 4px;
   right: 5px;
-  background: url("/sites/default/lupa.png");
-  background-repeat: no-repeat; }
+  background: url("/sites/default/lupa.png") 8px;
+  background-repeat: no-repeat;
+  background-size: 55%; }
 .block-custom-search-blocks .search-form .custom-search-box {
   border-radius: 10px 0 0 10px;
   background-color: #fff;
