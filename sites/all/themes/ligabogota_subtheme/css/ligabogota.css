@@ -905,7 +905,7 @@
     padding: 6px 16px;
     text-transform: uppercase; }
 
-#search-form ul, #search-form ol, #search-form dl {
+#search-form li {
   font-size: 13px;
   font-family: "ubuntu", sans-serif;
   line-height: 1.6;
