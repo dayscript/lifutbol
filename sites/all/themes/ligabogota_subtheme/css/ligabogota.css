@@ -114,6 +114,11 @@
         font-size: 13px; }
 .page-noticias .pagination-centered .pagination {
   clear: both; }
+.page-noticias .field.field-name-changed-date.field-type-ds.field-label-hidden.field-wrapper {
+  font-family: "opensans", sans-serif;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 15px; }
 
 .page-torneos .view-display-id-block_1 {
   width: 100%; }
