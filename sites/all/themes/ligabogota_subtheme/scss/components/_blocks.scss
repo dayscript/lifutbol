@@ -26,8 +26,9 @@
                 height: 29px;
                 top: 4px;
                 right: 5px;
-                background: url("/sites/default/lupa.png");
+                background: url("/sites/default/lupa.png") 8px;
                 background-repeat: no-repeat;
+                background-size: 55%;
         }
         .custom-search-box{
             border-radius: 10px 0 0 10px;
