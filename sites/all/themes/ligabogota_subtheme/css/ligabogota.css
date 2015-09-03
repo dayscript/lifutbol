@@ -905,14 +905,6 @@
     padding: 6px 16px;
     text-transform: uppercase; }
 
-#search-form li {
-  font-size: 13px;
-  font-family: "ubuntu", sans-serif;
-  line-height: 1.6;
-  margin-bottom: 1.25em;
-  list-style-position: outside;
-  font-family: inherit; }
-
 /*layout*/
 .l-header {
   padding: 8px 0px; }
