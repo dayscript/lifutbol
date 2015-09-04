@@ -768,12 +768,15 @@
   color: #999999;
   line-height: 18px;
   margin-top: 15px; }
-  .field-type-text-with-summary .field-label {
-    font-family: "ubuntu", sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #000;
-    margin: 5px 0 5px 0; }
+
+.field-name-field-torneo {
+  font-family: "ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000;
+  margin: 5px 0 5px 0; }
+  .field-name-field-torneo a {
+    color: #000; }
 
 .field-name-changed-date {
   font-family: "opensans", sans-serif;
@@ -795,19 +798,6 @@
   font-size: 20px;
   color: #000;
   margin: 5px 0 5px 0; }
-  .field-type-entityreference .field-label .field-wrapper {
-    color: #cc0000;
-    text-decoration: none;
-    line-height: inherit;
-    border-bottom: solid 1px #e1e1e1;
-    padding: 18px 0; }
-    .field-type-entityreference .field-label .field-wrapper a {
-      font-family: 'ubuntu',sans-serif;
-      color: #000;
-      font-size: 18px;
-      text-transform: uppercase; }
-      .field-type-entityreference .field-label .field-wrapper a:hover {
-        color: #cc0000; }
 
 .view-id-torneos .views-field-nothing {
   float: left;
