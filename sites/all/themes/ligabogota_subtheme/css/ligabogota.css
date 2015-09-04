@@ -789,10 +789,19 @@
   border-bottom: solid 1px #e1e1e1;
   padding: 18px 0; }
 
-.field-type-entityreference a {
+.field-type-entityreference .field-wrapper {
   color: #cc0000;
   text-decoration: none;
-  line-height: inherit; }
+  line-height: inherit;
+  border-bottom: solid 1px #e1e1e1;
+  padding: 18px 0; }
+  .field-type-entityreference .field-wrapper a {
+    font-family: 'ubuntu',sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase; }
+    .field-type-entityreference .field-wrapper a:hover {
+      color: #cc0000; }
 .field-type-entityreference .field-label {
   font-family: "ubuntu", sans-serif;
   text-transform: uppercase;
