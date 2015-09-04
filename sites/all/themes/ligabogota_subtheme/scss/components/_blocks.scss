@@ -679,6 +679,11 @@
     padding: 18px 0;
 }
 .field-type-entityreference{
+    a{
+        color: #cc0000;
+        text-decoration: none;
+        line-height: inherit;
+    }
         .field-label{
         font-family: "ubuntu", sans-serif;
         text-transform: uppercase;
