@@ -120,63 +120,65 @@
 .page-torneos .quicktabs_main {
   padding: 0;
   border: 0; }
-.page-torneos .field-name-quicktabs label {
+.page-torneos .block-quicktabs h2 {
+  display: none; }
+.page-torneos #quicktabs-pagina_toneos label {
   font-family: 'opensans',sans-serif;
   color: #999999;
   text-transform: uppercase;
   font-weight: 100;
   font-size: 12px; }
-.page-torneos .field-name-quicktabs form {
+.page-torneos #quicktabs-pagina_toneos form {
   margin: 5px 0 5px 0;
   border-bottom: solid 1px #999999; }
-  .page-torneos .field-name-quicktabs form #edit-title-wrapper, .page-torneos .field-name-quicktabs form #edit-title--2-wrapper, .page-torneos .field-name-quicktabs form #edit-title--3-wrapper {
+  .page-torneos #quicktabs-pagina_toneos form #edit-title-wrapper, .page-torneos #quicktabs-pagina_toneos form #edit-title--2-wrapper, .page-torneos #quicktabs-pagina_toneos form #edit-title--3-wrapper {
     width: 90%;
     margin: 0 auto;
     display: block;
     float: none;
     text-align: center;
     padding: 0; }
-.page-torneos .field-name-quicktabs .view-content {
+.page-torneos #quicktabs-pagina_toneos .view-content {
   padding: 10px 0;
   width: 100%;
   margin: 0 auto;
   display: inline-block;
   float: none; }
-.page-torneos .field-name-quicktabs ul.quicktabs-style-basic {
+.page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic {
   height: auto;
   padding: 0;
   border-bottom: solid 2px #999; }
-  .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li {
+  .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li {
     background-color: #fff;
     margin: 0;
-    width: 245px;
+    width: 235px;
     text-align: center;
     padding: 11px 0px;
     display: inline-block; }
-    .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li a {
+    .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li a {
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       font-weight: normal;
       color: black; }
-  .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active {
+  .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li.active {
     background-color: #ba0000;
     border-bottom: 0; }
-    .page-torneos .field-name-quicktabs ul.quicktabs-style-basic li.active a {
+    .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li.active a {
       font-size: 23px !important;
       font-family: "Ubuntu", sans-serif !important;
       text-transform: uppercase;
       font-weight: normal;
       color: #fff; }
-.page-torneos .field-name-quicktabs .views-field-title {
+.page-torneos #quicktabs-pagina_toneos .views-field-title {
   border-bottom: solid 1px #e1e1e1;
   padding: 18px 0; }
-  .page-torneos .field-name-quicktabs .views-field-title span a {
+  .page-torneos #quicktabs-pagina_toneos .views-field-title span a {
     font-family: 'ubuntu',sans-serif;
     color: #000;
     font-size: 18px;
     text-transform: uppercase; }
-    .page-torneos .field-name-quicktabs .views-field-title span a:hover {
+    .page-torneos #quicktabs-pagina_toneos .views-field-title span a:hover {
       color: #cc0000; }
 
 .node-type-torneo .group-content iframe {
