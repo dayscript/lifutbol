@@ -298,13 +298,13 @@
   clear: both; }
 
 /*components*/
-.menu li a.active, .menu li a:hover {
+.menu li a.active, .menu li a:hover, #megamenu-main-menu li a.active, #megamenu-main-menu li a:hover {
   padding-top: 23px;
   color: #fff;
   padding-bottom: 18px;
   border-bottom: 3px solid #fff112;
   position: relative; }
-  .menu li a.active:after, .menu li a:hover:after {
+  .menu li a.active:after, .menu li a:hover:after, #megamenu-main-menu li a.active:after, #megamenu-main-menu li a:hover:after {
     background: none;
     border-bottom: 3px solid #cf0507;
     left: 0px;
@@ -314,6 +314,27 @@
     pointer-events: none;
     position: absolute;
     top: 64px; }
+  .menu li a.active .megamenu-slots-stacking, .menu li a:hover .megamenu-slots-stacking, #megamenu-main-menu li a.active .megamenu-slots-stacking, #megamenu-main-menu li a:hover .megamenu-slots-stacking {
+    background: #ba0708; }
+.menu li ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar {
+  background: rgba(186, 7, 8, 0);
+  list-style: none;
+  padding: 17px 0;
+  width: 200px !important; }
+  .menu li ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li {
+    float: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #980707;
+    background-color: #ba0708;
+    margin: 0; }
+    .menu li ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li a {
+      color: #fff;
+      text-decoration: none; }
+      .menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover {
+        font-size: 19px; }
+        .menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover:after, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover:after {
+          position: relative;
+          border-bottom: 0; }
 
 /*********************/
 /*Contactenos        */
@@ -927,26 +948,29 @@
 .top-bar {
   display: none; }
 
+.block-system-main-menu {
+  display: none !important; }
+
 .banner-full {
   max-width: 100%; }
 
-.block-system-main-menu {
+.block-system-main-menu, .block-megamenu-main-menu {
   background-color: rgba(0, 0, 0, 0.62);
   z-index: 3;
   position: relative;
   min-width: 100%; }
-  .block-system-main-menu .block-title {
+  .block-system-main-menu .block-title, .block-megamenu-main-menu .block-title {
     display: none; }
 
-.not-front .block-system-main-menu {
+.not-front .block-system-main-menu, .not-front .block-megamenu-main-menu {
   background-color: #000; }
-  .not-front .block-system-main-menu .block-title {
+  .not-front .block-system-main-menu .block-title, .not-front .block-megamenu-main-menu .block-title {
     display: none; }
 
-.front .block-system-main-menu {
+.front .block-system-main-menu, .front .block-megamenu-main-menu {
   position: absolute; }
 
-.menu {
+.menu, #megamenu-main-menu {
   margin: 0 auto;
   list-style: none;
   width: 100%;
@@ -956,25 +980,25 @@
   margin-bottom: 0;
   /* max-width: 62.5em; */
   max-width: 68.8em; }
-  .menu li {
+  .menu li, #megamenu-main-menu li {
     margin: 0px 14px;
     float: right;
     padding-top: 23px;
     padding-bottom: 20px;
     margin-right: 35px;
     font-weight: normal; }
-    .menu li a {
+    .menu li a, #megamenu-main-menu li a {
       font-family: "Ubuntu",sans-serif;
       font-size: 18px;
       font-weight: normal;
       color: #999; }
-      .menu li a:hover {
+      .menu li a:hover, #megamenu-main-menu li a:hover {
         color: #fff; }
-      .menu li a:active {
+      .menu li a:active, #megamenu-main-menu li a:active {
         color: #fff; }
-  .menu:after {
+  .menu:after, #megamenu-main-menu:after {
     clear: both; }
-  .menu:before, .menu:after {
+  .menu:before, .menu:after, #megamenu-main-menu:before, #megamenu-main-menu:after {
     content: " ";
     display: table; }
 

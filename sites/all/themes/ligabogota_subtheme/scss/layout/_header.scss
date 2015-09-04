@@ -17,10 +17,13 @@
 .top-bar-section .left {}
 .top-bar-section .right {}
 
+.block-system-main-menu{
+	display:none!important;
+}
 .banner-full{
 	max-width:100%;
 }
-.block-system-main-menu{
+.block-system-main-menu,.block-megamenu-main-menu{
 	background-color: rgba(0, 0, 0, 0.62);
 	z-index:3;
 	position: relative;
@@ -30,19 +33,19 @@
 	}
 }
 
-.not-front .block-system-main-menu{
+.not-front .block-system-main-menu,.not-front .block-megamenu-main-menu{
 	background-color: #000;
 	.block-title{
 		display: none;
 	}
 }
 .front{
-	.block-system-main-menu{
+	.block-system-main-menu,.block-megamenu-main-menu{
 		position: absolute;
 	}
 }
 
-.menu{
+.menu,#megamenu-main-menu{
 	margin: 0 auto;
     list-style: none;
     width: 100%;
