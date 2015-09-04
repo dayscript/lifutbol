@@ -47,7 +47,7 @@
   @include border_radius( $border_radius );
   @include transition_hover();
 
-  background: #cc0000;
+  background: $color_bg;
   color: $color_tx;
   cursor: pointer;
   display: inline-block;
