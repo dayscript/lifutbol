@@ -776,7 +776,11 @@
   color: #000;
   margin: 5px 0 5px 0; }
   .field-name-field-torneo a {
-    color: #000; }
+    color: #000;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 18px 0; }
+    .field-name-field-torneo a:hover {
+      color: #cc0000; }
 
 .field-name-changed-date {
   font-family: "opensans", sans-serif;
