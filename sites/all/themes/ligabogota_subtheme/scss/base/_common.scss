@@ -114,6 +114,9 @@ body{
     a{
       color: #cc0000;
       text-decoration: none;
+      &over{
+        color:#000;
+      }
     }
 }
 main{

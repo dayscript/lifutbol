@@ -1101,6 +1101,8 @@ body {
   body a {
     color: #cc0000;
     text-decoration: none; }
+    body aover {
+      color: #000; }
 
 main {
   background-color: #fff; }
