@@ -22,7 +22,7 @@
 
 // Form Input
 //-----------------------------------------------------------------------------
-//input[type="text"],
+input[type="text"],
 input[type="password"],
 input[type="date"],
 input[type="datetime"],
@@ -38,7 +38,7 @@ input[type="url"],
 textarea {
 	background: #f3f3f3;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    
     height: 30px;
      -moz-appearance:none;
     border-radius: 10px;
