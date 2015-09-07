@@ -810,6 +810,8 @@
     color: #000000; }
     .field-name-field-torneo a:hover {
       color: #cc0000; }
+    .field-name-field-torneo a .field-label {
+      margin-bottom: 16px; }
 
 .field-name-changed-date {
   font-family: "opensans", sans-serif;
