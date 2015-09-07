@@ -1098,6 +1098,9 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #999; }
+  body a {
+    color: #cc0000;
+    text-decoration: none; }
 
 main {
   background-color: #fff; }
