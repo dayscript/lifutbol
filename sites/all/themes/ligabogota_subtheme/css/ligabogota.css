@@ -1093,7 +1093,8 @@ h3 {
 
 body {
   background-color: #F3F3F3;
-  line-height: 18px; }
+  line-height: 18px;
+  font-family: "Opensans", sans-serif; }
 
 main {
   background-color: #fff; }
