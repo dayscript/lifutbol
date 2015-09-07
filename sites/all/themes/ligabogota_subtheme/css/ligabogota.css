@@ -1101,18 +1101,11 @@ body {
   background-color: #F3F3F3; }
   body a {
     color: #cc0000;
-    text-decoration: none;
-    font-family: "Opensans", sans-serif;
-    font-size: 13px;
-    line-height: 18px; }
+    text-decoration: none; }
     body a:hover {
       color: #000; }
   body p, body li {
-    line-height: 20px;
-    font-family: "Opensans", sans-serif;
-    font-size: 13px;
-    line-height: 22px;
-    color: #999; }
+    line-height: 20px; }
     body p a, body li a {
       color: #cc0000;
       text-decoration: none; }
