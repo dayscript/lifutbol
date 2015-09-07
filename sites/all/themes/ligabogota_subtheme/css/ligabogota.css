@@ -1166,6 +1166,8 @@ main {
   font-family: "OpenSans", sans-serif;
   font-size: 10px ¡important;
   color: #999 ¡important; }
+  .breadcrumbs li {
+    font-size: 10px ¡important; }
   .breadcrumbs a {
     text-transform: uppercase;
     color: #cc0000; }
