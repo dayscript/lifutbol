@@ -69,7 +69,8 @@ label {
     }
 }
 .form-submit {
-        background-color: #cc0000;
-        border: none;
-        display: block;
+    button#edit-submit {
+    background-color: #cc0000;
+    border: none;
+}
 }
