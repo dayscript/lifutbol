@@ -1216,7 +1216,7 @@ label {
   label .views-exposed-form {
     font-weight: normal; }
 
-.form-submit button#edit-submit {
+.form-submit {
   background-color: #cc0000;
   border: none; }
 
