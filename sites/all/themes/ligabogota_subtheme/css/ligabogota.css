@@ -1101,7 +1101,7 @@ body {
   body a {
     color: #cc0000;
     text-decoration: none; }
-    body ahover {
+    body a:hover {
       color: #000; }
 
 main {
