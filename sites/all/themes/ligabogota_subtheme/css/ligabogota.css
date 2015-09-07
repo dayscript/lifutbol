@@ -943,6 +943,12 @@
     padding: 6px 16px;
     text-transform: uppercase; }
 
+.button {
+  color: #fff;
+  background-color: #cc0000;
+  hover-color: #fff;
+  hover-background-color: #000; }
+
 /*layout*/
 .l-header {
   padding: 8px 0px; }

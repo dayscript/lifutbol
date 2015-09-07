@@ -3,4 +3,11 @@
 // Before adding styles be sure to modify variables in the
 // "scss/_variables.scss" file.
 
-.button {}
+.button {
+	color: #fff;
+	background-color: #cc0000;
+	hover:{
+		color: #fff;
+		background-color: #000;
+	};
+}
