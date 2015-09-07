@@ -1093,16 +1093,16 @@ h3 {
 
 body {
   background-color: #F3F3F3; }
-  body p {
+  body p, body li {
     line-height: 18px;
     font-family: "Opensans", sans-serif;
     font-size: 13px;
     line-height: 18px;
     color: #999; }
-    body p a {
+    body p a, body li a {
       color: #cc0000;
       text-decoration: none; }
-      body p a:hover {
+      body p a:hover, body li a:hover {
         color: #000; }
 
 main {
