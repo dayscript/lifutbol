@@ -186,8 +186,8 @@
 
 .page-comisiones .view-id-comiciones .comision-header {
   font-family: 'opensans',sans-serif;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 22px;
   color: #999999; }
 .page-comisiones .view-id-comiciones .views-field-title {
   border-bottom: solid 1px #e1e1e1;
@@ -1193,6 +1193,7 @@ input[type="url"],
 textarea {
   background: #f3f3f3;
   font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
   height: 30px;
   -moz-appearance: none;
   border-radius: 10px;
