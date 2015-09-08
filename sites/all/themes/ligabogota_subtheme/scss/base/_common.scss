@@ -106,7 +106,24 @@
 
 body{
     background-color: #F3F3F3;
-    line-height: 18px;
+      a{
+      color: #cc0000;
+      text-decoration: none;
+      &:hover{
+        color:#000;
+      }
+    }
+    p,li{
+    line-height: 20px;
+    a{
+      color: #cc0000;
+      text-decoration: none;
+      &:hover{
+        color:#000;
+      }
+    }
+
+    }
 }
 main{
     background-color: #fff;
@@ -165,7 +182,7 @@ main{
     background-color: #fff;
     border-color: 0 ;
     font-family: "OpenSans", sans-serif;
-    font-size: 13px ¡important;
+    font-size: 10px ¡important;
     color: #999 ¡important;
     a{
         text-transform: uppercase;

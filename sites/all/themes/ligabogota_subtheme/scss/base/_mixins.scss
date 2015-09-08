@@ -42,3 +42,23 @@
     background: #F02F34;
   }
 }
+// Apariencia general de botones
+@mixin btn($color_tx, $color_bg) {
+  @include border_radius( $border_radius );
+  @include transition_hover();
+
+  background: $color_bg;
+  color: $color_tx;
+  cursor: pointer;
+  display: inline-block;
+  font-size: em(14);
+  opacity: 1;
+  padding: 8px 20px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $color_bg;
+    color: $color_tx;
+    opacity: 0.6;
+  }
+}

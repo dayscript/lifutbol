@@ -186,8 +186,8 @@
 
 .page-comisiones .view-id-comiciones .comision-header {
   font-family: 'opensans',sans-serif;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 22px;
   color: #999999; }
 .page-comisiones .view-id-comiciones .views-field-title {
   border-bottom: solid 1px #e1e1e1;
@@ -467,7 +467,7 @@
   .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
     float: left;
     width: 100%;
-    padding: 13px 23px 13px 15px;
+    padding: 17px 23px 13px 15px;
     border: 1px solid #5E5E5E;
     border-top: 0; }
     .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
@@ -810,13 +810,16 @@
   text-transform: uppercase;
   font-size: 20px;
   color: #000;
-  margin: 5px 0 5px 0;
+  margin: 5px 0 16px 0;
   border-bottom: solid 1px #e1e1e1;
   padding: 18px 0; }
   .field-name-field-torneo a {
     color: #000000; }
     .field-name-field-torneo a:hover {
-      color: #cc0000; }
+      color: #cc0000;
+      padding: 18px 0; }
+    .field-name-field-torneo a .field-label {
+      margin-bottom: 16px; }
 
 .field-name-changed-date {
   font-family: "opensans", sans-serif;
@@ -872,7 +875,7 @@
   background-color: #f5f5f5;
   margin-bottom: 18px; }
   .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
-    padding: 23px 13px;
+    padding: 24px 13px;
     font-size: 13px;
     border-bottom: 1px solid #e0e0e0;
     line-height: 0; }
@@ -946,6 +949,12 @@
     font-family: "opensans", sans-serif;
     padding: 6px 16px;
     text-transform: uppercase; }
+
+.button {
+  color: #fff;
+  background-color: #cc0000;
+  hover-color: #fff;
+  hover-background-color: #000; }
 
 /*layout*/
 .l-header {
@@ -1096,8 +1105,19 @@ h3 {
   color: #000; }
 
 body {
-  background-color: #F3F3F3;
-  line-height: 18px; }
+  background-color: #F3F3F3; }
+  body a {
+    color: #cc0000;
+    text-decoration: none; }
+    body a:hover {
+      color: #000; }
+  body p, body li {
+    line-height: 20px; }
+    body p a, body li a {
+      color: #cc0000;
+      text-decoration: none; }
+      body p a:hover, body li a:hover {
+        color: #000; }
 
 main {
   background-color: #fff; }
@@ -1144,7 +1164,7 @@ main {
   background-color: #fff;
   border-color: 0;
   font-family: "OpenSans", sans-serif;
-  font-size: 13px ¡important;
+  font-size: 10px ¡important;
   color: #999 ¡important; }
   .breadcrumbs a {
     text-transform: uppercase;
@@ -1201,6 +1221,18 @@ label {
   font-weight: normal; }
   label .views-exposed-form {
     font-weight: normal; }
+
+.form-submit {
+  background-color: #cc0000;
+  border: none; }
+
+button.secondary, .button.secondary {
+  background-color: #cc0000;
+  border: none;
+  color: #fff;
+  border-radius: 0px;
+  hover-color: #fff;
+  hover-background-color: #000; }
 
 /*Responsive*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
