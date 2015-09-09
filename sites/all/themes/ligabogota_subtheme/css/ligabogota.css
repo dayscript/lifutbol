@@ -247,7 +247,7 @@
       .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a:hover {
         color: #cc0000; }
 
-.node-type-club .view-mode-full .group-content .field-name-field-escudo {
+.node-type-club .view-mode-full .group-content .views-field-field-escudo {
   display: inline-block;
   float: left;
   margin-right: 15px; }
