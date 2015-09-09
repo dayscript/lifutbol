@@ -1,5 +1,5 @@
 .menu,#megamenu-main-menu{
-	li{
+	li.megamenu-parent {
 		a.active,a:hover{
 		padding-top: 23px;
 		color: #fff;
@@ -25,28 +25,38 @@
     	    background: rgba(186, 7, 8, 0);
 		    list-style: none;
 		    padding: 17px 0;
-		    width: 200px!important;
+		    border:0;
+
 		li{
 		    float: none;
 		    padding: 5px 0;
-		    border-bottom: 1px solid #980707;
 		    background-color: #ba0708;
 		    margin: 0;
+			border-bottom: 0px solid #fff112!important;
+
 			a{
 				color:#fff;
 				text-decoration: none;
+				border:0;
 
 			&:hover{
 				 font-size: 19px;
-			
-				 &:after{
-				  position: relative;
-				  border-bottom: 0;
-				 }
+				border:0;
+				 
+				 
 			}
+			&:after{
+				  position: relative;
+				  border-bottom: 0px solid #fff112!important;
+
+				 }
 			
 			}
 		}
+		}
+		&.after{
+			border:0;
 		}
 	}
 }
+

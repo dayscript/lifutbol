@@ -319,13 +319,13 @@
   clear: both; }
 
 /*components*/
-.menu li a.active, .menu li a:hover, #megamenu-main-menu li a.active, #megamenu-main-menu li a:hover {
+.menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
   padding-top: 23px;
   color: #fff;
   padding-bottom: 18px;
   border-bottom: 3px solid #fff112;
   position: relative; }
-  .menu li a.active:after, .menu li a:hover:after, #megamenu-main-menu li a.active:after, #megamenu-main-menu li a:hover:after {
+  .menu li.megamenu-parent a.active:after, .menu li.megamenu-parent a:hover:after, #megamenu-main-menu li.megamenu-parent a.active:after, #megamenu-main-menu li.megamenu-parent a:hover:after {
     background: none;
     border-bottom: 3px solid #cf0507;
     left: 0px;
@@ -335,27 +335,31 @@
     pointer-events: none;
     position: absolute;
     top: 64px; }
-  .menu li a.active .megamenu-slots-stacking, .menu li a:hover .megamenu-slots-stacking, #megamenu-main-menu li a.active .megamenu-slots-stacking, #megamenu-main-menu li a:hover .megamenu-slots-stacking {
+  .menu li.megamenu-parent a.active .megamenu-slots-stacking, .menu li.megamenu-parent a:hover .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a.active .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a:hover .megamenu-slots-stacking {
     background: #ba0708; }
-.menu li ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar {
+.menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar {
   background: rgba(186, 7, 8, 0);
   list-style: none;
   padding: 17px 0;
-  width: 200px !important; }
-  .menu li ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li {
+  border: 0; }
+  .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
     float: none;
     padding: 5px 0;
-    border-bottom: 1px solid #980707;
     background-color: #ba0708;
-    margin: 0; }
-    .menu li ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li a {
+    margin: 0;
+    border-bottom: 0px solid #fff112 !important; }
+    .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a {
       color: #fff;
-      text-decoration: none; }
-      .menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover {
-        font-size: 19px; }
-        .menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover:after, #megamenu-main-menu li ul.megamenu-bin.megamenu-slots-columnar li a:hover:after {
-          position: relative;
-          border-bottom: 0; }
+      text-decoration: none;
+      border: 0; }
+      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover {
+        font-size: 19px;
+        border: 0; }
+      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after {
+        position: relative;
+        border-bottom: 0px solid #fff112 !important; }
+.menu li.megamenu-parent.after, #megamenu-main-menu li.megamenu-parent.after {
+  border: 0; }
 
 /*********************/
 /*Contactenos        */
@@ -688,7 +692,7 @@
           font-size: 40px !important;
           display: inline-block;
           position: absolute;
-          top: -15px;
+          top: 6px;
           right: 10px; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-next:before {
         content: "›" !important; }
@@ -780,7 +784,7 @@
           font-size: 40px !important;
           display: inline-block;
           position: absolute;
-          top: -15px;
+          top: 6px;
           right: 10px; }
       .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-next:before {
         content: "›" !important; }
