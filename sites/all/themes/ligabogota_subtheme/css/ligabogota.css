@@ -1017,7 +1017,7 @@
   color: #999;
   font-family: "opensans",sans-serif; }
 
-#search-form ul, #search-form ol {
+.search-form ul, .search-form li {
   margin-left: 0;
   color: #999;
   font-size: 13px;
