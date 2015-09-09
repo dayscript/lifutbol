@@ -709,6 +709,18 @@
   margin: 0;
   box-shadow: none;
   margin-bottom: 10px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image ul li {
+    display: none;
+    padding: 0; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image ul li.first {
+    display: inline-block; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 ul.slides > li {
+    margin: 0 0 0 2px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 ul.slides > li ul {
+    margin: 0; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 li.first {
+    display: block !important;
+    margin: 0 !important; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image {
     margin-bottom: 1px; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed {
@@ -891,6 +903,12 @@
         color: #000000; }
     .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
       content: " "; }
+
+#cboxMiddleLeft {
+  background-color: rgba(255, 255, 255, 0); }
+
+#cboxWrapper {
+  background-color: rgba(255, 255, 255, 0.16); }
 
 /*********************/
 /*Slider Home        */
