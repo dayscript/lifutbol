@@ -500,6 +500,27 @@
         margin: 0;
         box-shadow: none;
         margin-bottom: 10px;
+        .views-field-field-image ul li {
+            display: none;
+            padding:0;  
+        }
+        .views-field-field-image ul li.first {
+            display: inline-block;
+        }
+
+        ul.slides>li {
+            margin: 0 0 0 2px;
+        }
+
+        ul.slides>li ul{
+            margin: 0;
+        }
+        li.first{
+            display: block!important;
+            margin:0!important;
+        }
+       
+
         .views-field-field-image{
                 margin-bottom: 1px;      
         }
@@ -786,3 +807,9 @@
 
 }
 
+ #cboxMiddleLeft{
+                background-color: rgba(255, 255, 255, 0);
+        }
+#cboxWrapper{
+    background-color: rgba(255, 255, 255, 0.16);
+}
