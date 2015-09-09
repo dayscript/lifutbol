@@ -254,7 +254,7 @@
 .node-type-club .view-mode-full .group-content .image {
   border: none; }
 
-.view-id-clubs.view-content {
+.view-display-id-block_3 .view-content {
   background-color: #f1f1f1;
   padding: 16px;
   font-family: "opensans",sans-serif;
@@ -262,12 +262,12 @@
   font-size: 13px;
   line-height: 18px;
   margin-bottom: 20px; }
-  .view-id-clubs.view-content .views-label {
+  .view-display-id-block_3 .view-content .views-label {
     font-family: "opensans", sans-serif;
     color: #000;
     margin-top: 5px;
     display: block; }
-  .view-id-clubs.view-content a {
+  .view-display-id-block_3 .view-content a {
     text-decoration: none;
     color: #cc0000; }
 
