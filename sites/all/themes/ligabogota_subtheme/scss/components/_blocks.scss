@@ -673,6 +673,7 @@
         margin: 5px 0 16px 0;
         border-bottom: solid 1px #e1e1e1;
         padding: 18px 0; 
+        line-height: 30px;
         a{
           color: #000000;
            &:hover{
@@ -758,6 +759,39 @@
         .view-content{
             background-color: $color-block-resolucion;
             margin-bottom: 18px;
+            .views-row{
+                padding: 24px 13px;
+                font-size: 13px;
+                border-bottom: 1px solid $color-separador-texto-bloque-resolucion;
+                line-height: 0;
+                a{color: $color-letra-bloque-resolucion;
+
+                    &:before{
+                        color: #666;
+                        content: "\232A";
+                        font-size: 12px;
+                        font-weight: lighter;
+                        padding-right: 10px;
+                        }
+                    &:hover{
+                        color:#000000;
+                    }
+                }
+                &:after{
+                content:" ";
+                }
+            }    
+        }
+        
+    }
+
+
+}
+.block-views-clubs-block-4{
+    .view-clubs{
+        .view-content{
+            background-color: $color-block-resolucion;
+            margin-bottom: 22px;
             .views-row{
                 padding: 24px 13px;
                 font-size: 13px;
