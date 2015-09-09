@@ -343,20 +343,21 @@
 .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar {
   background: rgba(186, 7, 8, 0);
   list-style: none;
-  padding: 17px 0;
+  padding: 17px 5px;
   border: 0; }
   .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
     float: none;
     padding: 5px 0;
     background-color: #ba0708;
     margin: 0;
-    border-bottom: 0px solid #fff112 !important; }
+    border-bottom: 1px solid #fff112 !important; }
     .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a {
       color: #fff;
       text-decoration: none;
-      border: 0; }
+      border: 0;
+      font-size: 15px; }
       .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover {
-        font-size: 19px;
+        font-size: 15px;
         border: 0; }
       .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after {
         position: relative;

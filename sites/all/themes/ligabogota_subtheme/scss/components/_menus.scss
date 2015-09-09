@@ -24,7 +24,7 @@
 	ul.megamenu-bin.megamenu-slots-columnar {
     	    background: rgba(186, 7, 8, 0);
 		    list-style: none;
-		    padding: 17px 0;
+		    padding: 17px 5px;
 		    border:0;
 
 		li{
@@ -32,15 +32,16 @@
 		    padding: 5px 0;
 		    background-color: #ba0708;
 		    margin: 0;
-			border-bottom: 0px solid #fff112!important;
+			border-bottom: 1px solid #fff112!important;
 
 			a{
 				color:#fff;
 				text-decoration: none;
 				border:0;
+				font-size: 15px;
 
 			&:hover{
-				 font-size: 19px;
+				 font-size: 15px;
 				border:0;
 				 
 				 
