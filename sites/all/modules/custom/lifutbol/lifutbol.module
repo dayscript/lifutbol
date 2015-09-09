@@ -5,7 +5,7 @@ function lifutbol_form_alter(&$form, &$form_state, $form_id) {
   if($form_id=='torneo_node_form'){
     $form['title']['#required'] = FALSE;
     $form['actions']['submit']['#submit'][] = 'lifutbol_submit';
-    dpm($form);
+   // dpm($form);
   }
 
 }
@@ -15,4 +15,8 @@ function lifutbol_submit($form,&$form_state){
   $newTitle = $entity->field_copa->value()->name . ' ' . $entity->field_categor_a->value()->name . ' ' .  $entity->field_nivel->value()->name . ' ' . Date('Y', $entity->field_a_o->value());
   $entity->title = $newTitle;
   $entity->save();
+}
+
+function lifutbol_init(){
+	drupal_add_js(drupal_get_path('module','lifutbol').'/js/jquery.geocomplete.min.js', 'file');
 }
