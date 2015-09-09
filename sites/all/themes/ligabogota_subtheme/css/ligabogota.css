@@ -252,7 +252,7 @@
   float: left;
   margin-right: 15px; }
 .node-type-club .view-mode-full .group-content .image {
-  border: none; }
+  border: 1px solid #999; }
 
 .view-display-id-block_3 {
   background-color: #f1f1f1;
