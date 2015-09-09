@@ -254,6 +254,14 @@
 .node-type-club .view-mode-full .group-content .image {
   border: solid 1px #cccccc; }
 
+.view-display-id-block_3 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-family: "opensans",sans-serif;
+  color: #999;
+  font-size: 13px;
+  line-height: 18px; }
+
 .page-documentacion .view-id-documentacion ul.quicktabs-style-basic {
   height: auto;
   padding: 0;
