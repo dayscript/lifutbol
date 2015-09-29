@@ -324,34 +324,14 @@
 	background:$color-rojo;
     text-align: center;
   }
-
-.view-id-torneos,.view-id-footer-logos{
-	padding: 0;
-    margin: 0 auto;
-    display: block;
-    float: none;
-    max-width: 68.8em;
-    .lifutbol{
-    	color:#fff;
-        display: block;
-        margin-bottom: 28px;
-    	img{
-		   width: 90px;
-		   height: 90px;
-           float: left;
-    	}
-        .text-info-footer {
-                font-family: 'opensans',sans-serif;
-                font-size: 11px;
-                display: inline-block;
-                line-height: 17px;
-        }
-    }
-    .dayscript{
-    	    text-align: right;
-    }
-
+ .datos-footer {
+     font-family: 'opensans',sans-serif;
+      font-size: 11px;
+      display: inline-block;
+      line-height: 17px;
+   color: #ffffff;
 }
+
 
 /***************************/
 /*Block Torneos Footer     */
