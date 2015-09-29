@@ -205,23 +205,6 @@
 
   <!--.l-footer-->
 
-  <div class="footer-wrapper">
-    <footer class="l-footer row" role="contentinfo">
-      <?php if (!empty($page['footer'])): ?>
-        <div class="footer columns">
-          <?php print render($page['footer']); ?>
-        </div>
-      <?php endif; ?>
-
-      <?php if ($site_name) : ?>
-        <div class="copyright columns">
-          &copy; <?php print date('Y') . ' ' . $site_name . ' ' . t('All rights reserved.'); ?>
-        </div>
-      <?php endif; ?>
-    </footer>
-  </div>
-  <!--/.l-footer -->
-
 
   <footer class="l-footer panel row banner-full" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
