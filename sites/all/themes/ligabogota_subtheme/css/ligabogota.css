@@ -568,27 +568,11 @@
   background: #ba0000;
   text-align: center; }
 
-.view-id-torneos, .view-id-footer-logos {
-  padding: 0;
-  margin: 0 auto;
-  display: block;
-  float: none;
-  max-width: 68.8em; }
-  .view-id-torneos .lifutbol, .view-id-footer-logos .lifutbol {
-    color: #fff;
-    display: block;
-    margin-bottom: 28px; }
-    .view-id-torneos .lifutbol img, .view-id-footer-logos .lifutbol img {
-      width: 90px;
-      height: 90px;
-      float: left; }
-    .view-id-torneos .lifutbol .text-info-footer, .view-id-footer-logos .lifutbol .text-info-footer {
-      font-family: 'opensans',sans-serif;
-      font-size: 11px;
-      display: inline-block;
-      line-height: 17px; }
-  .view-id-torneos .dayscript, .view-id-footer-logos .dayscript {
-    text-align: right; }
+.datos-footer {
+  color: #fff;
+  font-size: 12px;
+  font-family: "opensans", sans-serif;
+  padding: 15px; }
 
 /***************************/
 /*Block Torneos Footer     */

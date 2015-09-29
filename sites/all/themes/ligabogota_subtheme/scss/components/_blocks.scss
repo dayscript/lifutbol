@@ -324,14 +324,12 @@
 	background:$color-rojo;
     text-align: center;
   }
- .datos-footer {
-     font-family: 'opensans',sans-serif;
-      font-size: 11px;
-      display: inline-block;
-      line-height: 17px;
-   color: #ffffff;
+.datos-footer {
+  color: #fff;
+  font-size: 12px;
+  font-family: "opensans", sans-serif;
+  padding: 15px;
 }
-
 
 /***************************/
 /*Block Torneos Footer     */
