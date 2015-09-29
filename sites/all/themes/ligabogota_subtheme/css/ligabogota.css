@@ -393,8 +393,7 @@
 /*WIDGET COPA COCACOLA HOME*/
 /***************************/
 .block-quicktabs-widget-quicktab-copa-cocacola .view-content {
-  float: left;
-  width: 76%; }
+  float: left; }
 .block-quicktabs-widget-quicktab-copa-cocacola .view-footer {
   width: 24%;
   display: inline-block;
@@ -677,7 +676,6 @@
   font-size: 13px;
   color: #999;
   padding: 20px;
-  margin: 0 0 60px;
   background: #f5f5f5;
   border: none;
   position: relative; }
