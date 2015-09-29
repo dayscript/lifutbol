@@ -114,7 +114,7 @@
 
   <main role="main" class="row l-main">
      <?php if ($breadcrumb): print $breadcrumb; endif; ?>
-    <div class="<?php print $main_grid; ?> small-12 main columns">
+    <div class="<?php print $main_grid; ?> main columns">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">
           <?php print render($page['highlighted']); ?>
@@ -153,7 +153,7 @@
     <?php endif; ?>
 
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside role="complementary" class="<?php print $sidebar_sec_grid; ?> small-12 sidebar-second columns sidebar">
+      <aside role="complementary" class="<?php print $sidebar_sec_grid; ?> sidebar-second columns sidebar">
         <?php print render($page['sidebar_second']); ?>
       </aside>
     <?php endif; ?>
