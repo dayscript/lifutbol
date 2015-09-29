@@ -362,9 +362,7 @@
 /*Contactenos        */
 /*********************/
 .block-logo {
-  position: absolute;
-  z-index: 4;
-  left: 34px; }
+  padding-left: 10px; }
 
 .redes img {
   width: 8%;
