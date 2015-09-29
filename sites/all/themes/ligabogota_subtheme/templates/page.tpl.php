@@ -204,19 +204,23 @@
   <?php endif; ?>
 
   <!--.l-footer-->
-  <footer class="l-footer panel row banner-full" role="contentinfo">
+
+
+  <div class="footer-wrapper">
+  <footer class="l-footer row" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
-      <div class="footer large-12  small-12 columns">
+      <div class="footer columns">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
 
     <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
+      <div class="copyright columns">
         &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
       </div>
     <?php endif; ?>
   </footer>
+  </div>
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
