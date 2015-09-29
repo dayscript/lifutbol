@@ -925,7 +925,7 @@
   background: #333;
   color: #fff;
   border-radius: 0px;
-  box-shadow: 2px 2px 2px #fff;
+  box-shadow: none ¡important;
   font-size: 14px;
   text-align: center;
   cursor: pointer;
