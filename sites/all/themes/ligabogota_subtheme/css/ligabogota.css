@@ -361,6 +361,9 @@
 /*********************/
 /*Contactenos        */
 /*********************/
+@media screen and (max-width: 40em) {
+  .block-logo {
+    position: relative; } }
 .block-logo {
   position: absolute;
   z-index: 4; }

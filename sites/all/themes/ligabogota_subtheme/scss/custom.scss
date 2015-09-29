@@ -66,10 +66,3 @@
 
 // IE8 Grid Support
 //@import "ie";
-.block-logo {
-  // Only affects medium screens and larger
-  @include breakpoint(768px) {
-    position: relative;
-  }
-  position: relative;
-}
