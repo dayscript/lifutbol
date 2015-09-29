@@ -363,7 +363,7 @@
 /*********************/
 @media screen and (max-width: 40em) {
   .block-logo {
-    position: relative; } }
+    position: relative !important; } }
 .block-logo {
   position: absolute;
   z-index: 4; }
