@@ -68,7 +68,7 @@
 //@import "ie";
 .block-logo {
   // Only affects medium screens and larger
-  @include breakpoint(small) {
+  @include breakpoint(320px) {
     position: relative;
   }
 }
