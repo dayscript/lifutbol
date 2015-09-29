@@ -322,8 +322,10 @@
 /***************************/
 .block-views-torneos-block{
 	background:$color-rojo;
-    height: 90px;
     margin-bottom: 20px;
+  .views-field-field-image {
+    padding: 20px;
+  }
 }
 
 .view-id-torneos,.view-id-footer-logos{
