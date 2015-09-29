@@ -206,7 +206,7 @@
   <!--.l-footer-->
 
 
-  <footer class="l-footer row" role="contentinfo">
+  <footer class="l-footer row banner-full" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
       <div class="footer large-12  small-12 columns">
         <?php print render($page['footer']); ?>
@@ -214,7 +214,7 @@
     <?php endif; ?>
 
     <?php if ($site_name) :?>
-      <div class="copyright columns">
+      <div class="copyright row columns">
         &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
       </div>
     <?php endif; ?>
