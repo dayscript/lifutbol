@@ -325,8 +325,10 @@
     margin-bottom: 20px;
   .views-field-field-image {
     padding: 20px;
+    .field-content{
     .img{
       min-width: 220px;
+    }
     }
   }
 }
