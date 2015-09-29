@@ -204,31 +204,38 @@
   <?php endif; ?>
 
   <!--.l-footer-->
-  <!--.l-footer -->
-  <div class="footer-first-wrapper">
-    <footer class="l-footer row" role="contentinfo">
-      <?php if (!empty($page['footer_firstcolumn'])): ?>
-        <div class="footer-first medium-12 columns">
-          <?php print render($page['footer_firstcolumn']); ?>
-        </div>
-      <?php endif; ?>
-  </div>
 
   <div class="footer-wrapper">
-  <footer class="l-footer row" role="contentinfo">
+    <footer class="l-footer row" role="contentinfo">
+      <?php if (!empty($page['footer'])): ?>
+        <div class="footer columns">
+          <?php print render($page['footer']); ?>
+        </div>
+      <?php endif; ?>
+
+      <?php if ($site_name) : ?>
+        <div class="copyright columns">
+          &copy; <?php print date('Y') . ' ' . $site_name . ' ' . t('All rights reserved.'); ?>
+        </div>
+      <?php endif; ?>
+    </footer>
+  </div>
+  <!--/.l-footer -->
+
+
+  <footer class="l-footer panel row banner-full" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
-      <div class="footer columns">
+      <div class="footer large-12  small-12 columns">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
 
     <?php if ($site_name) :?>
-      <div class="copyright columns">
+      <div class="copyright large-12 columns">
         &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
       </div>
     <?php endif; ?>
   </footer>
-  </div>
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
