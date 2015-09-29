@@ -28,91 +28,49 @@
 
 .section-noticias .view-id-noticias .view-content {
   display: inline-block; }
-.section-noticias .view-id-noticias .views-row-odd {
+.section-noticias .view-id-noticias .views-row {
   float: left;
   margin-right: 60px;
   width: 45%;
   display: inline-block;
   padding: 19px 0;
   border-bottom: solid 1px #e1e1e1; }
-  .section-noticias .view-id-noticias .views-row-odd .views-field-field-image {
+  .section-noticias .view-id-noticias .views-row .views-field-field-image {
     margin-bottom: 18px;
     float: right;
     margin-left: 10px; }
-  .section-noticias .view-id-noticias .views-row-odd .views-field-changed {
+  .section-noticias .view-id-noticias .views-row .views-field-changed {
     margin-bottom: 10px;
     font-size: 12px;
     font-family: "opensans", sans-serif;
     color: #999; }
-  .section-noticias .view-id-noticias .views-row-odd .views-field-body p {
+  .section-noticias .view-id-noticias .views-row .views-field-body p {
     color: #999;
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 0;
     font-family: "opensans", sans-serif; }
-  .section-noticias .view-id-noticias .views-row-odd .views-field-title {
+  .section-noticias .view-id-noticias .views-row .views-field-title {
     font-family: 'ubuntu',sans-serif;
     text-transform: uppercase;
     font-size: 21px;
     display: block;
     margin-bottom: 5px; }
-    .section-noticias .view-id-noticias .views-row-odd .views-field-title span a {
+    .section-noticias .view-id-noticias .views-row .views-field-title span a {
       color: #000;
       text-transform: uppercase; }
-      .section-noticias .view-id-noticias .views-row-odd .views-field-title span a:hover {
+      .section-noticias .view-id-noticias .views-row .views-field-title span a:hover {
         color: #cc0000; }
-  .section-noticias .view-id-noticias .views-row-odd .views-field-nothing {
+  .section-noticias .view-id-noticias .views-row .views-field-nothing {
     border: none; }
-    .section-noticias .view-id-noticias .views-row-odd .views-field-nothing span a {
+    .section-noticias .view-id-noticias .views-row .views-field-nothing span a {
       font-size: 13px;
       font-family: "opensans", sans-serif;
       font-weight: bold;
       color: #C70209;
       text-transform: none;
       display: inline-block; }
-      .section-noticias .view-id-noticias .views-row-odd .views-field-nothing span a:hover {
-        font-size: 13px; }
-.section-noticias .view-id-noticias .views-row-even {
-  float: left;
-  width: 45%;
-  margin-right: 6px;
-  display: inline-block;
-  padding: 19px 0;
-  border-bottom: solid 1px #e1e1e1; }
-  .section-noticias .view-id-noticias .views-row-even .views-field-field-image {
-    margin-bottom: 18px; }
-  .section-noticias .view-id-noticias .views-row-even .views-field-changed {
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-family: "opensans", sans-serif;
-    color: #999; }
-  .section-noticias .view-id-noticias .views-row-even .views-field-body p {
-    color: #999;
-    font-size: 13px;
-    line-height: 20px;
-    margin-bottom: 0;
-    font-family: "opensans", sans-serif; }
-  .section-noticias .view-id-noticias .views-row-even .views-field-title {
-    font-family: 'ubuntu',sans-serif;
-    text-transform: uppercase;
-    font-size: 21px;
-    display: block;
-    margin-bottom: 5px; }
-    .section-noticias .view-id-noticias .views-row-even .views-field-title span a {
-      color: #000;
-      text-transform: uppercase; }
-      .section-noticias .view-id-noticias .views-row-even .views-field-title span a:hover {
-        color: #cc0000; }
-  .section-noticias .view-id-noticias .views-row-even .views-field-nothing {
-    border: none; }
-    .section-noticias .view-id-noticias .views-row-even .views-field-nothing span a {
-      font-size: 13px;
-      font-family: "opensans", sans-serif;
-      font-weight: bold;
-      color: #C70209;
-      text-transform: none;
-      display: inline-block; }
-      .section-noticias .view-id-noticias .views-row-even .views-field-nothing span a:hover {
+      .section-noticias .view-id-noticias .views-row .views-field-nothing span a:hover {
         font-size: 13px; }
 .section-noticias .pagination-centered .pagination {
   clear: both; }
