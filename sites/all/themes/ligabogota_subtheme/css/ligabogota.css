@@ -603,7 +603,9 @@
   margin: 0;
   box-shadow: none; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-field-image {
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    float: left;
+    margin-right: 12px; }
   .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
     margin-bottom: 10px; }
     .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed span {
