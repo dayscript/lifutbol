@@ -17,6 +17,19 @@
  *
  */
 function ligabogota_subtheme_preprocess_page(&$variables) {
+
+  // Messages in modal.
+  $variables['zurb_foundation_messages_modal'] = theme_get_setting('zurb_foundation_messages_modal');
+
+  // Convenience variables
+  if (!empty($variables['page']['sidebar_first'])){
+    $left = $variables['page']['sidebar_first'];
+  }
+
+  if (!empty($variables['page']['sidebar_second'])) {
+    $right = $variables['page']['sidebar_second'];
+  }
+
   // Dynamic sidebars
   if (!empty($left) && !empty($right)) {
     $variables['main_grid'] = 'large-6 push-3';
