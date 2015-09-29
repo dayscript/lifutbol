@@ -569,7 +569,7 @@
   margin-bottom: 20px; }
   .block-views-torneos-block .views-field-field-image {
     padding: 20px; }
-    .block-views-torneos-block .views-field-field-image .field-content .img {
+    .block-views-torneos-block .views-field-field-image .field-content {
       min-width: 220px; }
 
 .view-id-torneos, .view-id-footer-logos {
