@@ -828,3 +828,19 @@
     font-size: 13px;
     font-family: "opensans",sans-serif;
 }
+
+/***************************/
+/*Menu responsive/
+/***************************/
+.responsive-menus.responsified span.toggler {
+  padding: 9px;
+  display: block;
+  background: #333;
+  color: #fff;
+  border-radius: 0px;
+  box-shadow: 0;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
