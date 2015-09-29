@@ -564,13 +564,9 @@
 /***************************/
 /*Block Torneos Footer     */
 /***************************/
-.block-views-torneos-block {
+.patrocinadores {
   background: #ba0000;
-  margin-bottom: 20px; }
-  .block-views-torneos-block .views-field-field-image {
-    padding: 20px; }
-    .block-views-torneos-block .views-field-field-image .field-content {
-      min-width: 220px; }
+  text-align: center; }
 
 .view-id-torneos, .view-id-footer-logos {
   padding: 0;
