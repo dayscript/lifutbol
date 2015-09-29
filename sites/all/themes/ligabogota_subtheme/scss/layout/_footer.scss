@@ -1,6 +1,10 @@
 // Non-modular or client styles for .l-footer region.
 
-
-.l-footer {}
-.l-footer-columns {}
-
+.footer-first-wrapper {
+  background: #ff0000;
+  color: white;
+  .l-footer.row {
+    padding: 30px 0px;
+    text-align: center;
+  }
+}
