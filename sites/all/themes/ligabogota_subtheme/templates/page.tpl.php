@@ -204,7 +204,15 @@
   <?php endif; ?>
 
   <!--.l-footer-->
-
+  <!--.l-footer -->
+  <div class="footer-first-wrapper">
+    <footer class="l-footer row" role="contentinfo">
+      <?php if (!empty($page['footer_firstcolumn'])): ?>
+        <div class="footer-first medium-12 columns">
+          <?php print render($page['footer_firstcolumn']); ?>
+        </div>
+      <?php endif; ?>
+  </div>
 
   <div class="footer-wrapper">
   <footer class="l-footer row" role="contentinfo">
