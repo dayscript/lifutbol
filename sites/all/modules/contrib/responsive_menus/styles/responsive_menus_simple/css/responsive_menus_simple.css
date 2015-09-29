@@ -41,7 +41,7 @@
 .responsive-menus.responsified.responsive-toggled .responsive-menus-simple ul {
   display: block;
   padding: 0;
-  margin: 0;
+  margin: 0; 
 }
 
 .responsive-menus.responsified.responsive-toggled.absolute {
