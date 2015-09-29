@@ -1110,14 +1110,6 @@
     content: " ";
     display: table; }
 
-.large-9 {
-  width: 70%;
-  padding-left: 40px;
-  padding-bottom: 20px; }
-
-.large-3 {
-  width: 29.33333%; }
-
 .not-front .main {
   padding-top: 50px; }
 
