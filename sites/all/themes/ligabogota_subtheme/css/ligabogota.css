@@ -1,85 +1,1293 @@
+@charset "UTF-8";
+/*variables*/
 /*
-Error: Invalid CSS after "...a(186, 0, 0, 0)": expected "{", was ";"
-        on line 621 of scss/components/_blocks.scss
-        from line 28 of scss/ligabogota.scss
+ * Theme specific variables. This takes the place of the normal _settings.scss.
+ * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
+ * SETTINGS" for documentation.
+ */
+/*Funciones**/
+@import url(../fonts/foundation-icons/foundation-icons.css);
+.block-superfish-1 {
+  background-color: rgba(0, 0, 0, 0.62);
+  min-width: 100%;
+  position: absolute; }
+  .block-superfish-1 h2 {
+    display: none; }
+  .block-superfish-1 .menu li {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.62); }
+  .block-superfish-1 .sf-menu li {
+    padding: 0; }
+  .block-superfish-1 .sf-menu.sf-style-default li:hover {
+    background: #F02F34; }
 
-616:         #flexslider-1,#flexslider-5,#flexslider-2{
-617: =======
-618:         #flexslider-1,#flexslider-2,#flexslider-5{
-619: <<<<<<< HEAD
-620: >>>>>>> f4621f24a4275f331b0bceeffd0a7fd0763d7ef8
-621:                  background: rgba(186, 0, 0, 0);
-622: =======
-623:             background: rgba(186, 0, 0, 0);
-624:             margin-bottom:40px; 
-625: <<<<<<< HEAD
-626: <<<<<<< HEAD
+/*pages*/
+#first-time {
+  display: none;
+  margin-top: 1px; }
 
-Backtrace:
-scss/components/_blocks.scss:621
-scss/ligabogota.scss:28
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1093:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:638:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:647:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:647:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:650:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:647:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:632:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:657:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:650:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:309:in `to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:410:in `run'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
-/usr/bin/sass:23:in `load'
-/usr/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...a(186, 0, 0, 0)\": expected \"{\", was \";\"\A         on line 621 of scss/components/_blocks.scss\A         from line 28 of scss/ligabogota.scss\A \A 616:         #flexslider-1,#flexslider-5,#flexslider-2{\A 617: =======\A 618:         #flexslider-1,#flexslider-2,#flexslider-5{\A 619: <<<<<<< HEAD\A 620: >>>>>>> f4621f24a4275f331b0bceeffd0a7fd0763d7ef8\A 621:                  background: rgba(186, 0, 0, 0);\A 622: =======\A 623:             background: rgba(186, 0, 0, 0);\A 624:             margin-bottom:40px; \A 625: <<<<<<< HEAD\A 626: <<<<<<< HEAD"; }
+.section-noticias .view-id-noticias .view-content {
+  display: inline-block; }
+.section-noticias .view-id-noticias .views-row {
+  float: left;
+  display: inline-block;
+  padding: 19px 0;
+  border-bottom: solid 1px #e1e1e1; }
+  .section-noticias .view-id-noticias .views-row .views-field-field-image {
+    margin-bottom: 18px;
+    float: left;
+    margin-right: 12px; }
+  .section-noticias .view-id-noticias .views-row .views-field-changed {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: "opensans", sans-serif;
+    color: #999; }
+  .section-noticias .view-id-noticias .views-row .views-field-body p {
+    color: #999;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-family: "opensans", sans-serif; }
+  .section-noticias .view-id-noticias .views-row .views-field-title {
+    font-family: 'ubuntu',sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    display: block;
+    margin-bottom: 5px; }
+    .section-noticias .view-id-noticias .views-row .views-field-title span a {
+      color: #000;
+      text-transform: uppercase; }
+      .section-noticias .view-id-noticias .views-row .views-field-title span a:hover {
+        color: #cc0000; }
+  .section-noticias .view-id-noticias .views-row .views-field-nothing {
+    border: none; }
+    .section-noticias .view-id-noticias .views-row .views-field-nothing span a {
+      font-size: 13px;
+      font-family: "opensans", sans-serif;
+      font-weight: bold;
+      color: #C70209;
+      text-transform: none;
+      display: inline-block; }
+      .section-noticias .view-id-noticias .views-row .views-field-nothing span a:hover {
+        font-size: 13px; }
+.section-noticias .pagination-centered .pagination {
+  clear: both; }
+
+.page-torneos .view-display-id-block_1 {
+  width: 100%; }
+.page-torneos .quicktabs_main {
+  padding: 0;
+  border: 0; }
+.page-torneos .block-quicktabs h2 {
+  display: none; }
+.page-torneos #quicktabs-pagina_toneos label {
+  font-family: 'opensans',sans-serif;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px; }
+.page-torneos #quicktabs-pagina_toneos form {
+  margin: 5px 0 5px 0;
+  border-bottom: solid 1px #999999; }
+  .page-torneos #quicktabs-pagina_toneos form #edit-title-wrapper, .page-torneos #quicktabs-pagina_toneos form #edit-title--2-wrapper, .page-torneos #quicktabs-pagina_toneos form #edit-title--3-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 0; }
+.page-torneos #quicktabs-pagina_toneos .view-content {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  float: none; }
+.page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic {
+  height: auto;
+  padding: 0;
+  border-bottom: solid 2px #999; }
+  .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li {
+    background-color: #fff;
+    margin: 0;
+    width: 235px;
+    text-align: center;
+    padding: 11px 0px;
+    display: inline-block; }
+    .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: black; }
+  .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li.active {
+    background-color: #ba0000;
+    border-bottom: 0; }
+    .page-torneos #quicktabs-pagina_toneos ul.quicktabs-style-basic li.active a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: #fff; }
+.page-torneos #quicktabs-pagina_toneos .views-field-title {
+  border-bottom: solid 1px #e1e1e1;
+  padding: 18px 0; }
+  .page-torneos #quicktabs-pagina_toneos .views-field-title span a {
+    font-family: 'ubuntu',sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase; }
+    .page-torneos #quicktabs-pagina_toneos .views-field-title span a:hover {
+      color: #cc0000; }
+
+.node-type-torneo .group-content iframe {
+  height: 800px; }
+
+.page-comisiones .view-id-comiciones .comision-header {
+  font-family: 'opensans',sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #999999; }
+.page-comisiones .view-id-comiciones .views-field-title {
+  border-bottom: solid 1px #e1e1e1;
+  padding: 18px 0; }
+  .page-comisiones .view-id-comiciones .views-field-title span a {
+    font-family: 'ubuntu',sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase; }
+    .page-comisiones .view-id-comiciones .views-field-title span a:hover {
+      color: #cc0000; }
+
+.page-clubes .view-clubs .views-row-odd {
+  float: left;
+  width: 45%;
+  display: inline-block;
+  padding: 19px 0;
+  margin-right: 60px;
+  border-bottom: solid 1px #e1e1e1; }
+  .page-clubes .view-clubs .views-row-odd .views-field-field-escudo {
+    float: left;
+    margin-right: 3px; }
+  .page-clubes .view-clubs .views-row-odd .views-field.views-field-title {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    padding: 45px 0;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 20px;
+    font-weight: 100; }
+    .page-clubes .view-clubs .views-row-odd .views-field.views-field-title span a {
+      color: #000;
+      padding-left: 10px;
+      text-transform: uppercase; }
+      .page-clubes .view-clubs .views-row-odd .views-field.views-field-title span a:hover {
+        color: #cc0000; }
+.page-clubes .view-clubs .views-row-even {
+  display: inline-block;
+  width: 45%;
+  padding: 19px 0;
+  border-bottom: solid 1px #e1e1e1; }
+  .page-clubes .view-clubs .views-row-even .views-field-field-escudo {
+    float: left;
+    margin-right: 3px; }
+  .page-clubes .view-clubs .views-row-even .views-field.views-field-title {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    padding: 45px 0;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 18px;
+    font-weight: 100; }
+    .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a {
+      color: #000;
+      padding-left: 10px;
+      text-transform: uppercase; }
+      .page-clubes .view-clubs .views-row-even .views-field.views-field-title span a:hover {
+        color: #cc0000; }
+
+.node-type-club .view-mode-full .group-content .field-name-field-escudo {
+  display: inline-block;
+  float: left;
+  margin-right: 0px;
+  border: 1px solid #f1f1f1; }
+.node-type-club .view-mode-full .group-content .image {
+  border: none; }
+
+.view-display-id-block_3 .view-content {
+  background-color: #f1f1f1;
+  padding: 16px;
+  font-family: "opensans",sans-serif;
+  color: #999;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 20px; }
+  .view-display-id-block_3 .view-content .views-label {
+    font-family: "opensans", sans-serif;
+    color: #000;
+    margin-top: 5px;
+    display: block; }
+  .view-display-id-block_3 .view-content a {
+    text-decoration: none;
+    color: #cc0000; }
+
+.block-views-clubs-block-2 {
+  margin-bottom: 22px; }
+
+.page-documentacion .view-id-documentacion ul.quicktabs-style-basic {
+  height: auto;
+  padding: 0;
+  border-bottom: solid 2px #999; }
+  .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li {
+    background-color: #fff;
+    margin: 0;
+    width: 355px;
+    text-align: center;
+    padding: 11px 0px;
+    display: inline-block; }
+    .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: black; }
+  .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li.active {
+    background-color: #999999;
+    border-bottom: 0; }
+    .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li.active a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: #fff; }
+.page-documentacion .view-id-documentacion .views-field-changed {
+  margin-bottom: 4px; }
+  .page-documentacion .view-id-documentacion .views-field-changed span {
+    font-size: 12px;
+    font-family: "opensans", sans-serif;
+    color: #999; }
+.page-documentacion .view-id-documentacion .views-field-title span a {
+  font-family: 'ubuntu',sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase; }
+  .page-documentacion .view-id-documentacion .views-field-title span a:hover {
+    color: #cc0000; }
+.page-documentacion .view-id-documentacion .views-field.views-field-body {
+  font-family: 'opensans',sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+  border-bottom: solid 1px #e1e1e1;
+  padding: 4px 0; }
+.page-documentacion .view-id-documentacion .quicktabs-style-basic {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  clear: both; }
+
+/*components*/
+.menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
+  padding-top: 23px;
+  color: #fff;
+  padding-bottom: 18px;
+  border-bottom: 3px solid #fff112;
+  position: relative; }
+  .menu li.megamenu-parent a.active:after, .menu li.megamenu-parent a:hover:after, #megamenu-main-menu li.megamenu-parent a.active:after, #megamenu-main-menu li.megamenu-parent a:hover:after {
+    background: none;
+    border-bottom: 3px solid #cf0507;
+    left: 0px;
+    right: 0px;
+    content: "";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 64px; }
+  .menu li.megamenu-parent a.active .megamenu-slots-stacking, .menu li.megamenu-parent a:hover .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a.active .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a:hover .megamenu-slots-stacking {
+    background: #ba0708; }
+.menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar {
+  background: rgba(186, 7, 8, 0);
+  list-style: none;
+  padding: 17px 0px;
+  border: 0; }
+  .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
+    float: none;
+    padding: 5px 10px;
+    background-color: #ba0708;
+    margin: 0;
+    border-bottom: 1px solid #980707 !important; }
+    .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a {
+      color: #f4e1e1;
+      text-decoration: none;
+      border: 0;
+      font-size: 15px; }
+      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover {
+        font-size: 15px;
+        color: #fff;
+        border: 0; }
+      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after {
+        position: relative;
+        border-bottom: 0px solid #fff112 !important; }
+.menu li.megamenu-parent.after, #megamenu-main-menu li.megamenu-parent.after {
+  border: 0; }
+
+/*********************/
+/*Contactenos        */
+/*********************/
+.block-block-1 p {
+  margin: 0; }
+
+.block-custom-search-blocks .search-form .form-submit {
+  width: 28px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-left: 0px;
+  height: 29px;
+  top: 4px;
+  right: 5px;
+  background: url("/sites/default/lupa.png") 8px;
+  background-repeat: no-repeat;
+  background-size: 55%; }
+.block-custom-search-blocks .search-form .custom-search-box {
+  border-radius: 10px 0 0 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-right: 0; }
+
+.fi-calendar {
+  font-size: 20px;
+  margin-right: 7px; }
+
+/*********************/
+/*Contactenos        */
+/*********************/
+@media screen and (max-width: 40em) {
+  .block-logo {
+    position: relative !important;
+    text-align: center; } }
+.block-logo {
+  position: absolute;
+  z-index: 4; }
+
+.redes img {
+  width: 8%;
+  margin: 0 5px; }
+.redes p {
+  font-family: 'opensans',sans-serif;
+  font-size: 12px;
+  color: #666666;
+  padding-top: 8px; }
+  .redes p a {
+    color: #666;
+    padding-left: 10px; }
+    .redes p a:hover {
+      color: #cc0000; }
+  .redes p span {
+    background: #326295;
+    padding: 6px;
+    border-radius: 8px;
+    color: #fff; }
+    .redes p span a {
+      color: #fff; }
+      .redes p span a:hover {
+        color: #fff; }
+
+/***************************/
+/*WIDGET COPA COCACOLA HOME*/
+/***************************/
+.block-quicktabs-widget-quicktab-copa-cocacola .view-content {
+  float: left;
+  width: 76%; }
+.block-quicktabs-widget-quicktab-copa-cocacola .view-footer {
+  width: 24%;
+  display: inline-block;
+  background-color: #333;
+  border-left: solid 1px #5E5E5E; }
+.block-quicktabs-widget-quicktab-copa-cocacola .views-row, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
+  display: inline-flex;
+  background-color: #333;
+  width: 100%;
+  /*.views-field-field-identificador-commet{
+      width: 100%;
+  }
+  
+  .content-none{
+       width: 57%;
+      height: 112px;
+      display: inline-block;
+      float: left;
+      span.no-result {
+          font-size: 18px;
+          color: #fff;
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          margin: 40px 0;
+          font-family: 'opensans',sans-serif;
+      }
+  }*/ }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing {
+    float: right; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing .widget-logococacola, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing .widget-logococacola {
+      border-left: 1px solid #5E5E5E; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .lupa {
+    display: block;
+    width: 38px;
+    margin: 0 auto;
+    height: 38px;
+    background: url("/sites/default/lupa.png");
+    background-repeat: no-repeat; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1 .widget-image-buscador-avanzado .buscador-avanzado a {
+    font-family: 'ubuntu',sans-serif;
+    font-size: 13px;
+    color: #606060;
+    text-transform: uppercase;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .buscador-avanzado a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .buscador-avanzado a {
+    color: #fff; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-nothing-1:hover .lupa, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-nothing-1:hover .lupa {
+    background: url("/sites/default/lupahover.png");
+    background-repeat: no-repeat; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title {
+    float: left;
+    width: 100%;
+    padding: 17px 23px 13px 15px;
+    border: 1px solid #5E5E5E;
+    border-top: 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover {
+      background-color: #C60F13; }
+      .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-title:hover span a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-title:hover span a {
+        color: #fff;
+        font-weight: 300; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty a {
+    font-family: 'opensans',sans-serif;
+    text-transform: uppercase;
+    color: #BFBAB8;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .views-row .views-field-field-goleadores, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field.views-field-field-programaci-n, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-posiciones, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-resultados, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .views-field-field-goleadores {
+    padding: 0 15px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row label, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty label {
+    font-family: 'opensans',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file {
+    display: inline-block;
+    width: 75px;
+    padding: 11px 0;
+    text-align: center; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file img, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file img {
+      display: inline-block;
+      width: 20px;
+      margin: 0 20px; }
+    .block-quicktabs-widget-quicktab-copa-cocacola .views-row .file a, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty .file a {
+      font-size: 10px; }
+.block-quicktabs-widget-quicktab-copa-cocacola #quicktabs-container-widget_quicktab_copa_cocacola {
+  padding: 0;
+  margin-bottom: 36px;
+  display: inline-block;
+  background-color: #333;
+  width: 100%; }
+.block-quicktabs-widget-quicktab-copa-cocacola form {
+  background-color: #cf0507;
+  margin: 0;
+  padding: 4px 1px 0px 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form input {
+    width: 150px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form select {
+    padding: 8px 1px;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper {
+    padding: .5em 13px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-categor-a-tid-wrapper #edit-field-categor-a-tid {
+      width: 197px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper {
+    padding: .5em 14px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-nivel-tid-wrapper #edit-field-nivel-tid {
+      width: 150px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper {
+    padding: 0.5em 11px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-field-grupo-tid-wrapper #edit-field-grupo-tid {
+      width: 137px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper {
+    padding: 0.5em 0px 0 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola form #edit-title-wrapper #edit-title {
+      width: 160px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form label {
+    font-family: 'opensans',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px; }
+  .block-quicktabs-widget-quicktab-copa-cocacola form .views-exposed-widgets {
+    margin: 0; }
+.block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
+  display: inline-block;
+  width: 100%; }
+.block-quicktabs-widget-quicktab-copa-cocacola .widget--image-copacocacola {
+  background-color: #333333;
+  width: 123px;
+  height: 112px;
+  float: left; }
+.block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic {
+  height: auto;
+  padding: 0;
+  border-bottom: solid 2px #999; }
+  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li {
+    background-color: #fff;
+    margin: 0;
+    width: 349px;
+    text-align: center;
+    padding: 11px 0px;
+    display: inline-block; }
+    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: black; }
+  .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active {
+    background-color: #999999;
+    border-bottom: 0; }
+    .block-quicktabs-widget-quicktab-copa-cocacola ul.quicktabs-style-basic li.active a {
+      font-size: 23px !important;
+      font-family: "Ubuntu", sans-serif !important;
+      text-transform: uppercase;
+      font-weight: normal;
+      color: #fff; }
+
+/***************************/
+/*WIDGET COPA COCACOLA HOME*/
+/***************************/
+/***************************/
+/*Block Torneos Footer     */
+/***************************/
+.patrocinadores {
+  background: #ba0000;
+  text-align: center; }
+
+.datos-footer {
+  color: #fff;
+  font-size: 12px;
+  font-family: "opensans", sans-serif;
+  padding: 15px; }
+
+/***************************/
+/*Block Torneos Footer     */
+/***************************/
+/***************************/
+/*Block Noticias Slider Home/
+/***************************/
+.block-views-noticias-block {
+  margin-bottom: 38px; }
+  .block-views-noticias-block .view-id-noticias #flexslider-2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-shadow: none; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-field-image {
+      margin-bottom: 18px;
+      float: left;
+      margin-right: 12px; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
+      margin-bottom: 10px; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed span {
+        font-size: 12px;
+        font-family: "opensans", sans-serif;
+        color: #999; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-body p {
+      color: #999;
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 0;
+      font-family: "opensans", sans-serif; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing {
+      border: none; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a {
+        font-size: 13px;
+        font-family: "opensans", sans-serif;
+        font-weight: bold;
+        color: #C70209;
+        padding: 10px 0 15px 0;
+        text-transform: none; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-nothing span a:hover {
+          font-size: 13px; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 li {
+      margin-right: 10px !important; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 li span a {
+        font-family: 'ubuntu',sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 21px;
+        line-height: 26px;
+        display: block;
+        margin-bottom: 5px; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 li span a:hover {
+          color: #cc0000; }
+    .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav {
+      position: absolute;
+      top: -60px;
+      right: 0px;
+      display: inline-block;
+      width: 90px;
+      height: 40px; }
+      .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li {
+        display: inline-block; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li a {
+          border-radius: 50%;
+          display: inline-block;
+          background-color: #CC0507;
+          margin: -8px;
+          color: #fff;
+          font-weight: 100;
+          font-family: 'opensans',sans-serif;
+          text-align: center; }
+          .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li a:before {
+            padding: 0px 0px !important;
+            font-size: 40px !important;
+            display: inline-block;
+            position: absolute;
+            top: 6px;
+            right: 10px; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-next:before {
+          content: "›" !important; }
+        .block-views-noticias-block .view-id-noticias #flexslider-2 .flex-direction-nav li .flex-prev:before {
+          content: "‹" !important; }
+
+/***************************/
+/*Block Twitter/
+/***************************/
+.view-tweets {
+  font-family: "opensans", sans-serif;
+  font-size: 13px;
+  color: #999;
+  padding: 20px;
+  background: #f5f5f5;
+  border: none;
+  position: relative; }
+  .view-tweets a {
+    color: #cc0000;
+    text-decoration: none;
+    line-height: inherit; }
+
+/***************************/
+/*Block galeria Slider Home/
+/***************************/
+.block-views-galerias-block .view-id-galerias #flexslider-3 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-shadow: none;
+  margin-bottom: 10px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image ul li {
+    display: none;
+    padding: 0; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image ul li.first {
+    display: inline-block; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 ul.slides > li {
+    margin: 0 0 0 2px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 ul.slides > li ul {
+    margin: 0; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 li.first {
+    display: block !important;
+    margin: 0 !important; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-field-image {
+    margin-bottom: 1px; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed {
+    margin-bottom: 0px;
+    padding: 8px 8px 2px 2px; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-changed span {
+      font-size: 11px;
+      font-family: "opensans", sans-serif;
+      color: #fff; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .field-body {
+    padding: 0 0 13px 0; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body {
+    background-color: #aeaeae;
+    padding: 0px 10px; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body p {
+      font-size: 13px;
+      line-height: 18px;
+      margin-bottom: 0;
+      color: #fff;
+      font-family: "opensans", sans-serif; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body:hover {
+      background-color: #cf0507; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 li {
+    margin-right: 10px !important; }
+  .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav {
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    display: inline-block;
+    width: 90px;
+    height: 40px; }
+    .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li {
+      display: inline-block; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li a {
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #CC0507;
+        margin: -8px;
+        color: #fff;
+        font-weight: 100;
+        font-family: 'opensans',sans-serif;
+        text-align: center; }
+        .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li a:before {
+          padding: 0px 0px !important;
+          font-size: 40px !important;
+          display: inline-block;
+          position: absolute;
+          top: 6px;
+          right: 10px; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-next:before {
+        content: "›" !important; }
+      .block-views-galerias-block .view-id-galerias #flexslider-3 .flex-direction-nav li .flex-prev:before {
+        content: "‹" !important; }
+
+/***************************/
+/*Block galeria Slider Home/
+/***************************/
+.block-views-torneos-block {
+  /***************************/
+  /*Block direcciones contactenos/
+  /***************************/
+  /***************************/
+  /*Menu responsive/
+  /***************************/ }
+  .block-views-torneos-block .view-id-torneos {
+    width: 12%; }
+    .block-views-torneos-block .view-id-torneos #flexslider-4 {
+      background: rgba(186, 0, 0, 0);
+      border: 0; }
+      .block-views-torneos-block .view-id-torneos #flexslider-4 li {
+        margin-right: 10px !important; }
+      .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
+        height: 60px; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 {
+      background: rgba(186, 0, 0, 0);
+      background: rgba(186, 0, 0, 0);
+      margin-bottom: 40px;
+      border: 0;
+      border: none;
+      padding: 10px;
+      border: 0;
+      padding: 10px 0; }
+      .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 li {
+        margin-right: 10px !important; }
+      .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 .flex-viewport {
+        padding: 15px 0; }
+      .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 .flex-direction-nav a {
+        height: 60px; }
+  .block-views-torneos-block .sharethis-wrapper {
+    border-left: solid 5px red;
+    margin: 20px 0px;
+    padding: 7px; }
+  .block-views-torneos-block .field-type-text-with-summary {
+    font-family: 'opensans',sans-serif;
+    font-size: 13px;
+    color: #999999;
+    line-height: 18px;
+    margin-top: 15px; }
+    .block-views-torneos-block .field-type-text-with-summary .field-label {
+      font-family: "ubuntu", sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #000;
+      margin: 5px 0 16px 0; }
+  .block-views-torneos-block .field-name-field-torneo {
+    font-family: "ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+    margin: 5px 0 16px 0;
+    padding: 18px 0;
+    line-height: 30px; }
+    .block-views-torneos-block .field-name-field-torneo a {
+      color: #000000;
+      border-bottom: solid 1px #e1e1e1;
+      display: block;
+      padding: 18px 0; }
+      .block-views-torneos-block .field-name-field-torneo a:hover {
+        color: #cc0000; }
+      .block-views-torneos-block .field-name-field-torneo a .field-label {
+        margin-bottom: 16px; }
+  .block-views-torneos-block .field-name-changed-date {
+    font-family: "opensans", sans-serif;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 15px; }
+  .block-views-torneos-block .field-name-comment-body {
+    font-family: 'opensans',sans-serif;
+    font-size: 13px;
+    color: #999999;
+    line-height: 20px;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 18px 0; }
+  .block-views-torneos-block .view-id-torneos .views-field-nothing {
+    float: left;
+    border-right: solid 1px #666666; }
+    .block-views-torneos-block .view-id-torneos .views-field-nothing .widget-logococacola {
+      padding: 40px 16px; }
+  .block-views-torneos-block .views-field-nothing .widget-logococacola img {
+    width: 110px;
+    display: inline-block;
+    margin: 29px 19px 18px 33px; }
+  .block-views-torneos-block .views-field-nothing .widget-logococacola .lupa {
+    display: block;
+    width: 38px;
+    margin: 0 auto;
+    height: 38px;
+    background: url("/sites/default/lupa.png");
+    background-repeat: no-repeat;
+    top: 20px; }
+  .block-views-torneos-block .views-field-nothing .widget-logococacola .buscador-avanzado a {
+    font-family: 'ubuntu',sans-serif;
+    font-size: 13px;
+    color: #606060;
+    text-transform: uppercase;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0;
+    line-height: 14px; }
+  .block-views-torneos-block .widget-logococacola:hover .buscador-avanzado a {
+    color: #fff; }
+  .block-views-torneos-block .widget-logococacola:hover .lupa {
+    background: url("/sites/default/lupahover.png");
+    background-repeat: no-repeat; }
+  .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content {
+    background-color: #f5f5f5;
+    margin-bottom: 18px; }
+    .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
+      padding: 24px 13px;
+      font-size: 13px;
+      border-bottom: 1px solid #e0e0e0;
+      line-height: 0; }
+      .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a {
+        color: #999999; }
+        .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
+          color: #666;
+          content: "\232A";
+          font-size: 12px;
+          font-weight: lighter;
+          padding-right: 10px; }
+        .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
+          color: #000000; }
+      .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
+        content: " "; }
+  .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content {
+    background-color: #f5f5f5;
+    margin-bottom: 22px; }
+    .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row {
+      padding: 24px 13px;
+      font-size: 13px;
+      border-bottom: 1px solid #e0e0e0;
+      line-height: 0; }
+      .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row a {
+        color: #999999; }
+        .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row a:before {
+          color: #666;
+          content: "\232A";
+          font-size: 12px;
+          font-weight: lighter;
+          padding-right: 10px; }
+        .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row a:hover {
+          color: #000000; }
+      .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row:after {
+        content: " "; }
+  .block-views-torneos-block #cboxMiddleLeft {
+    background-color: rgba(255, 255, 255, 0); }
+  .block-views-torneos-block #cboxWrapper {
+    background-color: rgba(255, 255, 255, 0.16); }
+  .block-views-torneos-block .contacto {
+    color: #999;
+    font-size: 13px;
+    font-family: "opensans",sans-serif; }
+  .block-views-torneos-block .responsive-menus.responsified span.toggler {
+    padding: 9px;
+    display: block;
+    background: #333;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 0;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none; }
+
+/*********************/
+/*Slider Home        */
+/*********************/
+.block-views-views-banner-slider-home-block {
+  display: inline-block;
+  min-width: 100%;
+  /*position: absolute;
+  top:0;*/ }
+  .block-views-views-banner-slider-home-block .block-title {
+    display: none; }
+  .block-views-views-banner-slider-home-block .flexslider {
+    border: 0;
+    margin-bottom: 0; }
+  .block-views-views-banner-slider-home-block .flex-control-nav {
+    bottom: 10px;
+    z-index: 3; }
+  .block-views-views-banner-slider-home-block .flex-control-nav li a.flex-active {
+    background: #cc0000; }
+  .block-views-views-banner-slider-home-block .views-field-title {
+    position: absolute;
+    top: 200px;
+    width: 100%; }
+    .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper {
+      text-align: center; }
+      .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper span {
+        font-family: "Ubuntu",sans-serif;
+        font-size: 46px;
+        letter-spacing: -1px;
+        font-weight: normal;
+        line-height: 40px;
+        color: #fff;
+        text-transform: uppercase; }
+      .block-views-views-banner-slider-home-block .views-field-title .title-banner-wrapper p {
+        font-family: "Ubuntu",sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #fff;
+        text-transform: uppercase; }
+
+/*********************/
+/*Pager        */
+/*********************/
+.pagination.pager {
+  margin: 40px 0; }
+  .pagination.pager .current a {
+    background: #cc0000; }
+    .pagination.pager .current a:hover {
+      background: #000; }
+  .pagination.pager a {
+    background: #ccc;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "opensans", sans-serif;
+    padding: 6px 16px;
+    text-transform: uppercase; }
+
+.search-results {
+  padding-left: 1em;
+  font-size: 13px;
+  color: #999;
+  font-family: "opensans",sans-serif; }
+
+.page-search-node .main ul {
+  font-size: 9px;
+  margin-left: 0;
+  color: #999;
+  font-size: 13px;
+  font-family: "opensans", sans-serif; }
+
+.button {
+  color: #fff;
+  background-color: #cc0000;
+  hover-color: #fff;
+  hover-background-color: #000; }
+
+/*layout*/
+.l-header {
+  padding: 8px 0px; }
+
+.l-featured {
+  margin-bottom: 10px; }
+  .l-featured div {
+    float: none; }
+
+.top-bar {
+  display: none; }
+
+.block-system-main-menu {
+  display: none !important; }
+
+.banner-full {
+  max-width: 100%; }
+
+.block-system-main-menu, .block-megamenu-main-menu {
+  background-color: rgba(0, 0, 0, 0.62);
+  z-index: 3;
+  position: relative;
+  min-width: 100%; }
+  .block-system-main-menu .block-title, .block-megamenu-main-menu .block-title {
+    display: none; }
+
+.not-front .block-system-main-menu, .not-front .block-megamenu-main-menu {
+  background-color: #000; }
+  .not-front .block-system-main-menu .block-title, .not-front .block-megamenu-main-menu .block-title {
+    display: none; }
+
+.front .block-system-main-menu, .front .block-megamenu-main-menu {
+  position: absolute; }
+
+.menu, #megamenu-main-menu {
+  margin: 0 auto;
+  list-style: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* max-width: 62.5em; */
+  max-width: 68.8em; }
+  .menu li, #megamenu-main-menu li {
+    margin: 0px 14px;
+    float: right;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    font-weight: normal; }
+    .menu li a, #megamenu-main-menu li a {
+      font-family: "Ubuntu",sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      color: #999; }
+      .menu li a:hover, #megamenu-main-menu li a:hover {
+        color: #fff; }
+      .menu li a:active, #megamenu-main-menu li a:active {
+        color: #fff; }
+  .menu:after, #megamenu-main-menu:after {
+    clear: both; }
+  .menu:before, .menu:after, #megamenu-main-menu:before, #megamenu-main-menu:after {
+    content: " ";
+    display: table; }
+
+.not-front .main {
+  padding-top: 50px; }
+
+.view-mode-full.row {
+  margin-left: none; }
+
+/*fonts*/
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu/Ubuntu-C.ttf");
+  src: url("../fonts/Ubuntu/Ubuntu-C.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans";
+  src: url("../fonts/Opensans/OpenSans-Regular.ttf");
+  src: url("../fonts/Opensans/OpenSans-Regular.ttf") format("truetype"); }
+.l-footer {
+  background-color: #16151B !important;
+  padding: 0;
+  margin: 0; }
+  .l-footer .footer {
+    padding: 0; }
+
+.l-main {
+  padding-top: 12px; }
+
+/*********************/
+/* featured region   */
+/*********************/
+.l-featured .large-12.columns {
+  padding: 0; }
+
+h1 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 45px;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 36px;
+  text-transform: uppercase; }
+
+h2.block-title {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 5px 4px;
+  color: #CF0507;
+  border-left: 4px solid;
+  border-right: 0px solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#CF0507), to(#FFF112)) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  border-left-image: linear-gradient(to top, #CF0507, #FFF112) 1 100%; }
+
+h1#page-title {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 0 4px;
+  color: #CF0507;
+  border-left: 4px solid;
+  border-right: 0px solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#CF0507), to(#FFF112)) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, #CF0507, #FFF112) 1 100%;
+  border-left-image: linear-gradient(to top, #CF0507, #FFF112) 1 100%; }
+
+h3 {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000; }
+
+body {
+  background-color: #F3F3F3; }
+  body a {
+    color: #cc0000;
+    text-decoration: none; }
+    body a:hover {
+      color: #000; }
+  body p, body li {
+    line-height: 20px; }
+    body p a, body li a {
+      color: #cc0000;
+      text-decoration: none; }
+      body p a:hover, body li a:hover {
+        color: #000; }
+
+main {
+  background-color: #fff; }
+
+/*********************/
+/**/
+/*********************/
+/*********************/
+/* Block Search      */
+/*********************/
+.block-custom-search-blocks .block-title {
+  display: none; }
+.block-custom-search-blocks form.search-form {
+  text-align: right;
+  margin: 0; }
+  .block-custom-search-blocks form.search-form input {
+    width: 225px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #666; }
+  .block-custom-search-blocks form.search-form button {
+    margin: 0;
+    padding: 6px; }
+  .block-custom-search-blocks form.search-form .form-type-textfield {
+    display: inline-block;
+    margin: 0; }
+
+/*********************/
+/* Block Search  End */
+/*********************/
+/*********************/
+/* bread End         */
+/*********************/
+.breadcrumbs {
+  display: inline-block;
+  padding: 0.5625em 1.9em 0.5625em;
+  overflow: hidden;
+  margin-right: 0;
+  list-style: none;
+  float: right;
+  border-style: none;
+  border-width: 0px;
+  background-color: #fff;
+  border-color: 0;
+  font-family: "OpenSans", sans-serif;
+  font-size: 10px ¡important;
+  color: #999 ¡important; }
+  .breadcrumbs a {
+    text-transform: uppercase;
+    color: #cc0000; }
+  .breadcrumbs .current {
+    cursor: default; }
+    .breadcrumbs .current a {
+      color: #999; }
+
+/*********************/
+/* read End          */
+/*********************/
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  height: 30px;
+  -moz-appearance: none;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9; }
+
+select {
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #666;
+  height: 30px;
+  margin: 5px 5px 5px 0;
+  -moz-appearance: none;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e9e9e9; }
+
+label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "opensans", sans-serif;
+  color: #999;
+  display: block;
+  font-weight: normal; }
+  label .views-exposed-form {
+    font-weight: normal; }
+
+.form-submit {
+  background-color: #cc0000;
+  border: none; }
+
+button.secondary, .button.secondary {
+  background-color: #cc0000;
+  border: none;
+  color: #fff;
+  border-radius: 0px;
+  hover-color: #fff;
+  hover-background-color: #000; }
+
+/*Responsive*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .small-12 {
+    width: 100%; }
+
+  .large-9 {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em; }
+
+  .l-main {
+    padding-left: 0; }
+
+  .block-views-views-banner-slider-home-block {
+    display: none; }
+
+  .page-noticias .view-id-noticias .views-row-odd {
+    float: none;
+    width: 100%; } }
+
+/*# sourceMappingURL=ligabogota.css.map */
