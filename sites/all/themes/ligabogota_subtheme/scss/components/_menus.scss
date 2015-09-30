@@ -1,5 +1,4 @@
 .menu,#megamenu-main-menu{
-	float: left;
 	li.megamenu-parent {
 		a.active,a:hover{
 		padding-top: 23px;
@@ -61,5 +60,8 @@
 			border:0;
 		}
 	}
+}
+ #megamenu-main-menu li {
+    float: left;
 }
 

@@ -286,51 +286,52 @@
   clear: both; }
 
 /*components*/
-.menu, #megamenu-main-menu {
+.menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
+  padding-top: 23px;
+  color: #fff;
+  padding-bottom: 18px;
+  border-bottom: 3px solid #fff112;
+  position: relative; }
+  .menu li.megamenu-parent a.active:after, .menu li.megamenu-parent a:hover:after, #megamenu-main-menu li.megamenu-parent a.active:after, #megamenu-main-menu li.megamenu-parent a:hover:after {
+    background: none;
+    border-bottom: 3px solid #cf0507;
+    left: 0px;
+    right: 0px;
+    content: "";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 64px; }
+  .menu li.megamenu-parent a.active .megamenu-slots-stacking, .menu li.megamenu-parent a:hover .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a.active .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a:hover .megamenu-slots-stacking {
+    background: #bA0708; }
+.menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar {
+  background: rgba(186, 7, 8, 0);
+  list-style: none;
+  padding: 17px 0px;
+  border: 0; }
+  .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
+    float: none;
+    padding: 5px 10px;
+    background-color: #bA0708;
+    margin: 0;
+    border-bottom: 1px solid #980707 !important; }
+    .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a {
+      color: #f4e1e1;
+      text-decoration: none;
+      border: 0;
+      font-size: 15px; }
+      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover {
+        font-size: 15px;
+        color: #fff;
+        border: 0; }
+      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after {
+        position: relative;
+        border-bottom: 0px solid #fff112 !important; }
+.menu li.megamenu-parent.after, #megamenu-main-menu li.megamenu-parent.after {
+  border: 0; }
+
+#megamenu-main-menu li {
   float: left; }
-  .menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
-    padding-top: 23px;
-    color: #fff;
-    padding-bottom: 18px;
-    border-bottom: 3px solid #fff112;
-    position: relative; }
-    .menu li.megamenu-parent a.active:after, .menu li.megamenu-parent a:hover:after, #megamenu-main-menu li.megamenu-parent a.active:after, #megamenu-main-menu li.megamenu-parent a:hover:after {
-      background: none;
-      border-bottom: 3px solid #cf0507;
-      left: 0px;
-      right: 0px;
-      content: "";
-      display: block;
-      pointer-events: none;
-      position: absolute;
-      top: 64px; }
-    .menu li.megamenu-parent a.active .megamenu-slots-stacking, .menu li.megamenu-parent a:hover .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a.active .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a:hover .megamenu-slots-stacking {
-      background: #bA0708; }
-  .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar {
-    background: rgba(186, 7, 8, 0);
-    list-style: none;
-    padding: 17px 0px;
-    border: 0; }
-    .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
-      float: none;
-      padding: 5px 10px;
-      background-color: #bA0708;
-      margin: 0;
-      border-bottom: 1px solid #980707 !important; }
-      .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a {
-        color: #f4e1e1;
-        text-decoration: none;
-        border: 0;
-        font-size: 15px; }
-        .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:hover {
-          font-size: 15px;
-          color: #fff;
-          border: 0; }
-        .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a:after {
-          position: relative;
-          border-bottom: 0px solid #fff112 !important; }
-  .menu li.megamenu-parent.after, #megamenu-main-menu li.megamenu-parent.after {
-    border: 0; }
 
 /*********************/
 /*Contactenos        */
