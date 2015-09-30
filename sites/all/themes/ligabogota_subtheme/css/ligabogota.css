@@ -676,6 +676,20 @@
     line-height: inherit; }
 
 /***************************/
+/*Block Facebook/
+/***************************/
+ul.facebook-feed {
+  background: #f5f5f5;
+  padding: 10px;
+  font-family: "opensans", sans-serif;
+  font-size: 13px;
+  color: #999; }
+  ul.facebook-feed a {
+    color: #cc0000;
+    text-decoration: none;
+    line-height: inherit; }
+
+/***************************/
 /*Block galeria Slider Home/
 /***************************/
 .block-views-galerias-block .view-id-galerias #flexslider-3 {
