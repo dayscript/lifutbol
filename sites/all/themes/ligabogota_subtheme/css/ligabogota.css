@@ -243,7 +243,7 @@
   .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li {
     background-color: #fff;
     margin: 0;
-    width: 355px;
+    width: 300px;
     text-align: center;
     padding: 11px 0px;
     display: inline-block; }
@@ -253,6 +253,9 @@
       text-transform: uppercase;
       font-weight: normal;
       color: black; }
+  @media screen and (max-width: 40em) {
+    .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li {
+      width: 100%; } }
   .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li.active {
     background-color: #999999;
     border-bottom: 0; }
