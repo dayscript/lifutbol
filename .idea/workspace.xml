@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3140df10-c6ba-4529-810a-c1992d321126" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss" />
+    </list>
+    <ignored path="lifutbol.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lifutbol" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="responsive_menus_simple.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_menus.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32142857">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GulpTreeLayoutManager">
+    <layout place="tools.popup">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_main.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/pages/_page--noticias.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/app.css" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/flexslider/flexslider.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/ligabogota.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" />
+        <option value="$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/Gruntfile.js">
+      <alias-task name="default" info="Alias for &quot;watch&quot; task." file-path="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/Gruntfile.js">
+        <dependency value="watch" />
+      </alias-task>
+      <core-task name="sass" info="Compile Sass to CSS" file-path="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/node_modules/grunt-contrib-sass/tasks/sass.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="css" />
+      </core-task>
+    </gruntfile>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="981" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ligabogota_subtheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ligabogota_subtheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ligabogota_subtheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifutbol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ligabogota_subtheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.lifutbol">
+    <configuration default="false" name="lifutbol" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.lifutbol" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.lifutbol" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3140df10-c6ba-4529-810a-c1992d321126" name="Default" comment="" />
+      <created>1443542350537</created>
+      <option name="number" value="Default" />
+      <updated>1443542350537</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Page template updates">
+      <created>1443550111373</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1443550111373</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Page template updates">
+      <created>1443550161612</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1443550161612</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Page template updates">
+      <created>1443550224455</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1443550224455</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Page template updates">
+      <created>1443550293878</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1443550293878</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Page template updates">
+      <created>1443551168002</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1443551168002</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Page template updates">
+      <created>1443553659957</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1443553659957</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Page template updates">
+      <created>1443553848260</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1443553848260</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Page template updates">
+      <created>1443554011733</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1443554011733</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Page template updates">
+      <created>1443554104323</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1443554104323</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Page template updates">
+      <created>1443554168941</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1443554168941</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Page template updates">
+      <created>1443554925279</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1443554925279</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Page template updates">
+      <created>1443555363378</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1443555363378</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Page template updates">
+      <created>1443555471495</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1443555471495</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Page template updates">
+      <created>1443555598342</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1443555598342</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Page template updates">
+      <created>1443556355612</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1443556355612</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Page template updates">
+      <created>1443556506392</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1443556506392</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Page template updates">
+      <created>1443556996153</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1443556996153</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Page template updates">
+      <created>1443557313493</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1443557313493</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Page template updates">
+      <created>1443557367316</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1443557367316</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Page template updates">
+      <created>1443558008869</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1443558008869</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Page template updates">
+      <created>1443558155643</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1443558155643</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Page template updates">
+      <created>1443559796499</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1443559796499</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Page template updates">
+      <created>1443559949441</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1443559949441</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Page template updates">
+      <created>1443561136943</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1443561136943</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Page template updates">
+      <created>1443562137221</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1443562137221</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Page template updates">
+      <created>1443562202415</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1443562202523</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Page template updates">
+      <created>1443562490513</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1443562490514</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Page template updates">
+      <created>1443562719348</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1443562719349</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Page template updates">
+      <created>1443563703541</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1443563703541</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Page template updates">
+      <created>1443563743540</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1443563743540</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Page template updates">
+      <created>1443563858345</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1443563858346</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Page template updates">
+      <created>1443563969599</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1443563969599</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Page template updates">
+      <created>1443564036031</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1443564036031</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Page template updates">
+      <created>1443564414163</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1443564414163</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Page template updates">
+      <created>1443564457276</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1443564457276</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Page template updates">
+      <created>1443564523939</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1443564523939</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Page template updates">
+      <created>1443564612740</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1443564612740</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Page template updates">
+      <created>1443564713995</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1443564713995</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Page template updates">
+      <created>1443565330902</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1443565330902</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Page template updates">
+      <created>1443565581341</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1443565581341</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Page template updates">
+      <created>1443565787636</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1443565787636</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Page template updates">
+      <created>1443566080141</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1443566080142</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Page template updates">
+      <created>1443566299169</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1443566299169</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Page template updates">
+      <created>1443566351107</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1443566351107</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Page template updates">
+      <created>1443566622757</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1443566622757</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Page template updates 2">
+      <created>1443566825049</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1443566825049</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Page template updates 2">
+      <created>1443566871804</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1443566871804</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Page template updates 2">
+      <created>1443567069496</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1443567069496</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Page template updates 2">
+      <created>1443568424767</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1443568424768</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1920" height="981" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.50182956" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4981704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Page template updates" />
+    <MESSAGE value="Page template updates 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page template updates 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="831" column="0" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/base/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/base/_init.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53571427">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5347092">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/pages/_page--noticias.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13392857">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/zurb_foundation/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6017857">
+          <caret line="739" column="3" selection-start-line="728" selection-start-column="0" selection-end-line="739" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35906643">
+          <caret line="597" column="28" selection-start-line="597" selection-start-column="28" selection-end-line="597" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48214287">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/flexslider/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6499102">
+          <caret line="88" column="85" selection-start-line="88" selection-start-column="85" selection-end-line="88" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05357143">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/ligabogota.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73170733">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08035714">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.878049">
+          <caret line="564" column="7" selection-start-line="564" selection-start-column="3" selection-end-line="564" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8592871">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="208" column="30" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4464285">
+          <caret line="827" column="20" selection-start-line="827" selection-start-column="20" selection-end-line="827" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32142857">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
