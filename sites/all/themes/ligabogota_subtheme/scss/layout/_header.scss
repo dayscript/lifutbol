@@ -55,7 +55,7 @@
     margin-top: 0;
     margin-bottom: 0;
     /* max-width: 62.5em; */
-    max-width: 68.8em;
+    /*max-width: 68.8em;*/
 	li{
 	    margin: 0px 14px;
 	    float: left;
@@ -86,5 +86,7 @@
 }
 
 ul#megamenu-main-menu {
+    display: block;
+    min-width: 50%;
     float: right;
 }
