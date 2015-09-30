@@ -609,14 +609,34 @@
                 a{
                     height: 60px;
                 }
-            
+             
             }
         }
+<<<<<<< HEAD
+        #flexslider-1,#flexslider-5,#flexslider-2{
+=======
         #flexslider-1,#flexslider-2,#flexslider-5{
+<<<<<<< HEAD
+>>>>>>> f4621f24a4275f331b0bceeffd0a7fd0763d7ef8
+                 background: rgba(186, 0, 0, 0);
+=======
             background: rgba(186, 0, 0, 0);
             margin-bottom:40px; 
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bf3f8520f7db97b96965bd06a8432c759c0a1ae8
             border:0;
+<<<<<<< HEAD
+=======
+            border:none;
+            padding: 10px;
+>>>>>>> a2a44a41c327e8c39a4a8cc3eda6bafe372bda1e
+=======
+            border:0;
+>>>>>>> e87b3322fe9c85c07e61332104924ac3dda19b4b
+=======
             padding:10px 0;
+>>>>>>> b475b1e606393f37d4e2f9c0d3c20ab30d1bf494
             li{
             margin-right: 10px!important;
             }
@@ -625,7 +645,7 @@
             }
             .flex-direction-nav{
                 
-                a{
+                a{ 
                     height: 60px;
                 }  
             
@@ -820,6 +840,8 @@
 #cboxWrapper{
     background-color: rgba(255, 255, 255, 0.16);
 }
+<<<<<<< HEAD
+=======
 /***************************/
 /*Block direcciones contactenos/
 /***************************/
@@ -827,4 +849,28 @@
     color: #999;
     font-size: 13px;
     font-family: "opensans",sans-serif;
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
+>>>>>>> 1b45f7eae435bd7c9b8a0c7f43e0ec203d68aeb2
+=======
+
+/***************************/
+/*Menu responsive/
+/***************************/
+.responsive-menus.responsified span.toggler {
+  padding: 9px;
+  display: block;
+  background: #333;
+  color: #fff;
+  border-radius: 0px;
+  box-shadow: 0;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+>>>>>>> 1231eaa6fb92cd297229b2ecbb906f4ee8951386
+=======
+}
+>>>>>>> b3b26ba5ed1881791ff4b74300dfb8c3c06be6a5
