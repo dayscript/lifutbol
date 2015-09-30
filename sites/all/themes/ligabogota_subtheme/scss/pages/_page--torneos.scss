@@ -50,7 +50,7 @@
         	li{
         		background-color: #fff;
         		margin: 0;
-    		    width: 33%;
+    		    width: 250px;
     		    text-align: center;
     		    padding: 11px 0px;
         		display: inline-block;
@@ -58,6 +58,11 @@
         			@include tamano_fuente(black);
         		}
         	}
+            @media screen and (max-width:40em) {
+  li{
+    width: 350px;
+   }
+}
         	li.active{
         		background-color: $color-rojo;
         		border-bottom:0;
