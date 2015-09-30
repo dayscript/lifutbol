@@ -288,7 +288,6 @@
 /*components*/
 .menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
   padding-top: 23px;
-  float: left;
   color: #fff;
   padding-bottom: 18px;
   border-bottom: 3px solid #fff112;
