@@ -1112,6 +1112,7 @@ h2.block-title {
   font-size: 25px;
   font-weight: normal;
   text-transform: uppercase;
+  margin-bottom: 10px;
   padding: 5px 4px;
   color: #CF0507;
   border-left: 4px solid;
