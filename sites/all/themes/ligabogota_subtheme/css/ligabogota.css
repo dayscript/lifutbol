@@ -330,9 +330,6 @@
 .menu li.megamenu-parent.after, #megamenu-main-menu li.megamenu-parent.after {
   border: 0; }
 
-#megamenu-main-menu li {
-  float: left; }
-
 /*********************/
 /*Contactenos        */
 /*********************/
@@ -1045,7 +1042,7 @@
   max-width: 68.8em; }
   .menu li, #megamenu-main-menu li {
     margin: 0px 14px;
-    float: right;
+    float: left;
     padding-top: 23px;
     padding-bottom: 20px;
     margin-right: 20px;
