@@ -916,21 +916,6 @@
   font-size: 13px;
   font-family: "opensans",sans-serif; }
 
-/***************************/
-/*Menu responsive/
-/***************************/
-.responsive-menus.responsified span.toggler {
-  padding: 9px;
-  display: block;
-  background: #333;
-  color: #fff;
-  border-radius: 0px;
-  box-shadow: 0;
-  font-size: 14px;
-  text-align: center;
-  cursor: pointer;
-  outline: none; }
-
 /*********************/
 /*Slider Home        */
 /*********************/
@@ -1057,7 +1042,7 @@
     float: right;
     padding-top: 23px;
     padding-bottom: 20px;
-    margin-right: 35px;
+    margin-right: 20px;
     font-weight: normal; }
     .menu li a, #megamenu-main-menu li a {
       font-family: "Ubuntu",sans-serif;
