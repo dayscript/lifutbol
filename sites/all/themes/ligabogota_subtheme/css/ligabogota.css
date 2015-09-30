@@ -216,20 +216,20 @@
 .node-type-club .view-mode-full .group-content .image {
   border: none; }
 
-.informacion.view-display-id-block_3 .view-content {
+.informacion .view-display-id-block_3 .view-content {
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 12px;
   font-family: "opensans",sans-serif;
   color: #999;
   font-size: 13px;
   line-height: 18px;
   margin-bottom: 20px; }
-  .informacion.view-display-id-block_3 .view-content .views-label {
+  .informacion .view-display-id-block_3 .view-content .views-label {
     font-family: "opensans", sans-serif;
     color: #000;
     margin-top: 5px;
     display: block; }
-  .informacion.view-display-id-block_3 .view-content a {
+  .informacion .view-display-id-block_3 .view-content a {
     text-decoration: none;
     color: #cc0000; }
 
