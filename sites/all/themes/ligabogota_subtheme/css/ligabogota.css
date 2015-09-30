@@ -683,7 +683,8 @@ ul.facebook-feed {
   padding: 10px;
   font-family: "opensans", sans-serif;
   font-size: 13px;
-  color: #999; }
+  color: #999;
+  margin-bottom: 20px; }
   ul.facebook-feed a {
     color: #cc0000;
     text-decoration: none;
