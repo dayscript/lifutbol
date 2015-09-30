@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3140df10-c6ba-4529-810a-c1992d321126" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifutbol.iws" />
@@ -26,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="responsive_menus_simple.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css">
+      <file leaf-file-name="_menus.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6826138">
-              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_menus.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss">
+      <file leaf-file-name="_blocks.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.375">
+              <caret line="613" column="9" selection-start-line="613" selection-start-column="9" selection-end-line="613" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -79,9 +79,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/custom.scss" />
-        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" />
       </list>
     </option>
   </component>
@@ -109,7 +110,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="x" value="-4" />
+    <option name="y" value="27" />
     <option name="width" value="1920" />
     <option name="height" value="981" />
   </component>
@@ -407,12 +409,6 @@
       <option name="number" value="Default" />
       <updated>1443542350537</updated>
     </task>
-    <task id="LOCAL-00027" summary="Page template updates">
-      <created>1443550224455</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1443550224455</updated>
-    </task>
     <task id="LOCAL-00028" summary="Page template updates">
       <created>1443550293878</created>
       <option name="number" value="00028" />
@@ -701,11 +697,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443623667503</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Page template updates 2">
+      <created>1443623728075</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1443623728075</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="981" extended-state="6" />
+    <frame x="-4" y="27" width="1920" height="981" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -720,7 +722,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4981704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.4981704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -765,6 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="831" column="0" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,6 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.878049">
           <caret line="564" column="7" selection-start-line="564" selection-start-column="3" selection-end-line="564" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,21 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4464285">
-          <caret line="827" column="20" selection-start-line="827" selection-start-column="20" selection-end-line="827" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.25">
@@ -906,8 +895,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6826138">
+        <state vertical-scroll-proportion="-21.666666">
           <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375">
+          <caret line="613" column="9" selection-start-line="613" selection-start-column="9" selection-end-line="613" selection-end-column="9" />
           <folding />
         </state>
       </provider>
