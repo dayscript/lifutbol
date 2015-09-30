@@ -1235,8 +1235,11 @@ main {
       color: #999; }
 
 /*********************/
-/* read End          */
+/* contacto         */
 /*********************/
+.webform-client-form {
+  text-align: center; }
+
 input[type="text"],
 input[type="password"],
 input[type="date"],
