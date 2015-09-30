@@ -86,11 +86,11 @@
 }
 
 .responsive-menus.responsified .responsive-menus-simple li ul li a {
-  padding: 1em 0 1em 10%;
+  padding: 5px 0px;
 }
 
 .responsive-menus.responsified .responsive-menus-simple li ul li ul li a {
-  padding: 1em 0 1em 15%;
+  padding: 5px 0px;
 }
 
 .responsive-menus.responsified .responsive-menus-simple li ul {
