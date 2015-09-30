@@ -753,174 +753,186 @@
 /***************************/
 /*Block galeria Slider Home/
 /***************************/
-.block-views-torneos-block {
-  /***************************/
-  /*Block direcciones contactenos/
-  /***************************/
-  /***************************/
-  /*Menu responsive/
-  /***************************/ }
-  .block-views-torneos-block .view-id-torneos {
-    width: 12%; }
-    .block-views-torneos-block .view-id-torneos #flexslider-4 {
-      background: rgba(186, 0, 0, 0);
-      border: 0; }
-      .block-views-torneos-block .view-id-torneos #flexslider-4 li {
-        margin-right: 10px !important; }
-      .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
-        height: 60px; }
-    .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 {
-      background: rgba(186, 0, 0, 0);
-      background: rgba(186, 0, 0, 0);
-      margin-bottom: 40px;
-      border: 0;
-      border: none;
-      padding: 10px;
-      border: 0;
-      padding: 10px 0; }
-      .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 li {
-        margin-right: 10px !important; }
-      .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 .flex-viewport {
-        padding: 15px 0; }
-      .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 .flex-direction-nav a {
-        height: 60px; }
-  .block-views-torneos-block .sharethis-wrapper {
-    border-left: solid 5px red;
-    margin: 20px 0px;
-    padding: 7px; }
-  .block-views-torneos-block .field-type-text-with-summary {
-    font-family: 'opensans',sans-serif;
-    font-size: 13px;
-    color: #999999;
-    line-height: 18px;
-    margin-top: 15px; }
-    .block-views-torneos-block .field-type-text-with-summary .field-label {
-      font-family: "ubuntu", sans-serif;
-      text-transform: uppercase;
-      font-size: 20px;
-      color: #000;
-      margin: 5px 0 16px 0; }
-  .block-views-torneos-block .field-name-field-torneo {
+.block-views-torneos-block .view-id-torneos {
+  width: 12%; }
+  .block-views-torneos-block .view-id-torneos #flexslider-4 {
+    background: rgba(186, 0, 0, 0);
+    border: 0; }
+    .block-views-torneos-block .view-id-torneos #flexslider-4 li {
+      margin-right: 10px !important; }
+    .block-views-torneos-block .view-id-torneos #flexslider-4 .flex-direction-nav a {
+      height: 60px; }
+  .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 {
+    background: rgba(186, 0, 0, 0);
+    margin-bottom: 40px;
+    border: 0;
+    border: none;
+    padding: 10px;
+    border: 0;
+    padding: 10px 0; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 li, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 li {
+      margin-right: 10px !important; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 .flex-viewport, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 .flex-viewport {
+      padding: 15px 0; }
+    .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-1 #flexslider-5 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-5 #flexslider-5 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-1 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-2 .flex-direction-nav a, .block-views-torneos-block .view-id-torneos #flexslider-2 #flexslider-5 .flex-direction-nav a {
+      height: 60px; }
+
+.sharethis-wrapper {
+  border-left: solid 5px red;
+  margin: 20px 0px;
+  padding: 7px; }
+
+.field-type-text-with-summary {
+  font-family: 'opensans',sans-serif;
+  font-size: 13px;
+  color: #999999;
+  line-height: 18px;
+  margin-top: 15px; }
+  .field-type-text-with-summary .field-label {
     font-family: "ubuntu", sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     color: #000;
-    margin: 5px 0 16px 0;
-    padding: 18px 0;
-    line-height: 30px; }
-    .block-views-torneos-block .field-name-field-torneo a {
-      color: #000000;
-      border-bottom: solid 1px #e1e1e1;
-      display: block;
-      padding: 18px 0; }
-      .block-views-torneos-block .field-name-field-torneo a:hover {
-        color: #cc0000; }
-      .block-views-torneos-block .field-name-field-torneo a .field-label {
-        margin-bottom: 16px; }
-  .block-views-torneos-block .field-name-changed-date {
-    font-family: "opensans", sans-serif;
-    font-size: 12px;
-    color: #999;
-    margin-bottom: 15px; }
-  .block-views-torneos-block .field-name-comment-body {
-    font-family: 'opensans',sans-serif;
-    font-size: 13px;
-    color: #999999;
-    line-height: 20px;
+    margin: 5px 0 16px 0; }
+
+.field-name-field-torneo {
+  font-family: "ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000;
+  margin: 5px 0 16px 0;
+  padding: 18px 0;
+  line-height: 30px; }
+  .field-name-field-torneo a {
+    color: #000000;
     border-bottom: solid 1px #e1e1e1;
+    display: block;
     padding: 18px 0; }
-  .block-views-torneos-block .view-id-torneos .views-field-nothing {
-    float: left;
-    border-right: solid 1px #666666; }
-    .block-views-torneos-block .view-id-torneos .views-field-nothing .widget-logococacola {
-      padding: 40px 16px; }
-  .block-views-torneos-block .views-field-nothing .widget-logococacola img {
-    width: 110px;
-    display: inline-block;
-    margin: 29px 19px 18px 33px; }
-  .block-views-torneos-block .views-field-nothing .widget-logococacola .lupa {
-    display: block;
-    width: 38px;
-    margin: 0 auto;
-    height: 38px;
-    background: url("/sites/default/lupa.png");
-    background-repeat: no-repeat;
-    top: 20px; }
-  .block-views-torneos-block .views-field-nothing .widget-logococacola .buscador-avanzado a {
-    font-family: 'ubuntu',sans-serif;
+    .field-name-field-torneo a:hover {
+      color: #cc0000; }
+    .field-name-field-torneo a .field-label {
+      margin-bottom: 16px; }
+
+.field-name-changed-date {
+  font-family: "opensans", sans-serif;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 15px; }
+
+.field-name-comment-body {
+  font-family: 'opensans',sans-serif;
+  font-size: 13px;
+  color: #999999;
+  line-height: 20px;
+  border-bottom: solid 1px #e1e1e1;
+  padding: 18px 0; }
+
+.view-id-torneos .views-field-nothing {
+  float: left;
+  border-right: solid 1px #666666; }
+  .view-id-torneos .views-field-nothing .widget-logococacola {
+    padding: 40px 16px; }
+
+.views-field-nothing .widget-logococacola img {
+  width: 110px;
+  display: inline-block;
+  margin: 29px 19px 18px 33px; }
+.views-field-nothing .widget-logococacola .lupa {
+  display: block;
+  width: 38px;
+  margin: 0 auto;
+  height: 38px;
+  background: url("/sites/default/lupa.png");
+  background-repeat: no-repeat;
+  top: 20px; }
+.views-field-nothing .widget-logococacola .buscador-avanzado a {
+  font-family: 'ubuntu',sans-serif;
+  font-size: 13px;
+  color: #606060;
+  text-transform: uppercase;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px 0;
+  line-height: 14px; }
+
+.widget-logococacola:hover .buscador-avanzado a {
+  color: #fff; }
+.widget-logococacola:hover .lupa {
+  background: url("/sites/default/lupahover.png");
+  background-repeat: no-repeat; }
+
+.block-views-view-resoluciones-block .view-view-resoluciones .view-content, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content {
+  background-color: #f5f5f5;
+  margin-bottom: 18px; }
+  .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
+    padding: 24px 13px;
     font-size: 13px;
-    color: #606060;
-    text-transform: uppercase;
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding: 8px 0;
-    line-height: 14px; }
-  .block-views-torneos-block .widget-logococacola:hover .buscador-avanzado a {
-    color: #fff; }
-  .block-views-torneos-block .widget-logococacola:hover .lupa {
-    background: url("/sites/default/lupahover.png");
-    background-repeat: no-repeat; }
-  .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content {
-    background-color: #f5f5f5;
-    margin-bottom: 18px; }
-    .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
-      padding: 23px 13px;
-      font-size: 13px;
-      border-bottom: 1px solid #e0e0e0;
-      line-height: 0; }
-      .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a {
-        color: #999999; }
-        .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
-          color: #666;
-          content: "\232A";
-          font-size: 12px;
-          font-weight: lighter;
-          padding-right: 10px; }
-        .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
-          color: #000000; }
-      .block-views-torneos-block .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-torneos-block .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
-        content: " "; }
-  .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content {
-    background-color: #f5f5f5;
-    margin-bottom: 22px; }
-    .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row {
-      padding: 24px 13px;
-      font-size: 13px;
-      border-bottom: 1px solid #e0e0e0;
-      line-height: 0; }
-      .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row a {
-        color: #999999; }
-        .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row a:before {
-          color: #666;
-          content: "\232A";
-          font-size: 12px;
-          font-weight: lighter;
-          padding-right: 10px; }
-        .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row a:hover {
-          color: #000000; }
-      .block-views-torneos-block .block-views-clubs-block-4 .view-clubs .view-content .views-row:after {
-        content: " "; }
-  .block-views-torneos-block #cboxMiddleLeft {
-    background-color: rgba(255, 255, 255, 0); }
-  .block-views-torneos-block #cboxWrapper {
-    background-color: rgba(255, 255, 255, 0.16); }
-  .block-views-torneos-block .contacto {
-    color: #999;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 0; }
+    .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a {
+      color: #999999; }
+      .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:before, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:before {
+        color: #666;
+        content: "\232A";
+        font-size: 12px;
+        font-weight: lighter;
+        padding-right: 10px; }
+      .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row a:hover, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row a:hover {
+        color: #000000; }
+    .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row:after, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row:after {
+      content: " "; }
+
+.block-views-clubs-block-4 .view-clubs .view-content {
+  background-color: #f5f5f5;
+  margin-bottom: 22px; }
+  .block-views-clubs-block-4 .view-clubs .view-content .views-row {
+    padding: 24px 13px;
     font-size: 13px;
-    font-family: "opensans",sans-serif; }
-  .block-views-torneos-block .responsive-menus.responsified span.toggler {
-    padding: 9px;
-    display: block;
-    background: #333;
-    color: #fff;
-    border-radius: 0px;
-    box-shadow: 0;
-    font-size: 14px;
-    text-align: center;
-    cursor: pointer;
-    outline: none; }
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 0; }
+    .block-views-clubs-block-4 .view-clubs .view-content .views-row a {
+      color: #999999; }
+      .block-views-clubs-block-4 .view-clubs .view-content .views-row a:before {
+        color: #666;
+        content: "\232A";
+        font-size: 12px;
+        font-weight: lighter;
+        padding-right: 10px; }
+      .block-views-clubs-block-4 .view-clubs .view-content .views-row a:hover {
+        color: #000000; }
+    .block-views-clubs-block-4 .view-clubs .view-content .views-row:after {
+      content: " "; }
+
+#cboxMiddleLeft {
+  background-color: rgba(255, 255, 255, 0); }
+
+#cboxWrapper {
+  background-color: rgba(255, 255, 255, 0.16); }
+
+/***************************/
+/*Block direcciones contactenos/
+/***************************/
+.contacto {
+  color: #999;
+  font-size: 13px;
+  font-family: "opensans",sans-serif; }
+
+/***************************/
+/*Menu responsive/
+/***************************/
+.responsive-menus.responsified span.toggler {
+  padding: 9px;
+  display: block;
+  background: #333;
+  color: #fff;
+  border-radius: 0px;
+  box-shadow: 0;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
 
 /*********************/
 /*Slider Home        */
