@@ -2,6 +2,7 @@
 	li.megamenu-parent {
 		a.active,a:hover{
 		padding-top: 23px;
+		float:left;
 		color: #fff;
 	    padding-bottom: 18px;
 	    border-bottom: 3px solid #fff112;
@@ -18,7 +19,7 @@
 			  top: 64px;
 			}
 		.megamenu-slots-stacking{
-			background:#ba0708;
+			background:#bA0708;
 		}
 		}		
 	ul.megamenu-bin.megamenu-slots-columnar {
@@ -30,7 +31,7 @@
 		li{
 		    float: none;
 		    padding: 5px 10px;
-		    background-color: #ba0708;
+		    background-color: #bA0708;
 		    margin: 0;
 			border-bottom: 1px solid #980707!important;
 

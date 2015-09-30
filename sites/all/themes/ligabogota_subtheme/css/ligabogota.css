@@ -288,6 +288,7 @@
 /*components*/
 .menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
   padding-top: 23px;
+  float: left;
   color: #fff;
   padding-bottom: 18px;
   border-bottom: 3px solid #fff112;
@@ -303,7 +304,7 @@
     position: absolute;
     top: 64px; }
   .menu li.megamenu-parent a.active .megamenu-slots-stacking, .menu li.megamenu-parent a:hover .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a.active .megamenu-slots-stacking, #megamenu-main-menu li.megamenu-parent a:hover .megamenu-slots-stacking {
-    background: #ba0708; }
+    background: #bA0708; }
 .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar {
   background: rgba(186, 7, 8, 0);
   list-style: none;
@@ -312,7 +313,7 @@
   .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
     float: none;
     padding: 5px 10px;
-    background-color: #ba0708;
+    background-color: #bA0708;
     margin: 0;
     border-bottom: 1px solid #980707 !important; }
     .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li a {
