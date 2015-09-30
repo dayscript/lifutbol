@@ -486,6 +486,9 @@ ul.facebook-feed {
     font-size: 13px;
     color: #999;
      margin-bottom: 20px;
+     .facebook-feed-picture{
+        display: none;
+     }
      a{
         color: #cc0000;
         text-decoration: none;
