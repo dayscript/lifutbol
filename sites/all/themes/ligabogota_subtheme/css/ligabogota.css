@@ -1062,6 +1062,9 @@
     content: " ";
     display: table; }
 
+ul#megamenu-main-menu {
+  float: right; }
+
 .not-front .main {
   padding-top: 50px; }
 
