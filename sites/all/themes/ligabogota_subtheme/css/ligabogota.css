@@ -344,7 +344,7 @@
   color: #fff;
   padding-bottom: 18px;
   border-bottom: 3px solid #fff112;
-  position: relative; }
+  position: absolute; }
   .menu li.megamenu-parent a.active:after, .menu li.megamenu-parent a:hover:after, #megamenu-main-menu li.megamenu-parent a.active:after, #megamenu-main-menu li.megamenu-parent a:hover:after {
     background: none;
     border-bottom: 3px solid #cf0507;
@@ -361,8 +361,7 @@
   background: rgba(186, 7, 8, 0);
   list-style: none;
   padding: 17px 0px;
-  border: 0;
-  left: 0px ¡important; }
+  border: 0; }
   .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
     float: none;
     padding: 5px 10px;
