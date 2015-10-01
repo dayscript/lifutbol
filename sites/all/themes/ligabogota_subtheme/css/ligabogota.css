@@ -218,7 +218,8 @@
   width: inherit; }
   @media screen and (max-width: 40em) {
     .node-type-club .view-mode-full .group-content .field-name-field-escudo {
-      width: 350px; } }
+      width: 350px;
+      text-align: center; } }
 .node-type-club .view-mode-full .group-content .image {
   border: none; }
 
