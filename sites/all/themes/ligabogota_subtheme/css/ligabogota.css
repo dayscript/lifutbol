@@ -361,6 +361,7 @@
   background: rgba(186, 7, 8, 0);
   list-style: none;
   padding: 17px 0px;
+  left: 0 !important;
   border: 0; }
   .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
     float: none;
