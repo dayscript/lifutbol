@@ -809,7 +809,18 @@ ul.facebook-feed {
         
     }
 
-
+.view-footer {
+    display: block;
+    background-color: #cc0000;
+    text-align: center;
+   a{
+    color:#fff;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 13px;
+   }
+}
 }
 .block-views-clubs-block-4{
     .view-clubs{
