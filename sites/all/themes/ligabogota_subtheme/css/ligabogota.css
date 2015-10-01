@@ -271,6 +271,13 @@
     font-size: 12px;
     font-family: "opensans", sans-serif;
     color: #999; }
+.page-documentacion .view-id-documentacion .views-field-field-archivo span a {
+  font-family: 'ubuntu',sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase; }
+  .page-documentacion .view-id-documentacion .views-field-field-archivo span a:hover {
+    color: #cc0000; }
 .page-documentacion .view-id-documentacion .views-field-title span a {
   font-family: 'ubuntu',sans-serif;
   color: #000;
