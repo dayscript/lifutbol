@@ -39,6 +39,21 @@
                 color:#999;
                 }
             }
+            .views-field-field-archivo {
+                span{
+                    a{
+                        font-family: 'ubuntu',sans-serif;
+                        color: #000;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        &:hover{
+                        color: #cc0000;
+                        }
+
+                    }
+                }
+                
+}
             .views-field-title{
                 span{
                     a{
