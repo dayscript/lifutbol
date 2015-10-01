@@ -316,7 +316,7 @@
   padding: 17px 0px;
   border: 0; }
   .menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li, #megamenu-main-menu li.megamenu-parent ul.megamenu-bin.megamenu-slots-columnar li {
-    float: right;
+    float: none;
     padding: 5px 10px;
     background-color: #bA0708;
     margin: 0;
