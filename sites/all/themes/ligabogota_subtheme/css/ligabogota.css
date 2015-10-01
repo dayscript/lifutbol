@@ -333,6 +333,8 @@
   border: none;
   padding: 10px;
   clear: both; }
+.page-documentacion .form-type-select .select, .page-node-180 .form-type-select .select {
+  width: 300px; }
 
 /*components*/
 .menu li.megamenu-parent a.active, .menu li.megamenu-parent a:hover, #megamenu-main-menu li.megamenu-parent a.active, #megamenu-main-menu li.megamenu-parent a:hover {
