@@ -1,11 +1,12 @@
 .menu,#megamenu-main-menu{
+	position: absolute;
 	li.megamenu-parent {
 		a.active,a:hover{
 		padding-top: 23px;
 		color: #fff;
 	    padding-bottom: 18px;
 	    border-bottom: 3px solid #fff112;
-	    position: absolute;
+	    position: relative;
 			&:after{
 			 background: none;
 			  border-bottom: 3px solid #cf0507;
