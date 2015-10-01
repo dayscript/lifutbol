@@ -141,6 +141,8 @@
     text-transform: uppercase; }
     .page-torneos #quicktabs-pagina_toneos .views-field-title span a:hover {
       color: #cc0000; }
+.page-torneos .form-type-select .select {
+  width: 300px; }
 
 .node-type-torneo .group-content iframe {
   height: 800px; }
