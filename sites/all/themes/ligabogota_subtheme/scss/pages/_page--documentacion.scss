@@ -1,4 +1,44 @@
 .page-documentacion,.page-node-180{
+
+
+
+#quicktabs-documentaci_n{
+    ul.quicktabs-style-basic{
+            height: auto;
+            padding:0;
+            border-bottom: solid 2px #999;
+
+            li{
+                background-color: #fff;
+                margin: 0;
+                width: 300px;
+                text-align: center;
+                padding: 11px 0px;
+                display: inline-block;
+                a{
+                    @include tamano_fuente(black);
+                }
+            }
+            @media screen and (max-width:40em) {
+  li{
+    width: 100%;
+   }
+}
+            li.active{
+                background-color: $color-fondo-quecktabs;
+                border-bottom:0;
+                a{
+                    @include tamano_fuente(#fff);
+
+
+                }
+            }
+        }
+
+}
+
+
+
 .view-id-documentacion{
     ul.quicktabs-style-basic{
         	height: auto;
