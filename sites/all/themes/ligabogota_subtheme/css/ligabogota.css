@@ -1108,7 +1108,8 @@ ul.facebook-feed {
     display: none; }
 
 .not-front .block-system-main-menu, .not-front .block-megamenu-main-menu {
-  background-color: #000; }
+  background-color: #000;
+  display: inline-block; }
   .not-front .block-system-main-menu .block-title, .not-front .block-megamenu-main-menu .block-title {
     display: none; }
 
