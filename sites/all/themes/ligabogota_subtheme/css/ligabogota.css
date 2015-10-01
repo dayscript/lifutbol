@@ -239,7 +239,8 @@
 .page-documentacion #quicktabs-documentaci_n ul.quicktabs-style-basic, .page-node-180 #quicktabs-documentaci_n ul.quicktabs-style-basic {
   height: auto;
   padding: 0;
-  border-bottom: solid 2px #999; }
+  border-bottom: solid 2px #999;
+  border: none; }
   .page-documentacion #quicktabs-documentaci_n ul.quicktabs-style-basic li, .page-node-180 #quicktabs-documentaci_n ul.quicktabs-style-basic li {
     background-color: #fff;
     margin: 0;
@@ -268,7 +269,8 @@
 .page-documentacion .view-id-documentacion ul.quicktabs-style-basic, .page-node-180 .view-id-documentacion ul.quicktabs-style-basic {
   height: auto;
   padding: 0;
-  border-bottom: solid 2px #999; }
+  border-bottom: solid 2px #999;
+  border: none; }
   .page-documentacion .view-id-documentacion ul.quicktabs-style-basic li, .page-node-180 .view-id-documentacion ul.quicktabs-style-basic li {
     background-color: #fff;
     margin: 0;
