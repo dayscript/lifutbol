@@ -931,6 +931,9 @@ ul.facebook-feed {
   background: url("/sites/default/lupahover.png");
   background-repeat: no-repeat; }
 
+.institucionales view-content {
+  margin-bottom: 26px; }
+
 .block-views-view-resoluciones-block .view-view-resoluciones .view-content, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content {
   background-color: #f5f5f5; }
   .block-views-view-resoluciones-block .view-view-resoluciones .view-content .views-row, .block-views-view-resoluciones-block-1 .view-view-resoluciones .view-content .views-row {
