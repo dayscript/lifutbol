@@ -181,7 +181,7 @@
     font-weight: 100; }
     .page-clubes .view-clubs .views-row-odd .views-field.views-field-title span a {
       color: #000;
-      padding-left: 10px;
+      line-height: 22px;
       text-transform: uppercase; }
       .page-clubes .view-clubs .views-row-odd .views-field.views-field-title span a:hover {
         color: #cc0000; }
