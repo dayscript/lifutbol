@@ -817,6 +817,9 @@ ul.facebook-feed {
     margin-bottom: 25px;
   background-color: #cc0000;
   width: 340px;
+  @media screen and (max-width:1024px) {
+    width: 320px;
+  }
    a{
     color: #fff;
      padding: 5px;
