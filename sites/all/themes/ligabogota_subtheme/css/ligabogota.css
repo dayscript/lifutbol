@@ -965,11 +965,7 @@ ul.facebook-feed {
   display: block;
   text-align: center;
   margin-bottom: 25px;
-  background-color: #cc0000;
-  width: 340px; }
-  @media screen and (max-width: 1024px) {
-    .block-views-view-resoluciones-block .view-footer, .block-views-view-resoluciones-block-1 .view-footer {
-      width: 320px; } }
+  background-color: #cc0000; }
   .block-views-view-resoluciones-block .view-footer a, .block-views-view-resoluciones-block-1 .view-footer a {
     color: #fff;
     padding: 5px;

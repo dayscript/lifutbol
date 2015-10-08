@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3140df10-c6ba-4529-810a-c1992d321126" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/ligabogota.css" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/ligabogota.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifutbol.iws" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="_blocks.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8214286">
-              <caret line="820" column="13" selection-start-line="820" selection-start-column="13" selection-end-line="820" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.08928572">
+              <caret line="817" column="28" selection-start-line="817" selection-start-column="28" selection-end-line="817" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -388,12 +389,6 @@
       <option name="number" value="Default" />
       <updated>1443542350537</updated>
     </task>
-    <task id="LOCAL-00034" summary="Page template updates">
-      <created>1443554168941</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1443554168941</updated>
-    </task>
     <task id="LOCAL-00035" summary="Page template updates">
       <created>1443554925279</created>
       <option name="number" value="00035" />
@@ -682,7 +677,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444318751223</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Page template updates 2">
+      <created>1444318815375</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1444318815375</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -927,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8214286">
-          <caret line="820" column="13" selection-start-line="820" selection-start-column="13" selection-end-line="820" selection-end-column="13" />
+        <state vertical-scroll-proportion="-0.08928572">
+          <caret line="817" column="28" selection-start-line="817" selection-start-column="28" selection-end-line="817" selection-end-column="28" />
           <folding />
         </state>
       </provider>
