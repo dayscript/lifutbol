@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3140df10-c6ba-4529-810a-c1992d321126" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/scss/components/_blocks.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/ligabogota.css.map" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/ligabogota.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/ligabogota.css" afterPath="$PROJECT_DIR$/sites/all/themes/ligabogota_subtheme/css/ligabogota.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifutbol.iws" />
@@ -388,12 +389,6 @@
       <option name="number" value="Default" />
       <updated>1443542350537</updated>
     </task>
-    <task id="LOCAL-00031" summary="Page template updates">
-      <created>1443553848260</created>
-      <option name="number" value="00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1443553848260</updated>
-    </task>
     <task id="LOCAL-00032" summary="Page template updates">
       <created>1443554011733</created>
       <option name="number" value="00032" />
@@ -682,7 +677,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444318250876</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Page template updates 2">
+      <created>1444318469177</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1444318469177</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="ToolWindowManager">
