@@ -815,13 +815,15 @@ ul.facebook-feed {
     display: block;
     text-align: center;
     margin-bottom: 25px;
+  background-color: #cc0000;
+  width: 340px;
    a{
     color: #fff;
-     padding: 5px 139px;
+     padding: 5px;
     text-transform: uppercase;
     font-family: 'ubuntu',sans-serif;   
     font-size: 15px;
-    background-color: #cc0000;
+
      &:hover{
        color:#ececec;
        }
