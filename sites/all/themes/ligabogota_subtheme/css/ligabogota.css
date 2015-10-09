@@ -933,7 +933,7 @@ ul.facebook-feed {
 .views-field-nothing .widget-logococacola .buscador-avanzado a {
   font-family: 'ubuntu',sans-serif;
   font-size: 13px;
-  color: #606060;
+  color: #fff;
   text-transform: uppercase;
   width: 90%;
   display: block;
@@ -942,6 +942,8 @@ ul.facebook-feed {
   padding: 8px 0;
   line-height: 14px; }
 
+.widget-logococacola a {
+  color: #fff; }
 .widget-logococacola:hover .buscador-avanzado a {
   color: #fff; }
 .widget-logococacola:hover .lupa {
