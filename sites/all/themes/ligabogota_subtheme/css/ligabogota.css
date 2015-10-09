@@ -163,6 +163,14 @@
     .page-comisiones .view-id-comiciones .views-field-title span a:hover {
       color: #cc0000; }
 
+.documentos-comites .views-field-title span a {
+  font-family: 'ubuntu',sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase; }
+  .documentos-comites .views-field-title span a:hover {
+    color: #cc0000; }
+
 .page-clubes .view-clubs .views-row-odd {
   float: left;
   width: 45%;
@@ -459,7 +467,8 @@
 .block-quicktabs-widget-quicktab-copa-cocacola .view-footer {
   width: 24%;
   display: inline-block;
-  background-color: #333;
+  background-color: #cc0000;
+  color: #fff;
   border-left: solid 1px #5E5E5E; }
 .block-quicktabs-widget-quicktab-copa-cocacola .views-row, .block-quicktabs-widget-quicktab-copa-cocacola .view-empty {
   display: inline-flex;
