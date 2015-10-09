@@ -25,3 +25,21 @@
             }
     }
 }
+.documentos-comites{
+  .views-field-field-archivo {
+    border-bottom: 1px solid #999;
+    span{
+      a{
+        font-family: 'ubuntu',sans-serif;
+        color: #000;
+        font-size: 18px;
+        text-transform: uppercase;
+        &:hover{
+          color: #cc0000;
+        }
+
+      }
+    }
+
+  }
+}
