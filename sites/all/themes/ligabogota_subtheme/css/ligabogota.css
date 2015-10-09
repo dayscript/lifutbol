@@ -640,6 +640,13 @@
   font-size: 12px;
   font-family: "opensans", sans-serif;
   padding: 15px; }
+  .datos-footer a {
+    color: #ffffff; }
+    .datos-footer a:hover {
+      color: #ff0000; }
+  .datos-footer body p a, .datos-footer body li a {
+    color: #fff;
+    text-decoration: none; }
 
 /***************************/
 /*Block Torneos Footer     */

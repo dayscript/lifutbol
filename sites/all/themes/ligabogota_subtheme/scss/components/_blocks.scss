@@ -345,6 +345,10 @@
       color: #ff0000;
     }
   }
+  body p a, body li a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 /***************************/
