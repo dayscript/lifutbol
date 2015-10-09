@@ -163,14 +163,16 @@
     .page-comisiones .view-id-comiciones .views-field-title span a:hover {
       color: #cc0000; }
 
-.documentos-comites .views-field-field-archivo {
-  border-bottom: 1px solid #999; }
-  .documentos-comites .views-field-field-archivo span a {
+.documentos-comites .views-field-field-archivo .field-content {
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+  .documentos-comites .views-field-field-archivo .field-content span a {
     font-family: 'ubuntu',sans-serif;
     color: #000;
     font-size: 18px;
     text-transform: uppercase; }
-    .documentos-comites .views-field-field-archivo span a:hover {
+    .documentos-comites .views-field-field-archivo .field-content span a:hover {
       color: #cc0000; }
 
 .page-clubes .view-clubs .views-row-odd {

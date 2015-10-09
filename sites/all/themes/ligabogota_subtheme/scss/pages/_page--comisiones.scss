@@ -27,9 +27,11 @@
 }
 .documentos-comites{
   .views-field-field-archivo {
-    border-bottom: 1px solid #333;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    .field-content{
+      border-bottom: 1px solid #333;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+
     span{
       a{
         font-family: 'ubuntu',sans-serif;
@@ -43,5 +45,6 @@
       }
     }
 
+  }
   }
 }
