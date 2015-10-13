@@ -798,7 +798,8 @@ ul.facebook-feed {
     padding: 0 0 13px 0; }
   .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body {
     background-color: #aeaeae;
-    padding: 0px 10px; }
+    padding: 0px 10px;
+    width: 222px; }
     .block-views-galerias-block .view-id-galerias #flexslider-3 .views-field-body p {
       font-size: 13px;
       line-height: 18px;
