@@ -32,8 +32,7 @@
   float: left;
   display: inline-block;
   padding: 19px 0;
-  border-bottom: solid 1px #e1e1e1;
-  min-width: 700px; }
+  border-bottom: solid 1px #e1e1e1; }
   .section-noticias .view-id-noticias .views-row .views-field-field-image, .section-noticias .view-id-noticias .views-row-2 .views-field-field-image {
     margin-bottom: 18px;
     float: left;
