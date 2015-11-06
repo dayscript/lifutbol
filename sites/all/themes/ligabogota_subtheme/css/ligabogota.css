@@ -36,7 +36,8 @@
   .section-noticias .view-id-noticias .views-row .views-field-field-image, .section-noticias .view-id-noticias .views-row-2 .views-field-field-image {
     margin-bottom: 18px;
     float: left;
-    margin-right: 13px; }
+    margin-right: 13px;
+    border: 1px solid #f1f1f1; }
   .section-noticias .view-id-noticias .views-row .views-field-changed, .section-noticias .view-id-noticias .views-row-2 .views-field-changed {
     margin-bottom: 10px;
     font-size: 12px;
@@ -664,7 +665,8 @@
     .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-field-image {
       margin-bottom: 18px;
       float: left;
-      margin-right: 12px; }
+      margin-right: 12px;
+      border: 1px solid #f1f1f1; }
     .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed {
       margin-bottom: 10px; }
       .block-views-noticias-block .view-id-noticias #flexslider-2 .views-field-changed span {
